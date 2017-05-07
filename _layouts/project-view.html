@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<main>
+  <section class="wrap projects-view">
+    <h1 class="page-title-bar">{{page.title}}</h1>
+    {% for project in site.projects %}
+    <article class="project-item clearfix">
+      <div class="project-item--image">
+          <a href="{{ project.url }}">
+            <img src="{{site.cloudinaryurl}}image/fetch/w_700,h_400,c_fill,c_fill/{{site.url}}{{project.image_path}}" alt="{{ title }}" title="{{title}}" data-img="{{site.url}}{{project.image_path}}" data-width="700px" data-height="400px">
+            <h2>{{ project.title }}</h2>
+          </a>
+      </div>
+    </article>
+  {% endfor %}
+  </section>
+</main>

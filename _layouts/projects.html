@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<main>
+  <section class="wrap">
+    <img src="{{ page.image_path }}" class="header-image">
+    <div class="intro-box">
+      <h1 class="pagetitle">{{ page.title }}</h1>
+      <h2 class="location">{{ page.location }}</h2>
+      <div>{{ content }}</div>
+    </div>
+    <ul class="gallery">
+    {% for item in page.images %}
+        <li itemscope class="grid-item">
+          <a class="gallery-item gallery" href="{{ item.project_image_path }}" >
+            <img class="gallery-img" src="{{ site.cloudinaryurl }}image/fetch/c_scale,w_610/{{ site.url }}/{{ item.project_image_path }}" alt="{{ item.title }}" itemprop="image" data-img="{{site.url}}{{item.project_image_path}}" data-width="600px" data-height="auto">
+          </a>
+        </li>
+    {% endfor %}
+  </ul>
+  </section>
+</main>

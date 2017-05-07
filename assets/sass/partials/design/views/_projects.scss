@@ -1,0 +1,27 @@
+.projects-view {
+  @include clearfix;
+}
+.project-item {
+  position: relative;
+  line-height: 0;
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    width: 50%;
+      &:nth-child(odd) {
+        float: right;
+      }
+      &:nth-child(even) {
+        float: left;
+      }
+  }
+  img {
+    width: 100%;
+  }
+  h2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 1em;
+    color: #fff;
+  }
+}
