@@ -3,12 +3,16 @@ layout: default
 ---
 
 <main>
-  <section class="wrap">
+  <section class="wrap project-detail">
+    <div class="project-header">
     <img src="{{ page.image_path }}" class="header-image">
-    <div class="intro-box">
-      <h1 class="pagetitle">{{ page.title }}</h1>
-      <h2 class="location">{{ page.location }}</h2>
-      <div>{{ content }}</div>
+      <div class="intro-box">
+        <div class="section-one">
+          <h1 class="pagetitle">{{ page.title }}</h1>
+          <h2 class="location">{{ page.location }}</h2>
+        </div>
+        <div class="section-two">{{ content }}</div>
+      </div>
     </div>
     <ul class="gallery">
     {% for item in page.images %}

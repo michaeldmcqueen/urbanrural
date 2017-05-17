@@ -1,13 +1,22 @@
+.main-nav {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+    padding-right: 2em;
+    margin-bottom: 0;
+  }
+}
 .menu {
   padding: 0;
   margin: 0;
+  text-align: center;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
     text-align: right;
   }
   li {
     list-style: none;
     margin: 0;
-    display: block;
+    display: inline-block;
     padding: 0;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       display: inline-block;
@@ -17,20 +26,18 @@
       font-weight: 500;
       font-size: 1em;
       transition: color .5s ease;
-      padding: .75em 1em;
+      padding: .25em .75em;
       display: block;
-      color: #000;
-      text-transform: uppercase;
+      color: #4281A8;
       @include breakpoint($bp-medium, $no-query: '.no-mq') {
         margin-left: 1.5em;
         padding: 0;
       }
       &:hover {
-        color: $color-one;
+        border-bottom: 2px solid;
       }
       &:active {
-        top: 1px;
-        position: relative;
+        font-weight: 700;
       }
     }
   }
@@ -38,17 +45,8 @@
     text-decoration: none;
   }
 }
-.js .main-nav .menu {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height .5s ease;
-  @include breakpoint($bp-medium, $no-query: '.no-mq') {
-    max-height: none;
-  }
-  &.show {
-    max-height: 500px;
-  }
-}
+
+
 .js .menu-btn {
   padding: 1em;
   background: $color-one;

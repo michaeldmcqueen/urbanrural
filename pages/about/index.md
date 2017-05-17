@@ -1,24 +1,18 @@
 ---
-title: About
+title: About Urban | Rural Design
+subtitle: An Architectural Design and Construction Management Studio for Residential and Commercial Projects.
 permalink: "/about/"
 description: This is just a sample general page.
-layout: page
+about_image_path: /assets/images/about.jpg
+headshot_image_path: /assets/images/brian.jpg
+layout: subpage
 ---
 
-*Lorem* markdownum iacet figurae, *fert* heros, stetit generis! Vel *vagus sua*
-alvum ab rexit: inclinatoque callo ad condita valido.
+###### Our History
 
-## Traxit fera fratris Horae ibis hic etiam
-
-Triticeas premente altum eget rediere *limite*. Non orientis hunc, surgunt
-vocem: [ac](http://www.googel.com) cadit quod, Boebes superat! Ut
-Phoebe obfuit effugit hic arte: scripsi quaterque plenissima at volucris
-visaque. Vanis Cinyreius tamen: deficit sub ignem, lumina.
-
-## Flamine sceleratus Amoris anxia Cymeli calorque mortale
-
-Est undas; [si quoque](http://google.com) et ignorat vidit. Pro
-incursu modis missi lunae ad dicta: neganda Delius est. Utque et cadendum erat;
-qui **causas Thisbe terra** sacra esse quae sanguine, decursa sed structa ab
-beatam ut! Moderato fluminis coniungere ambae et certa carinae Macareus, sic et
-ista neque mox ventis regnare coepit.
+Since 1994, Brian Majeski has designed and managed projects large and small, commercial and residential, in various parts of the country.  During the first six years of professional practice, Brian worked in Chicago, Illinois for commercial and institutional firms, such as Teng & Associates. During this period, he worked on a variety of projects including several large office buildings, Western Michigan University football stadium, four public libraries, a Northwestern University interior renovation, and several projects for the United States Postal Service.
+ 
+Moving to Steamboat Springs in 2001, Brian was a project architect for a local architecture firm for three years.  The majority of this experience focused on large custom residential projects and a few local commercial projects.  The residential projects included a 10,000sf home in the Catamount Ranch of Steamboat Springs, a 6000sf hilltop residence in Mill Valley, California, and designed a home in Silverthorne, Colorado to repel any probable forest fire using siting techniques and Firewise design criteria.
+In August of 2004, Brian formed U/R Design, Inc. with projects currently located in Steamboat Springs, Boulder, and Durango, Colorado. Recently completed projects include the Off the Beaten Path Bookstore and the new Steamboat Springs Edward Jones office, and provided architectural consulting on the 33,000 sf mixed use building, “The Victoria.” Current projects include two work/live buildings, a home in Louisville, Kentucky, and various addition/remodel projects.
+ 
+Brian is currently an Associate of the American Institute of Architects (AIA) and is also serving on the Technical Advisory Committee for the Steamboat Springs Green Building Program.  From 2010-2011, Brian was a selected participant for the LENSES program at the Institute of the Built Environment at Colorado State University.

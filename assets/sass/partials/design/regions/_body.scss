@@ -12,7 +12,6 @@ html {
 
 .wrap {
   @include clearfix;
-  max-width: $container_width;
   margin: 0 auto;
 }
 

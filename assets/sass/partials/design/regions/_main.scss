@@ -1,8 +1,7 @@
 .wrap {
   @include clearfix;
-  max-width: $container_width;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0 ;
 }
 
 

@@ -50,10 +50,10 @@ defaults:
       category:
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/
-cloudinaryurl: "http://res.cloudinary.com/doe2cfi2y"
+cloudinaryurl: http://res.cloudinary.com/doe2cfi2y/
 
 # typekit - Because we all need nice type faces.
-typekit: ""
+typekit: oss2tbk
 
 # Google Analytics - What site isn't using it?!
 google_analytics_tracking_id: ""

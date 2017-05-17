@@ -11,7 +11,7 @@
 
 /* line 1, ../sass/partials/styleguide/type/_base-type.scss */
 html {
-  font: normal 100%/1.65 serif;
+  font: normal 100%/1.65 "adelle-sans", sans-serif;
   -webkit-text-size-adjust: 100%;
   /* Prevent font scaling in landscape while allowing user zoom */
 }
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 16px 0;
   line-height: 1.3;
   color: #5894d9;
-  font-family: sans-serif;
+  font-family: "sofia-pro", sans-serif;
 }
 
 /* line 1, ../sass/partials/styleguide/type/_links.scss */
@@ -133,7 +133,7 @@ div.btn a {
   cursor: pointer;
   padding: .5em 1.25em;
   font-size: 95%;
-  font-family: sans-serif;
+  font-family: "sofia-pro", sans-serif;
   -webkit-transition: all linear 0.2s;
   transition: all linear 0.2s;
 }
@@ -177,7 +177,7 @@ input[type="text"], input[type="email"], input[type="name"], input[type="passwor
           box-sizing: border-box;
   padding: .5em 1em;
   font-size: 100%;
-  font-family: serif;
+  font-family: "adelle-sans", sans-serif;
   border: 1px solid #D3D3D3;
   border-radius: 3px;
   margin-bottom: .5em;
@@ -199,7 +199,7 @@ textarea {
   font-size: 100%;
   border: 1px solid #D3D3D3;
   border-radius: 3px;
-  font-family: serif;
+  font-family: "adelle-sans", sans-serif;
 }
 /* line 9, ../sass/partials/styleguide/forms/_textarea.scss */
 textarea:active, textarea:focus {
@@ -218,7 +218,7 @@ input[type="submit"] {
   cursor: pointer;
   padding: .5em 1.25em;
   font-size: 100%;
-  font-family: sans-serif;
+  font-family: "sofia-pro", sans-serif;
   display: inline-block;
   -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px 0px white;
           box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px 0px white;
@@ -326,12 +326,31 @@ ul.pager li a:visited {
 }
 
 /* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
-.menu {
-  padding: 0;
-  margin: 0;
+.main-nav {
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 @media (min-width: 50em) {
   /* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
+  .main-nav {
+    padding-right: 2em;
+    margin-bottom: 0;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .main-nav {
+  padding-right: 2em;
+  margin-bottom: 0;
+}
+
+/* line 9, ../sass/partials/design/blocks/_main-navigation.scss */
+.menu {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+@media (min-width: 50em) {
+  /* line 9, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu {
     text-align: right;
   }
@@ -340,15 +359,15 @@ ul.pager li a:visited {
 .no-mq .menu {
   text-align: right;
 }
-/* line 7, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 16, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li {
   list-style: none;
   margin: 0;
-  display: block;
+  display: inline-block;
   padding: 0;
 }
 @media (min-width: 50em) {
-  /* line 7, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 16, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li {
     display: inline-block;
     line-height: 3em;
@@ -359,19 +378,18 @@ ul.pager li a:visited {
   display: inline-block;
   line-height: 3em;
 }
-/* line 16, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 25, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a {
   font-weight: 500;
   font-size: 1em;
   -webkit-transition: color .5s ease;
           transition: color .5s ease;
-  padding: .75em 1em;
+  padding: .25em .75em;
   display: block;
-  color: #000;
-  text-transform: uppercase;
+  color: #4281A8;
 }
 @media (min-width: 50em) {
-  /* line 16, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 25, ../sass/partials/design/blocks/_main-navigation.scss */
   .menu li a {
     margin-left: 1.5em;
     padding: 0;
@@ -382,43 +400,20 @@ ul.pager li a:visited {
   margin-left: 1.5em;
   padding: 0;
 }
-/* line 28, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 36, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a:hover {
-  color: #5894d9;
+  border-bottom: 2px solid;
 }
-/* line 31, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 39, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a:active {
-  top: 1px;
-  position: relative;
+  font-weight: 700;
 }
-/* line 37, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 44, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu a, .menu a:visited {
   text-decoration: none;
 }
 
-/* line 41, ../sass/partials/design/blocks/_main-navigation.scss */
-.js .main-nav .menu {
-  max-height: 0;
-  overflow: hidden;
-  -webkit-transition: max-height .5s ease;
-          transition: max-height .5s ease;
-}
-@media (min-width: 50em) {
-  /* line 41, ../sass/partials/design/blocks/_main-navigation.scss */
-  .js .main-nav .menu {
-    max-height: none;
-  }
-}
-/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
-.no-mq .js .main-nav .menu {
-  max-height: none;
-}
-/* line 48, ../sass/partials/design/blocks/_main-navigation.scss */
-.js .main-nav .menu.show {
-  max-height: 500px;
-}
-
-/* line 52, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 50, ../sass/partials/design/blocks/_main-navigation.scss */
 .js .menu-btn {
   padding: 1em;
   background: #5894d9;
@@ -429,7 +424,7 @@ ul.pager li a:visited {
   text-align: center;
 }
 @media (min-width: 50em) {
-  /* line 52, ../sass/partials/design/blocks/_main-navigation.scss */
+  /* line 50, ../sass/partials/design/blocks/_main-navigation.scss */
   .js .menu-btn {
     display: none;
   }
@@ -438,20 +433,148 @@ ul.pager li a:visited {
 .no-mq .js .menu-btn {
   display: none;
 }
-/* line 63, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 61, ../sass/partials/design/blocks/_main-navigation.scss */
 .js .menu-btn img {
   padding-right: .5em;
 }
 
-/* line 67, ../sass/partials/design/blocks/_main-navigation.scss */
+/* line 65, ../sass/partials/design/blocks/_main-navigation.scss */
 .no-js .menu-btn {
   display: none;
 }
 
-/* line 5, ../sass/partials/design/pages/_front.scss */
+/* line 1, ../sass/partials/design/pages/_about.scss */
+.sub-wrap {
+  max-width: 1670px;
+}
+
+/* line 5, ../sass/partials/design/pages/_about.scss */
+.about-heading {
+  padding: 4em 2em;
+}
+@media (min-width: 50em) {
+  /* line 5, ../sass/partials/design/pages/_about.scss */
+  .about-heading {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 4em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-heading {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 4em;
+}
+@media (min-width: 93.75em) {
+  /* line 5, ../sass/partials/design/pages/_about.scss */
+  .about-heading {
+    padding: 4em 25% 4em 4em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-heading {
+  padding: 4em 25% 4em 4em;
+}
+/* line 16, ../sass/partials/design/pages/_about.scss */
+.about-heading h1 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+/* line 21, ../sass/partials/design/pages/_about.scss */
+.about-heading h2 {
+  font-family: "adelle-sans", sans-serif;
+  font-weight: normal;
+  color: #6d5247;
+}
+
+@media (min-width: 50em) {
+  /* line 27, ../sass/partials/design/pages/_about.scss */
+  .about-image {
+    width: 50%;
+    float: left;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-image {
+  width: 50%;
+  float: left;
+}
+
+/* line 38, ../sass/partials/design/pages/_about.scss */
+.about-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: no-repeat center center;
+  background-size: cover;
+  margin-bottom: 12em;
+}
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+.about-intro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 51, ../sass/partials/design/pages/_about.scss */
+.about-intro .about-text {
+  background: #f7fafc;
+  padding: 2em 3em;
+  margin: -10em auto 0;
+  position: relative;
+}
+/* line 56, ../sass/partials/design/pages/_about.scss */
+.about-intro .about-text h1 {
+  font-size: 2.75em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* line 61, ../sass/partials/design/pages/_about.scss */
+.about-intro .about-text p:first-child {
+  color: #6d5247;
+  font-size: 1.4em;
+}
+/* line 65, ../sass/partials/design/pages/_about.scss */
+.about-intro .about-text p {
+  color: #6d5247;
+}
+
+/* line 71, ../sass/partials/design/pages/_about.scss */
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (min-width: 50em) {
+  /* line 73, ../sass/partials/design/pages/_about.scss */
+  .about-section .about-text, .about-section .about-headshot {
+    width: 50%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-section .about-text, .no-mq .about-section .about-headshot {
+  width: 50%;
+}
+
+/* line 6, ../sass/partials/design/pages/_front.scss */
+.featured-project {
+  margin-bottom: 1em;
+}
+@media (min-width: 50em) {
+  /* line 6, ../sass/partials/design/pages/_front.scss */
+  .featured-project {
+    margin-bottom: 4em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .featured-project {
+  margin-bottom: 4em;
+}
+
+/* line 12, ../sass/partials/design/pages/_front.scss */
 .front-main {
   background: #f7fafc;
-  padding: 4em 0;
+  padding: 0;
 }
 /* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 .front-main:after {
@@ -459,9 +582,24 @@ ul.pager li a:visited {
   display: table;
   clear: both;
 }
+/* line 16, ../sass/partials/design/pages/_front.scss */
+.front-main .wrap {
+  max-width: 1500px;
+  padding: 0em 2em;
+}
+@media (min-width: 50em) {
+  /* line 16, ../sass/partials/design/pages/_front.scss */
+  .front-main .wrap {
+    padding: 0 0 4em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .front-main .wrap {
+  padding: 0 0 4em;
+}
 
 @media (min-width: 50em) {
-  /* line 11, ../sass/partials/design/pages/_front.scss */
+  /* line 25, ../sass/partials/design/pages/_front.scss */
   .front-about--text {
     width: 40.42553%;
     float: left;
@@ -478,23 +616,39 @@ ul.pager li a:visited {
   margin-left: 4.25532%;
   clear: none;
 }
-/* line 15, ../sass/partials/design/pages/_front.scss */
+/* line 29, ../sass/partials/design/pages/_front.scss */
 .front-about--text h2 {
+  font-size: 2.35em;
+}
+@media (min-width: 50em) {
+  /* line 29, ../sass/partials/design/pages/_front.scss */
+  .front-about--text h2 {
+    font-size: 2.75em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .front-about--text h2 {
   font-size: 2.75em;
 }
-/* line 18, ../sass/partials/design/pages/_front.scss */
+/* line 35, ../sass/partials/design/pages/_front.scss */
 .front-about--text p {
   color: #6d5247;
 }
 
+/* line 40, ../sass/partials/design/pages/_front.scss */
+.front-about--image {
+  margin-bottom: 2em;
+  margin-top: 3em;
+}
 @media (min-width: 50em) {
-  /* line 23, ../sass/partials/design/pages/_front.scss */
+  /* line 40, ../sass/partials/design/pages/_front.scss */
   .front-about--image {
     width: 40.42553%;
     float: left;
     margin-right: -100%;
     margin-left: 55.31915%;
     clear: none;
+    margin-bottom: 4em;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
@@ -504,18 +658,33 @@ ul.pager li a:visited {
   margin-right: -100%;
   margin-left: 55.31915%;
   clear: none;
+  margin-bottom: 4em;
 }
-/* line 27, ../sass/partials/design/pages/_front.scss */
+/* line 47, ../sass/partials/design/pages/_front.scss */
 .front-about--image img {
   width: 100%;
+  border: 7px solid #FFFFFF;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.31);
+          box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.31);
+}
+@media (min-width: 50em) {
+  /* line 47, ../sass/partials/design/pages/_front.scss */
+  .front-about--image img {
+    border: 15px solid #FFFFFF;
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
+            box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .front-about--image img {
   border: 15px solid #FFFFFF;
   -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
           box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
 }
 
-/* line 35, ../sass/partials/design/pages/_front.scss */
+/* line 59, ../sass/partials/design/pages/_front.scss */
 .front-services {
-  padding: 4em 0;
+  padding: 2em 2em;
 }
 /* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 .front-services:after {
@@ -523,24 +692,50 @@ ul.pager li a:visited {
   display: table;
   clear: both;
 }
+@media (min-width: 50em) {
+  /* line 59, ../sass/partials/design/pages/_front.scss */
+  .front-services {
+    padding: 4em 0;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .front-services {
+  padding: 4em 0;
+}
 
-/* line 40, ../sass/partials/design/pages/_front.scss */
+/* line 67, ../sass/partials/design/pages/_front.scss */
 .front-services--heading {
   text-align: center;
   padding: 0 0 2em;
 }
-/* line 43, ../sass/partials/design/pages/_front.scss */
+/* line 70, ../sass/partials/design/pages/_front.scss */
 .front-services--heading h2 {
+  font-size: 2.35em;
+  margin-top: 0;
+}
+@media (min-width: 50em) {
+  /* line 70, ../sass/partials/design/pages/_front.scss */
+  .front-services--heading h2 {
+    font-size: 2.75em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .front-services--heading h2 {
   font-size: 2.75em;
 }
-/* line 46, ../sass/partials/design/pages/_front.scss */
+/* line 77, ../sass/partials/design/pages/_front.scss */
 .front-services--heading h5 {
   text-transform: uppercase;
   color: #D1D1D1;
+  margin-bottom: 0.4em;
 }
 
+/* line 84, ../sass/partials/design/pages/_front.scss */
+.front-services--image {
+  margin-bottom: 2em;
+}
 @media (min-width: 50em) {
-  /* line 52, ../sass/partials/design/pages/_front.scss */
+  /* line 84, ../sass/partials/design/pages/_front.scss */
   .front-services--image {
     width: 40.42553%;
     float: left;
@@ -557,16 +752,30 @@ ul.pager li a:visited {
   margin-left: 4.25532%;
   clear: none;
 }
-/* line 56, ../sass/partials/design/pages/_front.scss */
+/* line 89, ../sass/partials/design/pages/_front.scss */
 .front-services--image img {
   width: 100%;
+  border: 7px solid #FFFFFF;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.31);
+          box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.31);
+}
+@media (min-width: 50em) {
+  /* line 89, ../sass/partials/design/pages/_front.scss */
+  .front-services--image img {
+    border: 15px solid #FFFFFF;
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
+            box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .front-services--image img {
   border: 15px solid #FFFFFF;
   -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
           box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
 }
 
 @media (min-width: 50em) {
-  /* line 62, ../sass/partials/design/pages/_front.scss */
+  /* line 100, ../sass/partials/design/pages/_front.scss */
   .front-services--text {
     width: 40.42553%;
     float: left;
@@ -582,6 +791,150 @@ ul.pager li a:visited {
   margin-right: -100%;
   margin-left: 55.31915%;
   clear: none;
+}
+/* line 104, ../sass/partials/design/pages/_front.scss */
+.front-services--text * {
+  color: #6d5247;
+}
+
+/* line 2, ../sass/partials/design/pages/_project.scss */
+.project-detail img {
+  width: 100%;
+}
+/* line 5, ../sass/partials/design/pages/_project.scss */
+.project-detail ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 9, ../sass/partials/design/pages/_project.scss */
+.project-detail ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 50em) {
+  /* line 9, ../sass/partials/design/pages/_project.scss */
+  .project-detail ul li {
+    width: 50%;
+    padding-bottom: .75em;
+  }
+  /* line 16, ../sass/partials/design/pages/_project.scss */
+  .project-detail ul li:nth-child(odd) {
+    float: left;
+    padding-right: .5em;
+  }
+  /* line 20, ../sass/partials/design/pages/_project.scss */
+  .project-detail ul li:nth-child(even) {
+    float: right;
+    padding-left: .5em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .project-detail ul li {
+  width: 50%;
+  padding-bottom: .75em;
+}
+/* line 16, ../sass/partials/design/pages/_project.scss */
+.no-mq .project-detail ul li:nth-child(odd) {
+  float: left;
+  padding-right: .5em;
+}
+/* line 20, ../sass/partials/design/pages/_project.scss */
+.no-mq .project-detail ul li:nth-child(even) {
+  float: right;
+  padding-left: .5em;
+}
+/* line 27, ../sass/partials/design/pages/_project.scss */
+.project-detail .gallery {
+  max-width: 95%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 50em) {
+  /* line 27, ../sass/partials/design/pages/_project.scss */
+  .project-detail .gallery {
+    max-width: 80%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .project-detail .gallery {
+  max-width: 80%;
+}
+
+/* line 37, ../sass/partials/design/pages/_project.scss */
+.project-header {
+  position: relative;
+}
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+.project-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 40, ../sass/partials/design/pages/_project.scss */
+.project-header .intro-box {
+  max-width: 95%;
+  margin-top: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f7fafc;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+}
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+.project-header .intro-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 50em) {
+  /* line 40, ../sass/partials/design/pages/_project.scss */
+  .project-header .intro-box {
+    margin-top: -6em;
+    max-width: 80%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .project-header .intro-box {
+  margin-top: -6em;
+  max-width: 80%;
+}
+@media (min-width: 50em) {
+  /* line 54, ../sass/partials/design/pages/_project.scss */
+  .project-header .intro-box .section-one {
+    float: left;
+    width: 28%;
+    margin-right: 3em;
+    text-align: right;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .project-header .intro-box .section-one {
+  float: left;
+  width: 28%;
+  margin-right: 3em;
+  text-align: right;
+}
+/* line 62, ../sass/partials/design/pages/_project.scss */
+.project-header .intro-box .section-two {
+  overflow: hidden;
+  color: #6d5247;
+}
+/* line 67, ../sass/partials/design/pages/_project.scss */
+.project-header h1 {
+  color: #6d5247;
+  margin: 0;
+}
+/* line 71, ../sass/partials/design/pages/_project.scss */
+.project-header h2 {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #6d5247;
+  margin: 0.35em 0 0;
+  font-family: "adelle-sans", sans-serif;
 }
 
 /* line 1, ../sass/partials/design/regions/_header.scss */
@@ -634,9 +987,8 @@ ul.pager li a:visited {
 
 /* line 1, ../sass/partials/design/regions/_main.scss */
 .wrap {
-  max-width: 1500px;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0;
 }
 /* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 .wrap:after {
@@ -674,7 +1026,6 @@ html body {
 
 /* line 13, ../sass/partials/design/regions/_body.scss */
 .wrap {
-  max-width: 1500px;
   margin: 0 auto;
 }
 /* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
@@ -684,13 +1035,13 @@ html body {
   clear: both;
 }
 
-/* line 19, ../sass/partials/design/regions/_body.scss */
+/* line 18, ../sass/partials/design/regions/_body.scss */
 .site-wrapper {
   margin: 0 auto;
   max-width: 1500px;
 }
 
-/* line 24, ../sass/partials/design/regions/_body.scss */
+/* line 23, ../sass/partials/design/regions/_body.scss */
 main, header, footer, section, aside {
   display: block;
 }
@@ -702,21 +1053,33 @@ main, header, footer, section, aside {
   clear: both;
 }
 
-/* line 4, ../sass/partials/design/views/_projects.scss */
+/* line 5, ../sass/partials/design/views/_projects.scss */
+.page-title-bar {
+  background: #f7fafc;
+  padding: 2.5em 1.5em;
+}
+/* line 8, ../sass/partials/design/views/_projects.scss */
+.page-title-bar h1 {
+  color: #6d5247;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+/* line 14, ../sass/partials/design/views/_projects.scss */
 .project-item {
   position: relative;
   line-height: 0;
 }
 @media (min-width: 50em) {
-  /* line 4, ../sass/partials/design/views/_projects.scss */
+  /* line 14, ../sass/partials/design/views/_projects.scss */
   .project-item {
     width: 50%;
   }
-  /* line 9, ../sass/partials/design/views/_projects.scss */
+  /* line 19, ../sass/partials/design/views/_projects.scss */
   .project-item:nth-child(odd) {
     float: right;
   }
-  /* line 12, ../sass/partials/design/views/_projects.scss */
+  /* line 22, ../sass/partials/design/views/_projects.scss */
   .project-item:nth-child(even) {
     float: left;
   }
@@ -725,26 +1088,48 @@ main, header, footer, section, aside {
 .no-mq .project-item {
   width: 50%;
 }
-/* line 9, ../sass/partials/design/views/_projects.scss */
+/* line 19, ../sass/partials/design/views/_projects.scss */
 .no-mq .project-item:nth-child(odd) {
   float: right;
 }
-/* line 12, ../sass/partials/design/views/_projects.scss */
+/* line 22, ../sass/partials/design/views/_projects.scss */
 .no-mq .project-item:nth-child(even) {
   float: left;
 }
-/* line 16, ../sass/partials/design/views/_projects.scss */
+/* line 26, ../sass/partials/design/views/_projects.scss */
 .project-item img {
   width: 100%;
 }
-/* line 19, ../sass/partials/design/views/_projects.scss */
+/* line 29, ../sass/partials/design/views/_projects.scss */
 .project-item h2 {
   position: absolute;
   bottom: 0;
   width: 100%;
   margin: 0;
-  padding: 1em;
+  padding: 2rem 1.5rem;
+  font-weight: normal;
   color: #fff;
+  font-size: 1.3em;
+  opacity: 0;
+  font-family: "adelle-sans", sans-serif;
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.65)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+  /* IE6-9 */
+  -webkit-transition: all .35s linear;
+          transition: all .35s linear;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+/* line 47, ../sass/partials/design/views/_projects.scss */
+.project-item:hover h2 {
+  opacity: 1;
+  -webkit-transition: all .35s linear;
+          transition: all .35s linear;
 }
 
 /* line 2, ../sass/partials/design/views/_team.scss */

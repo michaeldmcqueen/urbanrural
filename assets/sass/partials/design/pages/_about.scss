@@ -1,0 +1,78 @@
+.sub-wrap {
+  max-width: 1670px;
+}
+
+.about-heading {
+    padding: 4em 2em;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 4em;
+    }
+    @include breakpoint($bp-xlarge, $no-query: ".no-mq") {
+
+        padding: 4em 25% 4em 4em;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 1.2em;
+        //color: $color-two;
+    }
+    h2 {
+        font-family: $font-family;
+        font-weight: normal;
+        color: $color-two;
+    }
+}
+.about-image {
+//   background: url(images/bg.jpg) no-repeat center center; 
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
+    width: 50%;
+    float: left;
+  }
+}
+.about-intro {
+  @include clearfix;
+  display: flex;
+    background: no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+margin-bottom: 12em;
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
+     //height: 95vh;
+  }
+  
+  .about-text {
+      background: $color-three;
+      padding:2em 3em;
+      margin: -10em auto 0;
+      position: relative;
+      h1 {
+        font-size: 2.75em;
+        text-align: center;
+        margin-bottom: 1em;
+      }
+      p:first-child {
+          color: $color-two;
+          font-size: 1.4em;
+      }
+      p {
+          color: $color-two;
+      }
+  }
+}
+
+.about-section {
+    display: flex;
+    .about-text, .about-headshot {
+   @include breakpoint($bp-medium, $no-query: ".no-mq") {
+     width: 50%;
+    }
+  }
+}
