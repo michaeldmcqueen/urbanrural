@@ -1,4 +1,5 @@
 ---
+weight: 6
 title: Off the Beaten Path Bookstore
 image_path: /assets/images/work/beaten-path/1-1.jpg
 featured_project: False

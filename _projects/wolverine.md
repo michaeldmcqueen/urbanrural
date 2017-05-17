@@ -1,4 +1,5 @@
 ---
+weight: 0
 title: Wolverine Farm Letterpress & Publick House
 image_path: /assets/images/work/Wolverine.jpg
 featured_project: True

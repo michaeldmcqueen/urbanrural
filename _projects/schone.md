@@ -1,4 +1,5 @@
 ---
+weight: 1
 title: Schone Residence
 image_path: /assets/images/work/schone/Schone_AFTER.jpg
 featured_project: False

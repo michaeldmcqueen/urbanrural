@@ -1,4 +1,5 @@
 ---
+garage: 4
 title: Lyric Cinema Cafe
 image_path: /assets/images/work/lyric/Lyric_Courtyard.jpg
 featured_project: True
