@@ -5,6 +5,10 @@ layout: default
   <div class="featured-project">
     {% for project in site.projects %}
       {% if project.featured_project == true  %}
+          <div class="buttons">
+            <a href="{{ project.url }}" class="btn" >{{ project.title}}</a>
+            <a href="/projects" class="link">View All Projects</a>
+            </div>
           <img  src="{{ site.cloudinaryurl }}/image/fetch/c_scale,w_1600/{{ site.url }}{{ project.image_path }}" alt="{{ page.title }}" title="{{ page.title }}" data-img="{{ project.image_path }}" data-width="1600px" data-height="auto" class="header-image">
       {% endif %}
     {% endfor %}

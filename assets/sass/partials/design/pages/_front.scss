@@ -5,8 +5,46 @@
 
 .featured-project {
   margin-bottom: 1em;
+  position: relative;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
     margin-bottom: 4em;
+  }
+  .buttons {
+    position: absolute;
+    bottom: 3em;
+    right: 3em;
+    text-align: right;
+    a {
+      display: block;
+      &.btn {
+        background: $color-one;
+        color: #fff;
+        text-decoration: none;
+        padding: 14px 45px 14px;
+        font-weight: 700;
+        font-size: 15px;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.24);
+        margin-bottom: 1em;
+        box-shadow: 0 0 4px rgba(0,0,0,0.3);
+        border-radius: 3px;
+        background-image: linear-gradient(45deg, #4281A8 0%, #5E9ADF 100%);
+        box-shadow: 0 2px 14px 0 rgba(0,0,0,0.50);
+
+      }
+      &.link {
+        background: $color-four;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        text-decoration: none;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.24);
+        display: inline-block;
+        box-shadow: 0 0 4px rgba(0,0,0,0.3);
+        padding: 8px 15px;
+        border-radius: 3px;
+      }
+    }
+
   }
 }
 .front-main {
