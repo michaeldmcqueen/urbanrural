@@ -1,4 +1,6 @@
 .project-detail {
+  padding-bottom: 5em !important;
+  @include clearfix;
   img {
     width: 100%;
   }
@@ -33,6 +35,7 @@
       max-width: 80%;
     }
   }
+
 }
 .project-header {
   position: relative;
@@ -48,20 +51,32 @@
     padding: 2em;
     @include clearfix;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
-      margin-top: -6em;
+      margin-top: -8em;
       max-width: 80%;
+      padding: 4em 3em;
     }
+    @include breakpoint($bp-xlarge, $no-query: '.no-mq') {
+        padding: 4em 3em;
+      }
     .section-one {
-      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      @include breakpoint($bp-large, $no-query: '.no-mq') {
         float: left;
-        width: 28%;
-        margin-right: 3em;
+        width: 35%;
+        margin-right: 4em;
         text-align: right;
+      }
+      @include breakpoint($bp-xlarge, $no-query: '.no-mq') {
+        width: 28%;
       }
     }
     .section-two {
       overflow: hidden;
       color: $color-two;
+      margin-top: 2em;
+      font-size: 0.95em;
+      @include breakpoint($bp-large, $no-query: '.no-mq') {
+         margin-top: 0;
+      }
     }
   }
   h1 {
@@ -69,10 +84,30 @@
     margin: 0;
   }
   h2 {
-    font-size: 1.2em;
+    font-size: 1.35em;
     font-weight: 300;
     color: $color-two;
-    margin: 0.35em 0 0;
+    margin: 0.45em 0 0;
     font-family: $font-family;
   }
 }
+
+
+  .featherlight-next span, .featherlight-previous span {
+    font-size: 20px;
+    text-shadow: none;
+  }
+ .featherlight-next {
+   right: 25px;
+   left: auto;
+ }
+  .featherlight-previous {
+   right: auto;
+   left: 25px;
+ }
+ .featherlight-next:hover, .featherlight-previous:hover {
+    background: rgba(109, 82, 71, 0.65);
+}
+ .featherlight-next, .featherlight-previous {
+      width: 50px;
+ }

@@ -7,13 +7,13 @@ layout: default
     <div class="page-title-bar">
       <h1>{{page.title}}</h1>
     </div>
-    {% for project in site.projects  | sort: "weight"  %}
+    {% assign sorted = (site.projects | sort: 'weight') %}
+    {% for project in sorted %}
     <article class="project-item clearfix">
       <div class="project-item--image">
           <a href="{{ project.url }}">
             <img src="{{ site.cloudinaryurl }}/image/fetch/c_scale,h_400,w_700/{{ site.url }}{{ project.image_path }}" 
-            alt="{{ title }}" title="{{title}}" 
-            data-img="{{ site.cloudinaryurl }}/image/fetch/c_scale,h_400,w_700/{{ site.url }}{{ project.image_path }}" data-width="700px" data-height="400px">
+            alt="{{ title }}" title="{{title}}" data-img="{{site.url}}{{project.image_path}}" data-width="700px" data-height="400px">
             <h2>{{ project.title }}</h2>
           </a>
       </div>

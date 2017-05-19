@@ -1,0 +1,95 @@
+.sub-wrap {
+  max-width: 1670px;
+}
+
+.contact-heading {
+    padding: 4em 2em;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 4em;
+    }
+    @include breakpoint($bp-xlarge, $no-query: ".no-mq") {
+        padding: 4em 25% 4em 4em;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    h2 {
+        font-family: $font-family;
+        font-weight: normal;
+        color: $color-two;
+    }
+}
+
+.contact-intro {
+  @include clearfix;
+  display: flex;
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
+     //height: 95vh;
+  }
+}
+.contact-header-image {
+   background: no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact-section {
+     @include breakpoint($bp-medium, $no-query: ".no-mq") {
+       display: flex;
+    }
+}
+.contact-map {
+     @include breakpoint($bp-medium, $no-query: ".no-mq") {
+       width: 50%;
+    }
+}
+.contact-header-image {
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+       width: 50%;
+    }
+}
+.contact-text {
+    background: $color-three;
+    padding: 3em 3em;
+    position: relative;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+       width: 50%;
+    }
+    div {
+      max-width: 1400px;
+    }
+    h6 {
+        text-transform: uppercase;
+        color: $color-four;
+        margin-top: 0;
+            margin-bottom: 0.5em;
+    font-size: .8em;
+    }
+    p {
+        color: #fff;
+    }
+}
+
+.address-box {
+    font-size: 1.3em;
+    margin-bottom: 4em;
+    background:$color-one;
+    padding: 2em;
+    margin: -3rem -3rem 4rem;
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+.contact-section {
+
+    .contact-text, .contact-headshot {
+   @include breakpoint($bp-medium, $no-query: ".no-mq") {
+
+    }
+  }
+}

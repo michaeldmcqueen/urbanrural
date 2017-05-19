@@ -1,3 +1,40 @@
 .footer-wrapper {
-  //background: $footer-bg;
+  background: $footer-bg;
+  border-top: 1px solid $color-two;
+  padding: 1em 3em;
+  @include clearfix;
+  font-size: 90%;
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      padding: 2em 5em;
+    }
+  .footer-block {
+    margin-bottom: 1.5em;
+    vertical-align: top;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    img {
+      width: 150px;
+    }
+    &:first-child {
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      padding-right: 4em;
+      }
+    }
+    &:nth-child(2) {
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      padding-right: 4em;
+      }
+    }
+    p {
+      margin: 0;
+      color: $color-two;
+    }
+    &.right {
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        float: right;
+      }
+    }
+  }
 }

@@ -5,7 +5,7 @@ layout: default
 <main>
   <section class="wrap project-detail">
     <div class="project-header">
-    <img src="{{ page.image_path }}" class="header-image">
+    <img class="gallery-img" src="{{ site.cloudinaryurl }}/image/fetch/c_scale,w_1600/{{ site.url }}{{ page.image_path }}" alt="{{ page.title }}" title="{{ page.title }}" data-img="{{ page.image_path }}" data-width="1600px" data-height="auto" class="header-image">
       <div class="intro-box">
         <div class="section-one">
           <h1 class="pagetitle">{{ page.title }}</h1>
@@ -14,11 +14,14 @@ layout: default
         <div class="section-two">{{ content }}</div>
       </div>
     </div>
-    <ul class="gallery">
+    <ul class="gallery" data-featherlight-gallery data-featherlight-filter="a">
     {% for item in page.images %}
         <li itemscope class="grid-item">
+          
           <a class="gallery-item gallery" href="{{ item.project_image_path }}" >
-            <img class="gallery-img" src="{{ site.cloudinaryurl }}image/fetch/c_scale,w_610/{{ site.url }}/{{ item.project_image_path }}" alt="{{ item.title }}" itemprop="image" data-img="{{site.url}}{{item.project_image_path}}" data-width="600px" data-height="auto">
+            <img class="gallery-img" src="{{ site.cloudinaryurl }}/image/fetch/c_fill,h_400,w_700/{{ site.url }}{{ item.project_image_path }}" 
+            alt="{{ title }}" title="{{title}}" 
+            data-img="{{site.url}}{{item.project_image_path}}" data-width="700px" data-height="400px">
           </a>
         </li>
     {% endfor %}

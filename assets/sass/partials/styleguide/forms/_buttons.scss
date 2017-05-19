@@ -1,13 +1,19 @@
 input[type="submit"] {
   @include btn(#999, #fff, #6286BD, 3px, $normal);
   font-family: $heading-font-family;
-	display: inline-block;
-	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20), inset 0px 2px 0px 0px #FFFFFF;
-	border-radius: 3px;
-	padding: 10px 25px;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.20);
-	font-size: .8em;
-	color: #373737;
-	cursor: pointer;
+	  background-color: $color-one;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px 0px white;
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+		&:hover {
+			background: darken($color-one, 10%);
+		}
 }

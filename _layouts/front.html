@@ -3,7 +3,11 @@ layout: default
 ---
 <main class="front-main">
   <div class="featured-project">
-    <img src="/assets/images/work/Wolverine.jpg">
+    {% for project in site.projects %}
+      {% if project.featured_project == true  %}
+          <img  src="{{ site.cloudinaryurl }}/image/fetch/c_scale,w_1600/{{ site.url }}{{ project.image_path }}" alt="{{ page.title }}" title="{{ page.title }}" data-img="{{ project.image_path }}" data-width="1600px" data-height="auto" class="header-image">
+      {% endif %}
+    {% endfor %}
   </div>
   <section class="wrap editable clearfix">
     <div class="front-about--text">
@@ -15,6 +19,15 @@ layout: default
       <img src="/assets/images/home-about.jpg">
     </aside>
   </section>
+  <div class="testimonial">
+     <img src="/assets/images/home-testimonial-left.svg" class="left">
+     <div class="home-testimonial">
+       <p>Brian Majeski worked with my taste and suggested great ideas to maximize light and space without an overblown price tag. He worked with my G.C. to get the project to permit, and the end result was an affordable project without compromising on quality.”</p>
+       <h6>Chris Puckett, Edward Jones Financial Advisor, 1992 U.S Olympic Ski Team</h6>
+     </div>
+     <img src="/assets/images/home-testimonial-right.svg" class="right" >
+
+  </div>
 </main>
 <section class="editable front-services">
   <div class="wrap">
@@ -23,7 +36,7 @@ layout: default
       <h2>What We Do.</h2>
     </div>
     <div class="front-services--image">
-      <img src="/assets/images/blog/blog1.jpg">
+      <img src="/assets/images/home-services.png">
     </div>
     <div class="front-services--text">
       <h2>Design</h2>

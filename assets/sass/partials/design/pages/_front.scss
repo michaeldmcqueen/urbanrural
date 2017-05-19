@@ -14,17 +14,17 @@
   @include clearfix;
   padding: 0;
   .wrap {
-    max-width: 1500px;
+    max-width: 1400px;
     padding: 0em 2em;
       @include breakpoint($bp-medium, $no-query: ".no-mq") {
-        padding: 0 0 4em;
+        padding: 0 0 1em;
       }
   }
 }
 
 .front-about--text {
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
-    @include grid-span(5,1.5);
+    @include grid-span(5.5,1.5);
   }
   h2 {
     font-size: 2.35em;
@@ -41,7 +41,7 @@
   margin-bottom: 2em;
   margin-top: 3em;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
-    @include grid-span(5,7.5);
+    @include grid-span(5,8);
     margin-bottom: 4em;
   }
   img {
@@ -55,10 +55,49 @@
   }
 }
 
-
+.testimonial {
+  @include clearfix;
+  position: relative;
+  img {
+    display: none;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      width: 20%;
+      position: absolute;
+      bottom: 0;
+      display: block;
+    }
+  }
+  .home-testimonial {
+    border-top: 1px solid #DDE4E9;
+    padding: 2em 2em 4em;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      width: 60%;
+      margin: 0 auto;
+      display: block;
+      padding: 4em 3em 4em;
+    }
+    p, h6 {
+      color: $color-two;
+      font-family: $font-family;
+    }
+    p {
+      font-style: italic;
+    }
+  }
+  .left {
+    float: left;
+    left: 0;
+  }
+  .right {
+    float: right;
+    right: 0;
+  }
+}
 .front-services {
   @include clearfix;
   padding:2em 2em;
+  margin: 0 auto;
+  max-width: 1400px;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
     padding: 4em 0;
   }
@@ -66,7 +105,7 @@
 
 .front-services--heading {
   text-align: center;
-  padding: 0 0 2em;
+  padding: 0 0 4em;
     h2 {
     font-size: 2.35em;
     margin-top: 0;
@@ -84,22 +123,16 @@
 .front-services--image {
   margin-bottom: 2em;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
-    @include grid-span(5,1.5);
+    @include grid-span(5.5,1.35);
   }
   img {
     width: 100%;
-    border: 7px solid #FFFFFF;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.31);
-    @include breakpoint($bp-medium, $no-query: ".no-mq") {
-      border: 15px solid #FFFFFF;
-      box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.31);
-    }
   }
 
 }
 .front-services--text {
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
-    @include grid-span(5,7.5);
+    @include grid-span(5.5,7.15);
   }
   * {
     color: $color-two;

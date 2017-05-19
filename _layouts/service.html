@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<main>
+  <section class="sub-wrap wrap">
+      <div class="about-heading">
+      <h1 class="pagetitle">{{ page.title }}</h1>
+      <h2 class="subtitle">{{ page.subtitle }}</h2>
+      </div>
+      <div class="about-header-image">
+          <img src="{{ page.about_image_path }}" />
+      </div>
+        <div class="service-text">
+            <div>{{ content }}</div>
+        </div>
+        <div class="about-headshot">
+            <img src="{{ page.headshot_image_path }}" />
+        </div>
+  </section>
+</main>

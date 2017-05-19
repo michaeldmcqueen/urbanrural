@@ -1,7 +1,11 @@
 .logo {
   text-align: center;
+  padding: 1em;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
     @include grid-span(4,1,$gutter:0);
+  }
+  img {
+    width: 155px;
   }
 }
 .main-nav {
