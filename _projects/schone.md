@@ -5,12 +5,12 @@ image_path: /assets/images/work/schone/Schone_AFTER.jpg
 featured_project: false
 location: 'Steamboat Springs, CO'
 images:
+  - title: Existing House
+    project_image_path: /assets/images/schone-before.png
   - title:
     project_image_path: /assets/images/schone-scheme-one.jpg
   - title:
     project_image_path: /assets/images/sk-3-west-elev-0920-2.jpg
-  - title:
-    project_image_path: /assets/images/schone-before.png
   - title:
     project_image_path: /assets/images/p1050081.jpg
   - title:
