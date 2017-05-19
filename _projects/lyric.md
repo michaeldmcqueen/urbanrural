@@ -1,9 +1,10 @@
 ---
 weight: 4
 title: Lyric Cinema Cafe
-image_path: /assets/images/work/lyric/Lyric_Courtyard.jpg
-featured_project: False
+image_path: /assets/images/final-front---color-transparent-trees.jpg
+featured_project: false
 ---
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor arcu, tristique sit amet lorem sit amet, mattis sollicitudin turpis. Morbi nec nisl vitae augue congue lacinia. Fusce non risus libero.
 
