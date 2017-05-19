@@ -1,6 +1,6 @@
 ---
 title: Our Services
-subtitle: 'U/R Design provides a wide range of services given the varied professional experience from the combination of architectural practice and construction project management. Thus, U/R can guide clients from the conceptual and planning stages of a project through the finishing touches of the construction phase. Here is a list of services that can be rendered'
+subtitle: 'U|R Design provides a wide range of services given the varied professional experience from the combination of architectural practice and construction project management. Thus, U/R can guide clients from the conceptual and planning stages of a project through the finishing touches of the construction phase. Here is a list of services that can be rendered'
 permalink: /services/
 description: Architectural Design and Construction Management Services Colorado
 layout: service
@@ -18,7 +18,6 @@ DESIGN PHASE
 * Active and Passive Energy Strategy and Design
 * Presentation Documents / Modeling
 * Permit Procurement
-* Thorough Estimating for Budget Control / Design Scope Management
 * Design-Build Process and Management
 * Management of all Professional Disciplines
 * Technology and System Integration
