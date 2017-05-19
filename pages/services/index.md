@@ -1,6 +1,6 @@
 ---
 title: Our Services
-subtitle: 'U|R Design provides a wide range of services given the varied professional experience from the combination of architectural practice and construction project management. Thus, U/R can guide clients from the conceptual and planning stages of a project through the finishing touches of the construction phase. Here is a list of services that can be rendered'
+subtitle: 'U|R Design provides a wide range of services given the varied professional experience from the combination of architectural practice and construction project management. Thus, U|R can guide clients from the conceptual and planning stages of a project through the finishing touches of the construction phase. Here is a list of services that can be rendered'
 permalink: /services/
 description: Architectural Design and Construction Management Services Colorado
 layout: service
@@ -33,4 +33,4 @@ CONSTRUCTION PHASE
 * Schedule Analysis
 * Construction Bidding (Negotiated or Hard Bid)
 * Construction Technique and Quality Control On-Site Reviews
-* On-Site Problem Solving&nbsp; . . . one substantial key to a fluid, quality project.
+* On-Site Problem Solving  . . . one substantial key to a fluid, quality project.
