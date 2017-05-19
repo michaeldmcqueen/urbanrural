@@ -2,7 +2,7 @@
 weight: 0
 title: 'Wolverine Farm Letterpress & Publick House'
 image_path: /assets/images/work/Wolverine.jpg
-featured_project: true
+featured_project: false
 location: 'Fort Collins, CO'
 images:
   - title:
