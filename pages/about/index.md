@@ -3,7 +3,7 @@ title: 'About Urban | Rural Design'
 subtitle: An Architectural Design and Construction Management Studio for Residential and Commercial Projects.
 permalink: /about/
 description: An Architectural Design and Construction Management Studio for Residential and Commercial Projects.
-about_image_path: /assets/images/about.jpg
+about_image_path: /assets/images/wolverinefarm-12.jpg
 headshot_image_path: /assets/images/brian.jpg
 layout: subpage
 ---
