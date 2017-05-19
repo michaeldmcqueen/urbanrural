@@ -3,7 +3,7 @@ weight: 1
 title: Schone Residence
 image_path: /assets/images/work/schone/Schone_AFTER.jpg
 featured_project: false
-location: 'Niwot, CO'
+location: 'Boulder, CO'
 images:
   - title: Existing House
     project_image_path: /assets/images/schone-before.png
