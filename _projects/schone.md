@@ -3,7 +3,7 @@ weight: 1
 title: Schone Residence
 image_path: /assets/images/work/schone/Schone_AFTER.jpg
 featured_project: false
-location: 'Steamboat Springs, CO'
+location: 'Niwot, CO'
 images:
   - title: Existing House
     project_image_path: /assets/images/schone-before.png
