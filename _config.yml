@@ -37,6 +37,8 @@ collections:
   projects:
     output: true
     permalink: '/projects/:title/'
+  testimonials:
+    output: false
 
 defaults:
   -
@@ -50,6 +52,12 @@ defaults:
       featured_project: false
       location: 'Fort Collins, CO'
       description:
+  -
+    scope:
+      type: testimonials
+    values:
+      title:
+      name:
 
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/

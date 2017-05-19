@@ -856,16 +856,29 @@ ul.pager li a:visited {
 }
 /* line 15, ../sass/partials/design/pages/_front.scss */
 .featured-project .buttons {
+  text-align: center;
+}
+@media (min-width: 50em) {
+  /* line 15, ../sass/partials/design/pages/_front.scss */
+  .featured-project .buttons {
+    position: absolute;
+    bottom: 3em;
+    right: 3em;
+    text-align: right;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .featured-project .buttons {
   position: absolute;
   bottom: 3em;
   right: 3em;
   text-align: right;
 }
-/* line 20, ../sass/partials/design/pages/_front.scss */
+/* line 23, ../sass/partials/design/pages/_front.scss */
 .featured-project .buttons a {
   display: block;
 }
-/* line 22, ../sass/partials/design/pages/_front.scss */
+/* line 25, ../sass/partials/design/pages/_front.scss */
 .featured-project .buttons a.btn {
   background: #5894d9;
   color: #fff;
@@ -874,16 +887,25 @@ ul.pager li a:visited {
   font-weight: 700;
   font-size: 15px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
-  margin-bottom: 1em;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   background-image: -webkit-linear-gradient(45deg, #4281a8 0%, #5e9adf 100%);
   background-image: linear-gradient(45deg, #4281a8 0%, #5e9adf 100%);
+}
+@media (min-width: 50em) {
+  /* line 25, ../sass/partials/design/pages/_front.scss */
+  .featured-project .buttons a.btn {
+    -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .featured-project .buttons a.btn {
   -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em;
 }
-/* line 37, ../sass/partials/design/pages/_front.scss */
+/* line 41, ../sass/partials/design/pages/_front.scss */
 .featured-project .buttons a.link {
   background: #f4e849;
   color: #fff;
@@ -891,14 +913,25 @@ ul.pager li a:visited {
   font-size: 14px;
   text-decoration: none;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
-  display: inline-block;
-  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   padding: 8px 15px;
   border-radius: 3px;
 }
+@media (min-width: 50em) {
+  /* line 41, ../sass/partials/design/pages/_front.scss */
+  .featured-project .buttons a.link {
+    -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .featured-project .buttons a.link {
+  -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
 
-/* line 53, ../sass/partials/design/pages/_front.scss */
+/* line 59, ../sass/partials/design/pages/_front.scss */
 .front-main {
   background: #f7fafc;
   padding: 0;
@@ -909,13 +942,13 @@ ul.pager li a:visited {
   display: table;
   clear: both;
 }
-/* line 57, ../sass/partials/design/pages/_front.scss */
+/* line 63, ../sass/partials/design/pages/_front.scss */
 .front-main .wrap {
   max-width: 1400px;
   padding: 0em 2em;
 }
 @media (min-width: 50em) {
-  /* line 57, ../sass/partials/design/pages/_front.scss */
+  /* line 63, ../sass/partials/design/pages/_front.scss */
   .front-main .wrap {
     padding: 0 0 1em;
   }
@@ -926,7 +959,7 @@ ul.pager li a:visited {
 }
 
 @media (min-width: 50em) {
-  /* line 66, ../sass/partials/design/pages/_front.scss */
+  /* line 72, ../sass/partials/design/pages/_front.scss */
   .front-about--text {
     width: 44.68085%;
     float: left;
@@ -943,12 +976,12 @@ ul.pager li a:visited {
   margin-left: 4.25532%;
   clear: none;
 }
-/* line 70, ../sass/partials/design/pages/_front.scss */
+/* line 76, ../sass/partials/design/pages/_front.scss */
 .front-about--text h2 {
   font-size: 2.35em;
 }
 @media (min-width: 50em) {
-  /* line 70, ../sass/partials/design/pages/_front.scss */
+  /* line 76, ../sass/partials/design/pages/_front.scss */
   .front-about--text h2 {
     font-size: 2.75em;
   }
@@ -957,18 +990,18 @@ ul.pager li a:visited {
 .no-mq .front-about--text h2 {
   font-size: 2.75em;
 }
-/* line 76, ../sass/partials/design/pages/_front.scss */
+/* line 82, ../sass/partials/design/pages/_front.scss */
 .front-about--text p {
   color: #6d5247;
 }
 
-/* line 81, ../sass/partials/design/pages/_front.scss */
+/* line 87, ../sass/partials/design/pages/_front.scss */
 .front-about--image {
   margin-bottom: 2em;
   margin-top: 3em;
 }
 @media (min-width: 50em) {
-  /* line 81, ../sass/partials/design/pages/_front.scss */
+  /* line 87, ../sass/partials/design/pages/_front.scss */
   .front-about--image {
     width: 40.42553%;
     float: right;
@@ -987,7 +1020,7 @@ ul.pager li a:visited {
   clear: none;
   margin-bottom: 4em;
 }
-/* line 88, ../sass/partials/design/pages/_front.scss */
+/* line 94, ../sass/partials/design/pages/_front.scss */
 .front-about--image img {
   width: 100%;
   border: 7px solid #FFFFFF;
@@ -995,7 +1028,7 @@ ul.pager li a:visited {
           box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.31);
 }
 @media (min-width: 50em) {
-  /* line 88, ../sass/partials/design/pages/_front.scss */
+  /* line 94, ../sass/partials/design/pages/_front.scss */
   .front-about--image img {
     border: 15px solid #FFFFFF;
     -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
@@ -1009,7 +1042,7 @@ ul.pager li a:visited {
           box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
 }
 
-/* line 99, ../sass/partials/design/pages/_front.scss */
+/* line 105, ../sass/partials/design/pages/_front.scss */
 .testimonial {
   position: relative;
 }
@@ -1019,12 +1052,12 @@ ul.pager li a:visited {
   display: table;
   clear: both;
 }
-/* line 102, ../sass/partials/design/pages/_front.scss */
+/* line 108, ../sass/partials/design/pages/_front.scss */
 .testimonial img {
   display: none;
 }
 @media (min-width: 50em) {
-  /* line 102, ../sass/partials/design/pages/_front.scss */
+  /* line 108, ../sass/partials/design/pages/_front.scss */
   .testimonial img {
     width: 20%;
     position: absolute;
@@ -1039,13 +1072,13 @@ ul.pager li a:visited {
   bottom: 0;
   display: block;
 }
-/* line 111, ../sass/partials/design/pages/_front.scss */
+/* line 117, ../sass/partials/design/pages/_front.scss */
 .testimonial .home-testimonial {
   border-top: 1px solid #DDE4E9;
   padding: 2em 2em 4em;
 }
 @media (min-width: 50em) {
-  /* line 111, ../sass/partials/design/pages/_front.scss */
+  /* line 117, ../sass/partials/design/pages/_front.scss */
   .testimonial .home-testimonial {
     width: 60%;
     margin: 0 auto;
@@ -1060,27 +1093,27 @@ ul.pager li a:visited {
   display: block;
   padding: 4em 3em 4em;
 }
-/* line 120, ../sass/partials/design/pages/_front.scss */
+/* line 126, ../sass/partials/design/pages/_front.scss */
 .testimonial .home-testimonial p, .testimonial .home-testimonial h6 {
   color: #6d5247;
   font-family: "adelle-sans", sans-serif;
 }
-/* line 124, ../sass/partials/design/pages/_front.scss */
+/* line 130, ../sass/partials/design/pages/_front.scss */
 .testimonial .home-testimonial p {
   font-style: italic;
 }
-/* line 128, ../sass/partials/design/pages/_front.scss */
+/* line 134, ../sass/partials/design/pages/_front.scss */
 .testimonial .left {
   float: left;
   left: 0;
 }
-/* line 132, ../sass/partials/design/pages/_front.scss */
+/* line 138, ../sass/partials/design/pages/_front.scss */
 .testimonial .right {
   float: right;
   right: 0;
 }
 
-/* line 137, ../sass/partials/design/pages/_front.scss */
+/* line 143, ../sass/partials/design/pages/_front.scss */
 .front-services {
   padding: 2em 2em;
   margin: 0 auto;
@@ -1093,7 +1126,7 @@ ul.pager li a:visited {
   clear: both;
 }
 @media (min-width: 50em) {
-  /* line 137, ../sass/partials/design/pages/_front.scss */
+  /* line 143, ../sass/partials/design/pages/_front.scss */
   .front-services {
     padding: 4em 0;
   }
@@ -1103,18 +1136,18 @@ ul.pager li a:visited {
   padding: 4em 0;
 }
 
-/* line 147, ../sass/partials/design/pages/_front.scss */
+/* line 153, ../sass/partials/design/pages/_front.scss */
 .front-services--heading {
   text-align: center;
   padding: 0 0 4em;
 }
-/* line 150, ../sass/partials/design/pages/_front.scss */
+/* line 156, ../sass/partials/design/pages/_front.scss */
 .front-services--heading h2 {
   font-size: 2.35em;
   margin-top: 0;
 }
 @media (min-width: 50em) {
-  /* line 150, ../sass/partials/design/pages/_front.scss */
+  /* line 156, ../sass/partials/design/pages/_front.scss */
   .front-services--heading h2 {
     font-size: 2.75em;
   }
@@ -1123,19 +1156,19 @@ ul.pager li a:visited {
 .no-mq .front-services--heading h2 {
   font-size: 2.75em;
 }
-/* line 157, ../sass/partials/design/pages/_front.scss */
+/* line 163, ../sass/partials/design/pages/_front.scss */
 .front-services--heading h5 {
   text-transform: uppercase;
   color: #D1D1D1;
   margin-bottom: 0.4em;
 }
 
-/* line 164, ../sass/partials/design/pages/_front.scss */
+/* line 170, ../sass/partials/design/pages/_front.scss */
 .front-services--image {
   margin-bottom: 2em;
 }
 @media (min-width: 50em) {
-  /* line 164, ../sass/partials/design/pages/_front.scss */
+  /* line 170, ../sass/partials/design/pages/_front.scss */
   .front-services--image {
     width: 44.68085%;
     float: left;
@@ -1152,13 +1185,13 @@ ul.pager li a:visited {
   margin-left: 2.97872%;
   clear: none;
 }
-/* line 169, ../sass/partials/design/pages/_front.scss */
+/* line 175, ../sass/partials/design/pages/_front.scss */
 .front-services--image img {
   width: 100%;
 }
 
 @media (min-width: 50em) {
-  /* line 174, ../sass/partials/design/pages/_front.scss */
+  /* line 180, ../sass/partials/design/pages/_front.scss */
   .front-services--text {
     width: 44.68085%;
     float: left;
@@ -1175,7 +1208,7 @@ ul.pager li a:visited {
   margin-left: 52.34043%;
   clear: none;
 }
-/* line 178, ../sass/partials/design/pages/_front.scss */
+/* line 184, ../sass/partials/design/pages/_front.scss */
 .front-services--text * {
   color: #6d5247;
 }
@@ -1390,6 +1423,31 @@ ul.pager li a:visited {
 /* line 111, ../sass/partials/design/pages/_project.scss */
 .featherlight-next, .featherlight-previous {
   width: 50px;
+}
+
+/* line 1, ../sass/partials/design/pages/_testimonials.scss */
+.testimonial-item-wrap {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2em;
+}
+@media (min-width: 50em) {
+  /* line 1, ../sass/partials/design/pages/_testimonials.scss */
+  .testimonial-item-wrap {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 4em 4em 4em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .testimonial-item-wrap {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 4em 4em 4em;
+}
+/* line 10, ../sass/partials/design/pages/_testimonials.scss */
+.testimonial-item-wrap .testimonial-item {
+  margin: 0 0 3em;
 }
 
 /* line 1, ../sass/partials/design/regions/_footer.scss */

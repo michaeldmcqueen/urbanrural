@@ -1,0 +1,13 @@
+.testimonial-item-wrap {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2em;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 4em 4em 4em;
+    }
+    .testimonial-item {
+        margin: 0 0 3em;
+    }
+}

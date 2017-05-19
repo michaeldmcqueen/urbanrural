@@ -1,6 +1,6 @@
 ---
 title: Contact
-subtitle: Contact us to set up an initial meeting.
+subtitle: Interested In Working Together? Contact Us Now For A Consultation.
 permalink: "/contact/"
 description: Contact Us.
 layout: contact

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<main>
+  <section class="sub-wrap wrap">
+      <div class="about-heading">
+      <h1 class="pagetitle">{{ page.title }}</h1>
+      <h2 class="subtitle">{{ page.subtitle }}</h2>
+      </div>
+        <div class="testimonial-item-wrap">
+            {% for testimonial in site.testimonials %}
+            <div class="testimonial-item clearfix">
+                <p>{{ testimonial.content }}</p>
+                <h6>{{ testimonial.name }}</h6>
+                
+            </div>
+            {% endfor %}
+        </div>
+  </section>
+</main>
