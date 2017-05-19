@@ -9,6 +9,9 @@
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
     margin-bottom: 4em;
   }
+  img {
+    width: 100%;
+  }
   .buttons {
     position: absolute;
     bottom: 3em;
