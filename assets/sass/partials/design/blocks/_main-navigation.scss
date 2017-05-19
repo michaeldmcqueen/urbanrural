@@ -1,9 +1,10 @@
 .main-nav {
-  margin-top: 18px;
+  margin-top: 3px;
   margin-bottom: 18px;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
     padding-right: 2em;
     margin-bottom: 0;
+    margin-top: 18px;
   }
 }
 .menu {
@@ -24,7 +25,7 @@
     }
     a {
       font-weight: 500;
-      font-size: 1em;
+      font-size: 0.8em;
       transition: color .5s ease;
       padding: .25em .75em;
       display: block;
@@ -32,6 +33,7 @@
       @include breakpoint($bp-medium, $no-query: '.no-mq') {
         margin-left: 1.5em;
         padding: 0;
+        font-size: 1em;
       }
       &:hover {
         color: $color-four;
