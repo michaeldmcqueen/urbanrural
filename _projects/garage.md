@@ -2,7 +2,7 @@
 weight: 2
 title: 'Garage | Worskshop | Studio'
 image_path: /assets/images/work/garage/PAE_0612.jpg
-featured_project: true
+featured_project: false
 location: 'Fort Collins, CO'
 images:
   - title: Aston Martin V12 Vantage 2015
