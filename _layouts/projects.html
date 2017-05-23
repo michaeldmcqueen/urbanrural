@@ -13,15 +13,18 @@ layout: default
         </div>
         <div class="section-two">{{ content }}</div>
       </div>
+
+      
     </div>
     <ul class="gallery" data-featherlight-gallery data-featherlight-filter="a">
     {% for item in page.images %}
         <li itemscope class="grid-item">
           
           <a class="gallery-item gallery" href="{{ item.project_image_path }}" >
-            <img class="gallery-img" src="{{ site.cloudinaryurl }}/image/fetch/c_fill,h_400,w_700/{{ site.url }}{{ item.project_image_path }}" 
-            alt="{{ title }}" title="{{title}}" 
-            data-img="{{site.url}}{{item.project_image_path}}" data-width="700px" data-height="400px">
+            <img class="gallery-img" src="{{ site.cloudinaryurl }}/image/fetch/c_scale,w_800/c_crop,h_450,w_800/{{ site.url }}{{ item.project_image_path }}" 
+            alt="{{ item.title }}" title="{{item.title}}" 
+            data-img="{{site.url}}{{item.project_image_path}}" data-width="800px" data-height="450px">
+            <h6>{{ item.title }}</h6>
           </a>
         </li>
     {% endfor %}
