@@ -1251,19 +1251,19 @@ ul.pager li a:visited {
   list-style: none;
   padding: 0;
   margin: 0;
+  line-height: 0;
 }
 @media (min-width: 50em) {
   /* line 11, ../sass/partials/design/pages/_project.scss */
   .project-detail ul li {
     width: 50%;
-    padding-bottom: .75em;
   }
-  /* line 18, ../sass/partials/design/pages/_project.scss */
+  /* line 19, ../sass/partials/design/pages/_project.scss */
   .project-detail ul li:nth-child(odd) {
     float: left;
     padding-right: .5em;
   }
-  /* line 22, ../sass/partials/design/pages/_project.scss */
+  /* line 23, ../sass/partials/design/pages/_project.scss */
   .project-detail ul li:nth-child(even) {
     float: right;
     padding-left: .5em;
@@ -1272,19 +1272,18 @@ ul.pager li a:visited {
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .project-detail ul li {
   width: 50%;
-  padding-bottom: .75em;
 }
-/* line 18, ../sass/partials/design/pages/_project.scss */
+/* line 19, ../sass/partials/design/pages/_project.scss */
 .no-mq .project-detail ul li:nth-child(odd) {
   float: left;
   padding-right: .5em;
 }
-/* line 22, ../sass/partials/design/pages/_project.scss */
+/* line 23, ../sass/partials/design/pages/_project.scss */
 .no-mq .project-detail ul li:nth-child(even) {
   float: right;
   padding-left: .5em;
 }
-/* line 29, ../sass/partials/design/pages/_project.scss */
+/* line 30, ../sass/partials/design/pages/_project.scss */
 .project-detail .gallery {
   max-width: 95%;
   margin-top: 1em;
@@ -1292,7 +1291,7 @@ ul.pager li a:visited {
   margin-right: auto;
 }
 @media (min-width: 50em) {
-  /* line 29, ../sass/partials/design/pages/_project.scss */
+  /* line 30, ../sass/partials/design/pages/_project.scss */
   .project-detail .gallery {
     max-width: 80%;
   }
@@ -1302,7 +1301,7 @@ ul.pager li a:visited {
   max-width: 80%;
 }
 
-/* line 40, ../sass/partials/design/pages/_project.scss */
+/* line 41, ../sass/partials/design/pages/_project.scss */
 .project-header {
   position: relative;
 }
@@ -1312,7 +1311,7 @@ ul.pager li a:visited {
   display: table;
   clear: both;
 }
-/* line 43, ../sass/partials/design/pages/_project.scss */
+/* line 44, ../sass/partials/design/pages/_project.scss */
 .project-header .intro-box {
   max-width: 95%;
   margin-top: 0em;
@@ -1330,7 +1329,7 @@ ul.pager li a:visited {
   clear: both;
 }
 @media (min-width: 50em) {
-  /* line 43, ../sass/partials/design/pages/_project.scss */
+  /* line 44, ../sass/partials/design/pages/_project.scss */
   .project-header .intro-box {
     margin-top: -8em;
     max-width: 80%;
@@ -1344,7 +1343,7 @@ ul.pager li a:visited {
   padding: 4em 3em;
 }
 @media (min-width: 93.75em) {
-  /* line 43, ../sass/partials/design/pages/_project.scss */
+  /* line 44, ../sass/partials/design/pages/_project.scss */
   .project-header .intro-box {
     padding: 4em 3em;
   }
@@ -1354,7 +1353,7 @@ ul.pager li a:visited {
   padding: 4em 3em;
 }
 @media (min-width: 62.5em) {
-  /* line 61, ../sass/partials/design/pages/_project.scss */
+  /* line 62, ../sass/partials/design/pages/_project.scss */
   .project-header .intro-box .section-one {
     float: left;
     width: 35%;
@@ -1370,7 +1369,7 @@ ul.pager li a:visited {
   text-align: right;
 }
 @media (min-width: 93.75em) {
-  /* line 61, ../sass/partials/design/pages/_project.scss */
+  /* line 62, ../sass/partials/design/pages/_project.scss */
   .project-header .intro-box .section-one {
     width: 28%;
   }
@@ -1379,7 +1378,7 @@ ul.pager li a:visited {
 .no-mq .project-header .intro-box .section-one {
   width: 28%;
 }
-/* line 72, ../sass/partials/design/pages/_project.scss */
+/* line 73, ../sass/partials/design/pages/_project.scss */
 .project-header .intro-box .section-two {
   overflow: hidden;
   color: #6d5247;
@@ -1387,7 +1386,7 @@ ul.pager li a:visited {
   font-size: 0.95em;
 }
 @media (min-width: 62.5em) {
-  /* line 72, ../sass/partials/design/pages/_project.scss */
+  /* line 73, ../sass/partials/design/pages/_project.scss */
   .project-header .intro-box .section-two {
     margin-top: 0;
   }
@@ -1396,12 +1395,12 @@ ul.pager li a:visited {
 .no-mq .project-header .intro-box .section-two {
   margin-top: 0;
 }
-/* line 82, ../sass/partials/design/pages/_project.scss */
+/* line 83, ../sass/partials/design/pages/_project.scss */
 .project-header h1 {
   color: #6d5247;
   margin: 0;
 }
-/* line 86, ../sass/partials/design/pages/_project.scss */
+/* line 87, ../sass/partials/design/pages/_project.scss */
 .project-header h2 {
   font-size: 1.35em;
   font-weight: 300;
@@ -1410,30 +1409,30 @@ ul.pager li a:visited {
   font-family: "adelle-sans", sans-serif;
 }
 
-/* line 96, ../sass/partials/design/pages/_project.scss */
+/* line 97, ../sass/partials/design/pages/_project.scss */
 .featherlight-next span, .featherlight-previous span {
   font-size: 20px;
   text-shadow: none;
 }
 
-/* line 100, ../sass/partials/design/pages/_project.scss */
+/* line 101, ../sass/partials/design/pages/_project.scss */
 .featherlight-next {
   right: 25px;
   left: auto;
 }
 
-/* line 104, ../sass/partials/design/pages/_project.scss */
+/* line 105, ../sass/partials/design/pages/_project.scss */
 .featherlight-previous {
   right: auto;
   left: 25px;
 }
 
-/* line 108, ../sass/partials/design/pages/_project.scss */
+/* line 109, ../sass/partials/design/pages/_project.scss */
 .featherlight-next:hover, .featherlight-previous:hover {
   background: rgba(109, 82, 71, 0.65);
 }
 
-/* line 111, ../sass/partials/design/pages/_project.scss */
+/* line 112, ../sass/partials/design/pages/_project.scss */
 .featherlight-next, .featherlight-previous {
   width: 50px;
 }

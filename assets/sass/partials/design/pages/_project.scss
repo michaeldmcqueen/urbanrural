@@ -12,9 +12,10 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    line-height: 0;
       @include breakpoint($bp-medium, $no-query: '.no-mq') {
         width: 50%;
-        padding-bottom: .75em;
+        //padding-bottom: .75em;
         &:nth-child(odd) {
           float: left;
           padding-right: .5em;
