@@ -624,7 +624,12 @@ ul.pager li a:visited {
   clear: both;
 }
 
-/* line 79, ../sass/partials/design/pages/_about.scss */
+/* line 77, ../sass/partials/design/pages/_about.scss */
+.about-header-image img {
+  width: 100%;
+}
+
+/* line 81, ../sass/partials/design/pages/_about.scss */
 .about-text {
   background: #f7fafc;
   padding: 2em 3em;
@@ -632,7 +637,7 @@ ul.pager li a:visited {
   position: relative;
 }
 @media (min-width: 50em) {
-  /* line 79, ../sass/partials/design/pages/_about.scss */
+  /* line 81, ../sass/partials/design/pages/_about.scss */
   .about-text {
     margin: 0 0 0;
     padding: 5em 3em;
@@ -652,7 +657,7 @@ ul.pager li a:visited {
           column-gap: 4em;
 }
 @media (min-width: 62.5em) {
-  /* line 79, ../sass/partials/design/pages/_about.scss */
+  /* line 81, ../sass/partials/design/pages/_about.scss */
   .about-text {
     -webkit-columns: 2;
             columns: 2;
@@ -671,23 +676,23 @@ ul.pager li a:visited {
   margin: 0vh 0 0;
   padding: 5em 8em;
 }
-/* line 96, ../sass/partials/design/pages/_about.scss */
+/* line 98, ../sass/partials/design/pages/_about.scss */
 .about-text div {
   max-width: 1400px;
 }
-/* line 99, ../sass/partials/design/pages/_about.scss */
+/* line 101, ../sass/partials/design/pages/_about.scss */
 .about-text h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 0;
   font-size: 1.3em;
 }
-/* line 105, ../sass/partials/design/pages/_about.scss */
+/* line 107, ../sass/partials/design/pages/_about.scss */
 .about-text div p:first-child {
   color: #6d5247;
   font-size: 1.4em;
 }
-/* line 109, ../sass/partials/design/pages/_about.scss */
+/* line 111, ../sass/partials/design/pages/_about.scss */
 .about-text p {
   color: #6d5247;
 }

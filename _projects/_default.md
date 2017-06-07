@@ -1,5 +1,5 @@
 ---
-weight: 0
+weight: 2
 title: 
 image_path: 
 featured_project: false
