@@ -12,7 +12,7 @@ images:
   - title:
     project_image_path: /assets/images/dsc-1171.jpg
   - title:
-    project_image_path:
+    project_image_path: /assets/images/pae-0607.jpg
 ---
 
 
