@@ -1,0 +1,122 @@
+.sub-wrap {
+  max-width: 1670px;
+}
+
+.about-heading {
+    padding: 4em 2em;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 4em;
+    }
+    @include breakpoint($bp-xlarge, $no-query: ".no-mq") {
+        padding: 4em 25% 4em 4em;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    h2 {
+        font-family: $font-family;
+        font-weight: normal;
+        color: $color-two;
+    }
+}
+.about-headshot {
+    padding: 2em 1em;
+    position: relative;
+    margin: 0 auto;
+    @include clearfix;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      padding: 5em 3em;
+    }
+    @include breakpoint($bp-large, $no-query: ".no-mq") {
+      padding: 5em 8em;
+    }
+    img {
+    max-height: 600px;
+    display: block;
+    margin: 0 auto 3em;
+    text-align: center;
+    border: 15px solid #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.25);
+    @include breakpoint($bp-large, $no-query: ".no-mq") {
+      float: left;
+      margin-right: 4em;
+      width: 400px;
+    }
+  }
+  .bio {
+    overflow: hidden;
+  }
+  p {
+    color: $color-two;
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  h6 {
+    text-transform: uppercase;
+    color: #D1D1D1;
+    margin-bottom: 0.4em;
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-family: $font-family;
+  }
+
+}
+.about-intro {
+  @include clearfix;
+  display: flex;
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
+     //height: 95vh;
+  }
+}
+.about-header-image img {
+  width: 100%;
+}
+
+.service-text {
+    background: $color-three;
+    padding:2em 3em;
+    padding: 2em 1em;
+    position: relative;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      margin: 0 0 0;
+      padding: 5em 3em;
+    }
+    @include breakpoint($bp-large, $no-query: ".no-mq") {
+      column-gap: 4em;
+      margin: 0vh 0 0;
+      padding: 5em 8em;
+    }
+    div {
+      max-width: 1400px;
+    }
+  h6 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0;
+    font-size: 1.3em;
+  }
+    div  p:first-child {
+        color: $color-two;
+        font-size: 1.4em;
+    }
+    p {
+        color: $color-two;
+    }
+}
+
+.about-section {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    .about-text, .about-headshot {
+   @include breakpoint($bp-medium, $no-query: ".no-mq") {
+     //width: 50%;
+    }
+  }
+}

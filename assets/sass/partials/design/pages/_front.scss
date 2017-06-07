@@ -14,11 +14,13 @@
   }
   .buttons {
     text-align: center;
+    padding: 1em;
     @include breakpoint($bp-medium, $no-query: ".no-mq") {
       position: absolute;
       bottom: 3em;
       right: 3em;
       text-align: right;
+      padding: 0;
     }
     a {
       display: block;
@@ -32,12 +34,11 @@
         text-shadow: 0 1px 2px rgba(0,0,0,0.24);
         border-radius: 3px;
         background-image: linear-gradient(45deg, #4281A8 0%, #5E9ADF 100%);
+        margin-bottom: 1em;
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
-            box-shadow: 0 2px 14px 0 rgba(0,0,0,0.50);
-            margin-bottom: 1em;  
-
+          box-shadow: 0 2px 14px 0 rgba(0,0,0,0.50);
+          margin-bottom: 1em;          
         }
-
       }
       &.link {
         background: $color-four;
@@ -63,7 +64,7 @@
   padding: 0;
   .wrap {
     max-width: 1400px;
-    padding: 0em 2em;
+    padding:0em 1.5em;
       @include breakpoint($bp-medium, $no-query: ".no-mq") {
         padding: 0 0 1em;
       }
@@ -143,7 +144,7 @@
 }
 .front-services {
   @include clearfix;
-  padding:2em 2em;
+  padding:2em 1.5em;
   margin: 0 auto;
   max-width: 1400px;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {

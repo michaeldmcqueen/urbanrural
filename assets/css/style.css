@@ -420,7 +420,7 @@ ul.pager li a:visited {
 /* line 26, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li a {
   font-weight: 500;
-  font-size: 0.8em;
+  font-size: 0.9em;
   -webkit-transition: color .5s ease;
           transition: color .5s ease;
   padding: .25em .75em;
@@ -866,6 +866,7 @@ ul.pager li a:visited {
 /* line 15, ../sass/partials/design/pages/_front.scss */
 .featured-project .buttons {
   text-align: center;
+  padding: 1em;
 }
 @media (min-width: 50em) {
   /* line 15, ../sass/partials/design/pages/_front.scss */
@@ -874,6 +875,7 @@ ul.pager li a:visited {
     bottom: 3em;
     right: 3em;
     text-align: right;
+    padding: 0;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
@@ -882,12 +884,13 @@ ul.pager li a:visited {
   bottom: 3em;
   right: 3em;
   text-align: right;
+  padding: 0;
 }
-/* line 23, ../sass/partials/design/pages/_front.scss */
+/* line 25, ../sass/partials/design/pages/_front.scss */
 .featured-project .buttons a {
   display: block;
 }
-/* line 25, ../sass/partials/design/pages/_front.scss */
+/* line 27, ../sass/partials/design/pages/_front.scss */
 .featured-project .buttons a.btn {
   background: #5894d9;
   color: #fff;
@@ -899,9 +902,10 @@ ul.pager li a:visited {
   border-radius: 3px;
   background-image: -webkit-linear-gradient(45deg, #4281a8 0%, #5e9adf 100%);
   background-image: linear-gradient(45deg, #4281a8 0%, #5e9adf 100%);
+  margin-bottom: 1em;
 }
 @media (min-width: 50em) {
-  /* line 25, ../sass/partials/design/pages/_front.scss */
+  /* line 27, ../sass/partials/design/pages/_front.scss */
   .featured-project .buttons a.btn {
     -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
             box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
@@ -914,7 +918,7 @@ ul.pager li a:visited {
           box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
   margin-bottom: 1em;
 }
-/* line 42, ../sass/partials/design/pages/_front.scss */
+/* line 43, ../sass/partials/design/pages/_front.scss */
 .featured-project .buttons a.link {
   background: #fdd247;
   color: #fff;
@@ -926,7 +930,7 @@ ul.pager li a:visited {
   border-radius: 3px;
 }
 @media (min-width: 50em) {
-  /* line 42, ../sass/partials/design/pages/_front.scss */
+  /* line 43, ../sass/partials/design/pages/_front.scss */
   .featured-project .buttons a.link {
     -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
             box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.5);
@@ -940,7 +944,7 @@ ul.pager li a:visited {
   display: inline-block;
 }
 
-/* line 60, ../sass/partials/design/pages/_front.scss */
+/* line 61, ../sass/partials/design/pages/_front.scss */
 .front-main {
   background: #f7fafc;
   padding: 0;
@@ -951,13 +955,13 @@ ul.pager li a:visited {
   display: table;
   clear: both;
 }
-/* line 64, ../sass/partials/design/pages/_front.scss */
+/* line 65, ../sass/partials/design/pages/_front.scss */
 .front-main .wrap {
   max-width: 1400px;
-  padding: 0em 2em;
+  padding: 0em 1.5em;
 }
 @media (min-width: 50em) {
-  /* line 64, ../sass/partials/design/pages/_front.scss */
+  /* line 65, ../sass/partials/design/pages/_front.scss */
   .front-main .wrap {
     padding: 0 0 1em;
   }
@@ -968,7 +972,7 @@ ul.pager li a:visited {
 }
 
 @media (min-width: 50em) {
-  /* line 73, ../sass/partials/design/pages/_front.scss */
+  /* line 74, ../sass/partials/design/pages/_front.scss */
   .front-about--text {
     width: 44.68085%;
     float: left;
@@ -985,12 +989,12 @@ ul.pager li a:visited {
   margin-left: 4.25532%;
   clear: none;
 }
-/* line 77, ../sass/partials/design/pages/_front.scss */
+/* line 78, ../sass/partials/design/pages/_front.scss */
 .front-about--text h2 {
   font-size: 2.35em;
 }
 @media (min-width: 50em) {
-  /* line 77, ../sass/partials/design/pages/_front.scss */
+  /* line 78, ../sass/partials/design/pages/_front.scss */
   .front-about--text h2 {
     font-size: 2.75em;
   }
@@ -999,18 +1003,18 @@ ul.pager li a:visited {
 .no-mq .front-about--text h2 {
   font-size: 2.75em;
 }
-/* line 83, ../sass/partials/design/pages/_front.scss */
+/* line 84, ../sass/partials/design/pages/_front.scss */
 .front-about--text p {
   color: #6d5247;
 }
 
-/* line 88, ../sass/partials/design/pages/_front.scss */
+/* line 89, ../sass/partials/design/pages/_front.scss */
 .front-about--image {
   margin-bottom: 2em;
   margin-top: 3em;
 }
 @media (min-width: 50em) {
-  /* line 88, ../sass/partials/design/pages/_front.scss */
+  /* line 89, ../sass/partials/design/pages/_front.scss */
   .front-about--image {
     width: 40.42553%;
     float: right;
@@ -1029,7 +1033,7 @@ ul.pager li a:visited {
   clear: none;
   margin-bottom: 4em;
 }
-/* line 95, ../sass/partials/design/pages/_front.scss */
+/* line 96, ../sass/partials/design/pages/_front.scss */
 .front-about--image img {
   width: 100%;
   border: 7px solid #FFFFFF;
@@ -1037,7 +1041,7 @@ ul.pager li a:visited {
           box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.31);
 }
 @media (min-width: 50em) {
-  /* line 95, ../sass/partials/design/pages/_front.scss */
+  /* line 96, ../sass/partials/design/pages/_front.scss */
   .front-about--image img {
     border: 15px solid #FFFFFF;
     -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
@@ -1051,7 +1055,7 @@ ul.pager li a:visited {
           box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.31);
 }
 
-/* line 106, ../sass/partials/design/pages/_front.scss */
+/* line 107, ../sass/partials/design/pages/_front.scss */
 .testimonial {
   position: relative;
 }
@@ -1061,12 +1065,12 @@ ul.pager li a:visited {
   display: table;
   clear: both;
 }
-/* line 109, ../sass/partials/design/pages/_front.scss */
+/* line 110, ../sass/partials/design/pages/_front.scss */
 .testimonial img {
   display: none;
 }
 @media (min-width: 50em) {
-  /* line 109, ../sass/partials/design/pages/_front.scss */
+  /* line 110, ../sass/partials/design/pages/_front.scss */
   .testimonial img {
     width: 20%;
     position: absolute;
@@ -1081,13 +1085,13 @@ ul.pager li a:visited {
   bottom: 0;
   display: block;
 }
-/* line 118, ../sass/partials/design/pages/_front.scss */
+/* line 119, ../sass/partials/design/pages/_front.scss */
 .testimonial .home-testimonial {
   border-top: 1px solid #DDE4E9;
   padding: 2em 2em 4em;
 }
 @media (min-width: 50em) {
-  /* line 118, ../sass/partials/design/pages/_front.scss */
+  /* line 119, ../sass/partials/design/pages/_front.scss */
   .testimonial .home-testimonial {
     width: 60%;
     margin: 0 auto;
@@ -1102,29 +1106,29 @@ ul.pager li a:visited {
   display: block;
   padding: 4em 3em 4em;
 }
-/* line 127, ../sass/partials/design/pages/_front.scss */
+/* line 128, ../sass/partials/design/pages/_front.scss */
 .testimonial .home-testimonial p, .testimonial .home-testimonial h6 {
   color: #6d5247;
   font-family: "adelle-sans", sans-serif;
 }
-/* line 131, ../sass/partials/design/pages/_front.scss */
+/* line 132, ../sass/partials/design/pages/_front.scss */
 .testimonial .home-testimonial p {
   font-style: italic;
 }
-/* line 135, ../sass/partials/design/pages/_front.scss */
+/* line 136, ../sass/partials/design/pages/_front.scss */
 .testimonial .left {
   float: left;
   left: 0;
 }
-/* line 139, ../sass/partials/design/pages/_front.scss */
+/* line 140, ../sass/partials/design/pages/_front.scss */
 .testimonial .right {
   float: right;
   right: 0;
 }
 
-/* line 144, ../sass/partials/design/pages/_front.scss */
+/* line 145, ../sass/partials/design/pages/_front.scss */
 .front-services {
-  padding: 2em 2em;
+  padding: 2em 1.5em;
   margin: 0 auto;
   max-width: 1400px;
 }
@@ -1135,7 +1139,7 @@ ul.pager li a:visited {
   clear: both;
 }
 @media (min-width: 50em) {
-  /* line 144, ../sass/partials/design/pages/_front.scss */
+  /* line 145, ../sass/partials/design/pages/_front.scss */
   .front-services {
     padding: 4em 0;
   }
@@ -1145,18 +1149,18 @@ ul.pager li a:visited {
   padding: 4em 0;
 }
 
-/* line 154, ../sass/partials/design/pages/_front.scss */
+/* line 155, ../sass/partials/design/pages/_front.scss */
 .front-services--heading {
   text-align: center;
   padding: 0 0 4em;
 }
-/* line 157, ../sass/partials/design/pages/_front.scss */
+/* line 158, ../sass/partials/design/pages/_front.scss */
 .front-services--heading h2 {
   font-size: 2.35em;
   margin-top: 0;
 }
 @media (min-width: 50em) {
-  /* line 157, ../sass/partials/design/pages/_front.scss */
+  /* line 158, ../sass/partials/design/pages/_front.scss */
   .front-services--heading h2 {
     font-size: 2.75em;
   }
@@ -1165,19 +1169,19 @@ ul.pager li a:visited {
 .no-mq .front-services--heading h2 {
   font-size: 2.75em;
 }
-/* line 164, ../sass/partials/design/pages/_front.scss */
+/* line 165, ../sass/partials/design/pages/_front.scss */
 .front-services--heading h5 {
   text-transform: uppercase;
   color: #D1D1D1;
   margin-bottom: 0.4em;
 }
 
-/* line 171, ../sass/partials/design/pages/_front.scss */
+/* line 172, ../sass/partials/design/pages/_front.scss */
 .front-services--image {
   margin-bottom: 2em;
 }
 @media (min-width: 50em) {
-  /* line 171, ../sass/partials/design/pages/_front.scss */
+  /* line 172, ../sass/partials/design/pages/_front.scss */
   .front-services--image {
     width: 44.68085%;
     float: left;
@@ -1194,13 +1198,13 @@ ul.pager li a:visited {
   margin-left: 2.97872%;
   clear: none;
 }
-/* line 176, ../sass/partials/design/pages/_front.scss */
+/* line 177, ../sass/partials/design/pages/_front.scss */
 .front-services--image img {
   width: 100%;
 }
 
 @media (min-width: 50em) {
-  /* line 181, ../sass/partials/design/pages/_front.scss */
+  /* line 182, ../sass/partials/design/pages/_front.scss */
   .front-services--text {
     width: 44.68085%;
     float: left;
@@ -1217,7 +1221,7 @@ ul.pager li a:visited {
   margin-left: 52.34043%;
   clear: none;
 }
-/* line 185, ../sass/partials/design/pages/_front.scss */
+/* line 186, ../sass/partials/design/pages/_front.scss */
 .front-services--text * {
   color: #6d5247;
 }
@@ -1457,6 +1461,205 @@ ul.pager li a:visited {
 /* line 10, ../sass/partials/design/pages/_testimonials.scss */
 .testimonial-item-wrap .testimonial-item {
   margin: 0 0 3em;
+}
+
+/* line 1, ../sass/partials/design/pages/_service.scss */
+.sub-wrap {
+  max-width: 1670px;
+}
+
+/* line 5, ../sass/partials/design/pages/_service.scss */
+.about-heading {
+  padding: 4em 2em;
+}
+@media (min-width: 50em) {
+  /* line 5, ../sass/partials/design/pages/_service.scss */
+  .about-heading {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 4em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-heading {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 4em;
+}
+@media (min-width: 93.75em) {
+  /* line 5, ../sass/partials/design/pages/_service.scss */
+  .about-heading {
+    padding: 4em 25% 4em 4em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-heading {
+  padding: 4em 25% 4em 4em;
+}
+/* line 15, ../sass/partials/design/pages/_service.scss */
+.about-heading h1 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+/* line 19, ../sass/partials/design/pages/_service.scss */
+.about-heading h2 {
+  font-family: "adelle-sans", sans-serif;
+  font-weight: normal;
+  color: #6d5247;
+}
+
+/* line 25, ../sass/partials/design/pages/_service.scss */
+.about-headshot {
+  padding: 2em 1em;
+  position: relative;
+  margin: 0 auto;
+}
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+.about-headshot:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 50em) {
+  /* line 25, ../sass/partials/design/pages/_service.scss */
+  .about-headshot {
+    padding: 5em 3em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-headshot {
+  padding: 5em 3em;
+}
+@media (min-width: 62.5em) {
+  /* line 25, ../sass/partials/design/pages/_service.scss */
+  .about-headshot {
+    padding: 5em 8em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-headshot {
+  padding: 5em 8em;
+}
+/* line 36, ../sass/partials/design/pages/_service.scss */
+.about-headshot img {
+  max-height: 600px;
+  display: block;
+  margin: 0 auto 3em;
+  text-align: center;
+  border: 15px solid #fff;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 62.5em) {
+  /* line 36, ../sass/partials/design/pages/_service.scss */
+  .about-headshot img {
+    float: left;
+    margin-right: 4em;
+    width: 400px;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-headshot img {
+  float: left;
+  margin-right: 4em;
+  width: 400px;
+}
+/* line 49, ../sass/partials/design/pages/_service.scss */
+.about-headshot .bio {
+  overflow: hidden;
+}
+/* line 52, ../sass/partials/design/pages/_service.scss */
+.about-headshot p {
+  color: #6d5247;
+  font-size: 1.4em;
+}
+/* line 56, ../sass/partials/design/pages/_service.scss */
+.about-headshot h3 {
+  font-size: 2em;
+}
+/* line 59, ../sass/partials/design/pages/_service.scss */
+.about-headshot h6 {
+  text-transform: uppercase;
+  color: #D1D1D1;
+  margin-bottom: 0.4em;
+  margin-top: 0;
+  font-size: 1.2em;
+  font-weight: normal;
+  font-family: "adelle-sans", sans-serif;
+}
+
+/* line 70, ../sass/partials/design/pages/_service.scss */
+.about-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+.about-intro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 77, ../sass/partials/design/pages/_service.scss */
+.about-header-image img {
+  width: 100%;
+}
+
+/* line 81, ../sass/partials/design/pages/_service.scss */
+.service-text {
+  background: #f7fafc;
+  padding: 2em 3em;
+  padding: 2em 1em;
+  position: relative;
+}
+@media (min-width: 50em) {
+  /* line 81, ../sass/partials/design/pages/_service.scss */
+  .service-text {
+    margin: 0 0 0;
+    padding: 5em 3em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .service-text {
+  margin: 0 0 0;
+  padding: 5em 3em;
+}
+@media (min-width: 62.5em) {
+  /* line 81, ../sass/partials/design/pages/_service.scss */
+  .service-text {
+    -webkit-column-gap: 4em;
+            column-gap: 4em;
+    margin: 0vh 0 0;
+    padding: 5em 8em;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .service-text {
+  -webkit-column-gap: 4em;
+          column-gap: 4em;
+  margin: 0vh 0 0;
+  padding: 5em 8em;
+}
+/* line 95, ../sass/partials/design/pages/_service.scss */
+.service-text div {
+  max-width: 1400px;
+}
+/* line 98, ../sass/partials/design/pages/_service.scss */
+.service-text h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0;
+  font-size: 1.3em;
+}
+/* line 104, ../sass/partials/design/pages/_service.scss */
+.service-text div p:first-child {
+  color: #6d5247;
+  font-size: 1.4em;
+}
+/* line 108, ../sass/partials/design/pages/_service.scss */
+.service-text p {
+  color: #6d5247;
 }
 
 /* line 1, ../sass/partials/design/regions/_footer.scss */
