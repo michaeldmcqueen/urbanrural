@@ -5,11 +5,13 @@ image_path: /assets/images/final-front---color-transparent-trees.jpg
 featured_project: false
 images:
   - title:
-    project_image_path: /assets/images/foco-cafe-real-courtyard.jpg
+    project_image_path: /assets/images/lyric.jpg
   - title:
-    project_image_path: /assets/images/foco-cafe-interior.jpg
+    project_image_path: /assets/images/lyric2.jpg
   - title:
-    project_image_path: /assets/images/foco-cafe-courtyard.jpg
+    project_image_path: /assets/images/lyric3.jpg
+  - title:
+    project_image_path: /assets/images/lyric4.jpg
 ---
 
 
