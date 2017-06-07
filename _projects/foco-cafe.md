@@ -14,4 +14,6 @@ images:
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut nibh at dolor placerat ultrices. Nulla ut est a libero congue placerat in vel neque. Proin commodo pellentesque porttitor. Praesent sapien orci, ultricies vel ipsum in, eleifend elementum nibh. Vestibulum quis nisi vel nibh maximus tincidunt. Nunc nunc felis, tristique efficitur pharetra ac, fermentum ac elit. Nam volutpat, ligula at efficitur facilisis, neque ligula mollis sem, eget auctor massa est a mi.
+FoCo Cafe’s mission is to build community by providing nutritious and delicious meals to the people of Fort Collins regardless of their ability to pay while using mostly local, organic, and sustainably grown ingredients.
+
+FoCo Cafe is the first nonprofit restaurant in Fort Collins. Cafe patrons set the price for cafe cuisine in this pay-what-you-can setting. Instead of a cash register, a donation box is on the counter. If you can give more, please pay it forward. If you have a little less, pay what you can. If your pockets are empty, participate in community with your time and talent in exchange for a mouth-watering meal. Daily menu selections are made primarily using fresh, locally grown ingredients, and funded by the donations of patrons donating for their meals.
