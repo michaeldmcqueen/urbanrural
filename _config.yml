@@ -3,7 +3,7 @@ title: "Urban | Rural Design"
 email: "michaeldmcqueen@gmail.com"
 description: "Urban | Rural Design"
 baseurl: "" # the subpath of your site, e.g. /blog/ - keep empty!
-url: "http://slate-elm.cloudvent.net/" # the base hostname & protocol for your site - don't include the forward slash
+url: "http://urbanruralarch.com" # the base hostname & protocol for your site - don't include the forward slash
 #timezone: America/Denver - Don't set for CloudCannon...for reasons.
 version: "3.2.1" # the version of jekyll
 
