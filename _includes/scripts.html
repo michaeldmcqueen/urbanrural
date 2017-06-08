@@ -3,10 +3,18 @@
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.5/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 
-<script src="/assets/js/prod/scripts.js"></script>
+<script src="/assets/js/prod/scripts.js"></script><script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+
+
 <!-- VS Custom Cloudinary JS -->
 {% if site.cloudinaryurl %}
   <script src="/assets/js/prod/cloudinary.js"></script>
+{% endif %}
+
+{% if page.permalink == "/contact/" %}
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 {% endif %}
 
 {% if site.google_analytics_tracking_id %}
