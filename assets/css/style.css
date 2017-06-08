@@ -1640,23 +1640,59 @@ ul.pager li a:visited {
   margin: 0vh 0 0;
   padding: 5em 8em;
 }
-/* line 95, ../sass/partials/design/pages/_service.scss */
+@media (min-width: 50em) {
+  /* line 95, ../sass/partials/design/pages/_service.scss */
+  .service-text .cols-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .service-text .cols-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 100, ../sass/partials/design/pages/_service.scss */
+.service-text .cols-2 .col {
+  margin-bottom: 3em;
+}
+@media (min-width: 50em) {
+  /* line 100, ../sass/partials/design/pages/_service.scss */
+  .service-text .cols-2 .col {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .service-text .cols-2 .col {
+  width: 50%;
+  margin-bottom: 0;
+}
+/* line 108, ../sass/partials/design/pages/_service.scss */
 .service-text div {
   max-width: 1400px;
 }
-/* line 98, ../sass/partials/design/pages/_service.scss */
+/* line 111, ../sass/partials/design/pages/_service.scss */
 .service-text h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 0;
   font-size: 1.3em;
 }
-/* line 104, ../sass/partials/design/pages/_service.scss */
+/* line 117, ../sass/partials/design/pages/_service.scss */
 .service-text div p:first-child {
   color: #6d5247;
   font-size: 1.4em;
 }
-/* line 108, ../sass/partials/design/pages/_service.scss */
+/* line 121, ../sass/partials/design/pages/_service.scss */
 .service-text p {
   color: #6d5247;
 }

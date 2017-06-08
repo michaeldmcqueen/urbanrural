@@ -92,6 +92,19 @@
       margin: 0vh 0 0;
       padding: 5em 8em;
     }
+    .cols-2 {
+      @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        display: flex;
+        justify-content: space-between
+      }
+      .col {
+        margin-bottom: 3em;
+        @include breakpoint($bp-medium, $no-query: ".no-mq") {
+          width: 50%;
+          margin-bottom: 0;
+        }
+      }
+    }
     div {
       max-width: 1400px;
     }
