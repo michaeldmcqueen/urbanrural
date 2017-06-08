@@ -1,7 +1,8 @@
 ---
 title: Projects
 permalink: "/projects/"
-description: This is just a sample general page.
+description: Colorado Architectural Design and Constuction Management Projects, Commercial and Residential
 layout: project-view
 ---
 
+.
