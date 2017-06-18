@@ -372,14 +372,14 @@ ul.pager li a:visited {
   .main-nav {
     padding-right: 2em;
     margin-bottom: 0;
-    margin-top: 18px;
+    margin-top: 52px;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .main-nav {
   padding-right: 2em;
   margin-bottom: 0;
-  margin-top: 18px;
+  margin-top: 52px;
 }
 
 /* line 10, ../sass/partials/design/blocks/_main-navigation.scss */
@@ -1802,7 +1802,7 @@ ul.pager li a:visited {
 }
 /* line 7, ../sass/partials/design/regions/_header.scss */
 .logo img {
-  width: 155px;
+  width: 160px;
 }
 
 @media (min-width: 50em) {
