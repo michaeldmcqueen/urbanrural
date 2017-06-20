@@ -371,15 +371,15 @@ ul.pager li a:visited {
   /* line 1, ../sass/partials/design/blocks/_main-navigation.scss */
   .main-nav {
     padding-right: 2em;
-    margin-bottom: 0;
-    margin-top: 52px;
+    margin-bottom: 27px;
+    margin-top: 27px;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .main-nav {
   padding-right: 2em;
-  margin-bottom: 0;
-  margin-top: 52px;
+  margin-bottom: 27px;
+  margin-top: 27px;
 }
 
 /* line 10, ../sass/partials/design/blocks/_main-navigation.scss */
@@ -1790,6 +1790,10 @@ ul.pager li a:visited {
     margin-right: -100%;
     margin-left: 0;
     clear: none;
+    text-align: center;
+    padding: 0.3em 0 1em 2em;
+    position: absolute;
+    z-index: 1;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
@@ -1799,14 +1803,18 @@ ul.pager li a:visited {
   margin-right: -100%;
   margin-left: 0;
   clear: none;
+  text-align: center;
+  padding: 0.3em 0 1em 2em;
+  position: absolute;
+  z-index: 1;
 }
-/* line 7, ../sass/partials/design/regions/_header.scss */
+/* line 11, ../sass/partials/design/regions/_header.scss */
 .logo img {
-  width: 160px;
+  width: 173px;
 }
 
 @media (min-width: 50em) {
-  /* line 11, ../sass/partials/design/regions/_header.scss */
+  /* line 15, ../sass/partials/design/regions/_header.scss */
   .main-nav {
     width: 65.95745%;
     float: right;
@@ -1824,7 +1832,7 @@ ul.pager li a:visited {
   clear: none;
 }
 
-/* line 17, ../sass/partials/design/regions/_header.scss */
+/* line 21, ../sass/partials/design/regions/_header.scss */
 .header-wrapper {
   padding: 1em 0;
   background: white;
