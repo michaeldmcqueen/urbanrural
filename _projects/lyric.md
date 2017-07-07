@@ -3,6 +3,7 @@ weight: 4
 title: Lyric Cinema Cafe
 image_path: /assets/images/final-front---color-transparent-trees.jpg
 featured_project: false
+location: 'Fort Collins, CO'
 categories:
   - Commercial
 images:
