@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<main>
+  <section class="sub-wrap wrap">
+      <div class="about-heading">
+        <h1 class="pagetitle">{{ page.title }}</h1>
+        <h2 class="subtitle">{{ page.subtitle }}</h2>
+      </div>
+      <div class="press-image">
+        {% for item in page.images %}
+        <a href="{{ item.press_image_path }}" target="_blank">
+          <img src="{{ item.press_image_path }}">
+        </a>
+        <p>{{ item.title }}</p>
+        {% endfor %}
+      </div>
+  </section>
+</main>

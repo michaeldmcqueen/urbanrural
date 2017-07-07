@@ -4,6 +4,8 @@ title: Wood Street Residence
 image_path: /assets/images/work/garage/PAE_0612.jpg
 featured_project: false
 location: 'Fort Collins, CO'
+categories:
+  - Residential
 images:
   - title:
     project_image_path: /assets/images/services.jpg

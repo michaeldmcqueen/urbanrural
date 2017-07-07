@@ -6,10 +6,15 @@ layout: default
   <section class="wrap projects-view">
     <div class="page-title-bar">
       <h1>{{page.title}}</h1>
+      <ul class="filters">
+        <li class="Commercial">Commercial</li>
+        <li class="Residential">Residential</li>
+        <li class="Hide">X</li>
+      </ul>
     </div>
     {% assign sorted = site.projects | sort: "weight" %}
     {% for project in sorted %}
-    <article class="project-item clearfix">
+    <article class="project-item clearfix {{ project.categories }}">
       <div class="project-item--image">
           <a href="{{ project.url }}">
 

@@ -4,6 +4,8 @@ title: Off the Beaten Path Bookstore
 image_path: /assets/images/work/beaten-path/1-1.jpg
 featured_project: false
 location: 'Steamboat Springs, CO'
+categories:
+  - Commercial
 images:
   - title:
     project_image_path: /assets/images/2-1.jpg

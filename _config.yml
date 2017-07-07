@@ -48,6 +48,7 @@ defaults:
       layout: projects
       weight: 1
       title:
+      categories:
       image_path:
       featured_project: false
       location: 'Fort Collins, CO'

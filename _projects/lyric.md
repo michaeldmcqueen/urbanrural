@@ -3,6 +3,8 @@ weight: 4
 title: Lyric Cinema Cafe
 image_path: /assets/images/final-front---color-transparent-trees.jpg
 featured_project: false
+categories:
+  - Commercial
 images:
   - title:
     project_image_path: /assets/images/lyric.jpg

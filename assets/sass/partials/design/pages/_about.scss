@@ -123,3 +123,17 @@
     }
   }
 }
+
+.press-image {
+  margin: 0 auto 0em;
+  padding: 0 0 3em;
+  text-align: center;
+  img {
+    display: block;
+    padding: 1em 0 1em;
+    margin: 0 auto;
+  }
+  p {
+    padding: 1em 0 3em;
+  }
+}

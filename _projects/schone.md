@@ -4,6 +4,8 @@ title: Schone Residence
 image_path: /assets/images/p1050098.JPG
 featured_project: false
 location: 'Boulder, CO'
+categories:
+  - Residential
 images:
   - title: Existing House
     project_image_path: /assets/images/schone-before.png

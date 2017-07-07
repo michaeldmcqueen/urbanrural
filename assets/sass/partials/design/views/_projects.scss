@@ -9,6 +9,40 @@
     color: $color-two;
     margin: 0;
     font-size: 2em;
+    display: inline-block;
+        vertical-align: middle;
+
+  }
+  ul.filters {
+    margin: 0;
+    padding: 0;
+    padding-top: 2em;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      padding-left: 3em;
+      display: inline-block;
+    }
+    li {
+      display: inline-block;
+      list-style: none;
+      padding: 5px 15px;
+      background: #6aa9dc;
+      /* border: 1px solid #ccc; */
+      color: #fff;
+      border-radius: 3px;
+      font-size: 14px;
+      margin-right: .5em;
+      cursor: pointer;
+      font-weight: 700;
+      &.active {
+        background: #fcbd47;
+      }
+      &.Hide {
+        display: none;
+        background:none !important;
+        color: #bb2626;
+        padding:5px 7px;
+      }
+    }
   }
 }
 .project-item {
