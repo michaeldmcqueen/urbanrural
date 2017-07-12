@@ -2047,6 +2047,24 @@ main, header, footer, section, aside {
           transition: all .35s linear;
 }
 
+/* line 87, ../sass/partials/design/views/_projects.scss */
+.otb {
+  position: relative;
+  line-height: 0;
+}
+@media (min-width: 50em) {
+  /* line 87, ../sass/partials/design/views/_projects.scss */
+  .otb {
+    width: 33.3%;
+    float: left !important;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .otb {
+  width: 33.3%;
+  float: left !important;
+}
+
 /* line 2, ../sass/partials/design/views/_team.scss */
 .team-list .person {
   padding-bottom: 2em;

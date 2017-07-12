@@ -9,7 +9,8 @@ layout: default
       <ul class="filters">
         <li class="Commercial">Commercial</li>
         <li class="Residential">Residential</li>
-        <li class="Hide">X</li>
+<!--           <li class="Education">Eduction</li>
+ -->        <li class="Hide">X</li>
       </ul>
     </div>
     {% assign sorted = site.projects | sort: "weight" %}
@@ -26,5 +27,18 @@ layout: default
       </div>
     </article>
   {% endfor %}
+<!--   {% for smproject in page.on-the-boards %}
+    <article class="project-item clearfix otb gallery" data-featherlight-gallery data-featherlight-filter="a">
+      <div class="project-item--image">
+          <a class="gallery-item gallery"  href="{{ smproject.url }}">
+            <img src="{{ site.cloudinaryurl }}/image/fetch/w_800,h_450,c_fill,c_fill/{{ site.url }}{{ smproject.image_path }}" 
+            alt="{{ title }}" title="{{title}}" >
+            <h2>{{ smproject.title }}</h2>
+          </a>
+      </div>
+    </article>
+  {% endfor %} -->
+
+
   </section>
 </main>
