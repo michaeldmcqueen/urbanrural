@@ -12,7 +12,7 @@ images:
     project_image_path: /assets/images/2-1.jpg
   - title:
     project_image_path: /assets/images/3-1.jpg
-on_the_boards: true
+on_the_boards: false
 ---
 
 
