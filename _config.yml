@@ -58,13 +58,13 @@ defaults:
 categories:
   - Commercial
   - Residential
-  - Urban
-  - Rural
-  - Education
+  - On The Boards
 
 secondary_categories:
   - Restaurant
   - Education
+  - Passive
+  - Mountain
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/
 cloudinaryurl: https://res.cloudinary.com/doe2cfi2y
