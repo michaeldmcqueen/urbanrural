@@ -6,6 +6,7 @@ featured_project: false
 location: 'Boulder, CO'
 categories:
   - Residential
+secondary_categories:
 images:
   - title: Existing House
     project_image_path: /assets/images/schone-before.png
@@ -21,6 +22,7 @@ images:
     project_image_path: /assets/images/p1050151.jpg
   - title:
     project_image_path: /assets/images/fireplace-wall-colored.jpeg
+on_the_boards: false
 ---
 
 

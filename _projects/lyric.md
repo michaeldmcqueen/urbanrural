@@ -6,6 +6,7 @@ featured_project: false
 location: 'Fort Collins, CO'
 categories:
   - Commercial
+secondary_categories:
 images:
   - title:
     project_image_path: /assets/images/lyric.jpg
@@ -15,6 +16,7 @@ images:
     project_image_path: /assets/images/lyric3.jpg
   - title:
     project_image_path: /assets/images/lyric4.jpg
+on_the_boards: false
 ---
 
 

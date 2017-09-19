@@ -8,27 +8,33 @@ $(document).ready(function() {
 
   $('.projects-view .filters li').click(function() {
     $('.projects-view .filters li').removeClass('active');
+   
+    var clickedId= $(this).attr("id");
+    
     $(this).toggleClass('active');
     $('.Hide').css('display','inline-block');
     $('.project-item').hide();
-    if ($(this).hasClass('Commercial')) {
-      $('.project-item.Commercial').show();
-    }
-    if ($(this).hasClass('Residential')) {
-      $('.project-item.Residential').show();
-    }
+
+    $('.'+ clickedId).show();
+    
     if ($(this).hasClass('Hide')) {
       $('.project-item').show();
       $(this).hide();
     }
 
-     // $('.project-item').hide();
-     // $('.project-item.Commercial').show();
   });
 
-  // if ($('.projects-view .filters li').hasClass('active') {
-  //   $('.project-item').hide();
-  //   $('.project-item.Commercial').show();
-  // });
+  $('.filters li:empty').hide()
+  
+
+  var seen = {};
+  $('.filters li').each(function() {
+      var txt = $(this).text();
+      if (seen[txt])
+          $(this).remove();
+      else
+          seen[txt] = true;
+  });
+
 
 });

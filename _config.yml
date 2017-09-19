@@ -53,11 +53,18 @@ defaults:
       featured_project: false
       location: 'Fort Collins, CO'
       description:
+      on_the_boards: false
 
 categories:
   - Commercial
-    - Test
   - Residential
+  - Urban
+  - Rural
+  - Education
+
+secondary-categories:
+  - Restaurant
+  - Education
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/
 cloudinaryurl: https://res.cloudinary.com/doe2cfi2y

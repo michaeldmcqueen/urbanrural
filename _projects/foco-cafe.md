@@ -6,6 +6,7 @@ featured_project: false
 location: 'Fort Collins, CO'
 categories:
   - Commercial
+secondary_categories:
 images:
   - title:
     project_image_path: /assets/images/foco-cafe-real-courtyard.jpg
@@ -13,6 +14,7 @@ images:
     project_image_path: /assets/images/foco-cafe-interior.jpg
   - title:
     project_image_path: /assets/images/foco-cafe-courtyard.jpg
+on_the_boards: false
 ---
 
 

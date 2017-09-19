@@ -6,6 +6,7 @@ featured_project: false
 location: 'Fort Collins, CO'
 categories:
   - Residential
+secondary_categories:
 images:
   - title:
     project_image_path: /assets/images/services.jpg
@@ -15,6 +16,7 @@ images:
     project_image_path: /assets/images/dsc-1171.jpg
   - title:
     project_image_path: /assets/images/pae-0607.jpg
+on_the_boards: false
 ---
 
 

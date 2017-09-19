@@ -4,9 +4,12 @@ title:
 image_path: 
 featured_project: false
 location: 'Fort Collins, CO'
+categories:
+secondary-categories:
 images:
   - title:
     project_image_path: 
+on_the_boards: false
 
 ---
 

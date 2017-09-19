@@ -6,11 +6,14 @@ featured_project: false
 location: 'Steamboat Springs, CO'
 categories:
   - Commercial
+secondary_categories:
+  - Restaurant
 images:
   - title:
     project_image_path: /assets/images/2-1.jpg
   - title:
     project_image_path: /assets/images/3-1.jpg
+on_the_boards: true
 ---
 
 

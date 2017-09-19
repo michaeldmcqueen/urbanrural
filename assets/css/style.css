@@ -2047,13 +2047,20 @@ main, header, footer, section, aside {
           transition: all .35s linear;
 }
 
-/* line 87, ../sass/partials/design/views/_projects.scss */
+/* line 88, ../sass/partials/design/views/_projects.scss */
+.otb-title {
+  clear: both;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+/* line 93, ../sass/partials/design/views/_projects.scss */
 .otb {
   position: relative;
   line-height: 0;
 }
 @media (min-width: 50em) {
-  /* line 87, ../sass/partials/design/views/_projects.scss */
+  /* line 93, ../sass/partials/design/views/_projects.scss */
   .otb {
     width: 33.3%;
     float: left !important;

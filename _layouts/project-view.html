@@ -6,16 +6,25 @@ layout: default
   <section class="wrap projects-view">
     <div class="page-title-bar">
       <h1>{{page.title}}</h1>
+
       <ul class="filters">
-        <li class="Commercial">Commercial</li>
-        <li class="Residential">Residential</li>
-<!--           <li class="Education">Eduction</li>
- -->        <li class="Hide">X</li>
+        {% for cat in site.projects %}
+          <li id="{{ cat.categories }}">{{ cat.categories }}</li>
+        {% endfor %}
+
+        {% for cat in site.projects %}
+          <li id="{{ cat.secondary_categories }}" class="sub">{{ cat.secondary_categories }}</li>
+        {% endfor %}
+
+        <li class="Hide">X</li>
       </ul>
+      
     </div>
     {% assign sorted = site.projects | sort: "weight" %}
     {% for project in sorted %}
-    <article class="project-item clearfix {{ project.categories }}">
+
+    {% if project.on_the_boards == false %}
+    <article class="project-item clearfix {{ project.categories }} {{ project.secondary_categories  }}">
       <div class="project-item--image">
           <a href="{{ project.url }}">
 
@@ -26,18 +35,32 @@ layout: default
           </a>
       </div>
     </article>
+    {% endif %}
+
   {% endfor %}
-<!--   {% for smproject in page.on-the-boards %}
-    <article class="project-item clearfix otb gallery" data-featherlight-gallery data-featherlight-filter="a">
+
+<!-- 
+  <br>
+  <h1 class="otb-title editable" >On The Boards</h1>
+  {% assign sorted = site.projects | sort: "weight" %}
+    {% for project in sorted %}
+    {% if project.on_the_boards == true%}
+    <article class="project-item clearfix otb gallery  {{ project.categories }} {{ project.secondary_categories  }}" data-featherlight-gallery data-featherlight-filter="a">
       <div class="project-item--image">
-          <a class="gallery-item gallery"  href="{{ smproject.url }}">
-            <img src="{{ site.cloudinaryurl }}/image/fetch/w_800,h_450,c_fill,c_fill/{{ site.url }}{{ smproject.image_path }}" 
-            alt="{{ title }}" title="{{title}}" >
-            <h2>{{ smproject.title }}</h2>
+        <a class="gallery-item gallery"  href="{{site.url}}{{project.image_path}}">
+          <img src="{{ site.cloudinaryurl }}/image/fetch/w_800,h_450,c_fill,c_fill/{{ site.url }}{{ project.image_path }}" 
+            alt="{{ title }}" data-img="{{site.url}}{{project.image_path}}" title="{{title}}" >
+          <h2>{{ project.title }}</h2>
           </a>
       </div>
     </article>
+    {% endif %}
   {% endfor %} -->
+
+
+  
+
+
 
 
   </section>
