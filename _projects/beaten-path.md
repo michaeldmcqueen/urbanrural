@@ -5,7 +5,7 @@ image_path: /assets/images/work/beaten-path/1-1.jpg
 featured_project: false
 location: 'Steamboat Springs, CO'
 categories:
-  - Commercial
+  - On The Boards
 secondary_categories:
 images:
   - title:

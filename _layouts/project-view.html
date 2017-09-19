@@ -8,7 +8,8 @@ layout: default
       <h1>{{page.title}}</h1>
 
       <ul class="filters">
-        {% for cat in site.projects %}
+        {% assign sortedcat = site.projects | sort | reverse %}
+        {% for cat in sortedcat %}
           <li id="{{ cat.categories }}">{{ cat.categories }}</li>
         {% endfor %}
 
@@ -23,7 +24,6 @@ layout: default
     {% assign sorted = site.projects | sort: "weight" %}
     {% for project in sorted %}
 
-    {% if project.on_the_boards == false %}
     <article class="project-item clearfix {{ project.categories }} {{ project.secondary_categories  }}">
       <div class="project-item--image">
           <a href="{{ project.url }}">
@@ -35,14 +35,12 @@ layout: default
           </a>
       </div>
     </article>
-    {% endif %}
 
   {% endfor %}
 
-<!-- 
-  <br>
-  <h1 class="otb-title editable" >On The Boards</h1>
-  {% assign sorted = site.projects | sort: "weight" %}
+
+  <!-- <h1 class="otb-title editable" >On The Boards</h1> -->
+ <!--  {% assign sorted = site.projects | sort: "weight" %}
     {% for project in sorted %}
     {% if project.on_the_boards == true%}
     <article class="project-item clearfix otb gallery  {{ project.categories }} {{ project.secondary_categories  }}" data-featherlight-gallery data-featherlight-filter="a">
