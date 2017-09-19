@@ -7,7 +7,6 @@ location: 'Fort Collins, CO'
 categories:
   - Commercial
 secondary_categories:
-  - Restaurant
 images:
   - title:
     project_image_path: /assets/images/foco-cafe-real-courtyard.jpg
