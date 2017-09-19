@@ -7,7 +7,6 @@ location: 'Steamboat Springs, CO'
 categories:
   - Commercial
 secondary_categories:
-  - Restaurant
 images:
   - title:
     project_image_path: /assets/images/2-1.jpg
