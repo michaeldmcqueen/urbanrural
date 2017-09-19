@@ -54,6 +54,10 @@ defaults:
       location: 'Fort Collins, CO'
       description:
 
+categories:
+  - Commercial
+    - Test
+  - Residential
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/
 cloudinaryurl: https://res.cloudinary.com/doe2cfi2y
