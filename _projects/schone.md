@@ -1,27 +1,21 @@
 ---
 weight: 1
 title: Schone Residence
-image_path: /assets/images/p1050098.JPG
+image_path: /assets/images/work/SchoneResidence/SchoneResidence-3.jpg
 featured_project: false
 location: 'Boulder, CO'
 categories:
   - Residential
 secondary_categories:
 images:
-  - title: Existing House
-    project_image_path: /assets/images/schone-before.png
   - title:
     project_image_path: /assets/images/schone-scheme-one.jpg
   - title:
     project_image_path: /assets/images/sk-3-west-elev-0920-2.jpg
   - title:
-    project_image_path: /assets/images/p1050081.jpg
-  - title:
-    project_image_path: /assets/images/p1050097.jpg
-  - title:
-    project_image_path: /assets/images/p1050151.jpg
-  - title:
     project_image_path: /assets/images/fireplace-wall-colored.jpeg
+  - title:
+    project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-1.jpg
 on_the_boards: false
 ---
 
