@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: Schone Residence
-image_path: /assets/images/work/schone/schoneresidence.jpg
+image_path: /assets/images/work/schone/SchoneResidence-2.jpg
 featured_project: false
 location: 'Boulder, CO'
 categories:
