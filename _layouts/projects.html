@@ -24,7 +24,6 @@ layout: default
             <img class="gallery-img" src="{{ site.cloudinaryurl }}/image/fetch/c_scale,w_800/c_crop,h_450,w_800/{{ site.url }}{{ item.project_image_path }}" 
             alt="{{ item.title }}" title="{{item.title}}" 
             data-img="{{site.url}}{{item.project_image_path}}" data-width="800px" data-height="450px">
-            <h6>{{ item.title }}</h6>
           </a>
         </li>
     {% endfor %}

@@ -1,21 +1,29 @@
 ---
 weight: 1
 title: Schone Residence
-image_path: /assets/images/work/schone/SchoneResidence-2.jpg
+image_path: /assets/images/work/SchoneResidence/SchoneResidence-31.jpg
 featured_project: false
 location: 'Boulder, CO'
 categories:
   - Residential
 secondary_categories:
 images:
-  - title:
+  - title: Schone Residence, Boulder, CO. Schone Residence, Boulder, CO.
     project_image_path: /assets/images/schone-scheme-one.jpg
-  - title:
+  - title: Schone Residence, Boulder, CO.
     project_image_path: /assets/images/sk-3-west-elev-0920-2.jpg
-  - title:
-    project_image_path: /assets/images/fireplace-wall-colored.jpeg
-  - title:
-    project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-1.jpg
+  - title: Schone Residence, Boulder, CO.
+    project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-31.jpg
+  - title: Schone Residence, Boulder, CO.
+    project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-33.jpg
+  - title: Schone Residence, Boulder, CO.
+    project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-36.jpg
+  - title: Schone Residence, Boulder, CO.
+    project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-27.jpg
+  - title: Schone Residence, Boulder, CO.
+    project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-28.jpg
+  - title: Schone Residence, Boulder, CO.
+    project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-30.jpg
 on_the_boards: false
 ---
 
