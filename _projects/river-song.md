@@ -27,15 +27,7 @@ images:
   - title:
     project_image_path: /assets/images/work/river-song/RiverSong(10of27).jpg
   - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(11of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(12of27).jpg
-  - title:
     project_image_path: /assets/images/work/river-song/RiverSong(15of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(17of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(21of27).jpg
   - title:
     project_image_path: /assets/images/work/river-song/RiverSong(24of27).jpg
 on_the_boards: false
