@@ -31,29 +31,13 @@ images:
   - title:
     project_image_path: /assets/images/work/river-song/RiverSong(12of27).jpg
   - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(13of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(14of27).jpg
-  - title:
     project_image_path: /assets/images/work/river-song/RiverSong(15of27).jpg
   - title:
     project_image_path: /assets/images/work/river-song/RiverSong(17of27).jpg
   - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(18of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(19of27).jpg
-  - title:
     project_image_path: /assets/images/work/river-song/RiverSong(21of27).jpg
   - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(22of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(23of27).jpg
-  - title:
     project_image_path: /assets/images/work/river-song/RiverSong(24of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(25of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(27of27).jpg
 on_the_boards: false
 ---
 
