@@ -1,6 +1,6 @@
 ---
 weight: 2
-title: Lund Residence
+title: Midtown Addition & Remodel
 image_path: /assets/images/work/lund/Lund(1of5).jpg
 featured_project: false
 location: 'Fort Collins, CO'
@@ -18,4 +18,5 @@ images:
     project_image_path: /assets/images/work/lund/Lund(5of5).jpg
 on_the_boards: false
 ---
+
 
