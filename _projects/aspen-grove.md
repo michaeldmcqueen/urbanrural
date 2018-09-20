@@ -1,8 +1,8 @@
 ---
 weight: 1
 title: The Cabins at Aspen Grove
-image_path: /assets/images/768a9759.jpg
-featured_project: false
+image_path: /assets/images/768a9763.jpg
+featured_project: true
 location: 'Fort Collins, CO'
 categories:
   - Commercial
