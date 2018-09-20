@@ -9,7 +9,19 @@ categories:
 secondary-categories:
 images:
   - title:
-    project_image_path:
+    project_image_path: /assets/images/work/768A9759.jpg
+  - title:
+    project_image_path: /assets/images/work/768A9769.jpg
+  - title:
+    project_image_path: /assets/images/work/768A9790.jpg
+  - title:
+    project_image_path: /assets/images/work/768A9793.jpg
+  - title:
+    project_image_path: /assets/images/work/768A9796.jpg
+  - title:
+    project_image_path: /assets/images/work/768A9803.jpg
+  - title:
+    project_image_path: /assets/images/work/768A9805.jpg
 on_the_boards: false
 ---
 
