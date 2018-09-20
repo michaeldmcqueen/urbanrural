@@ -2,7 +2,7 @@
 weight: 2
 title: FOCO Cafe
 image_path: /assets/images/foco-cafe-exterior.jpg
-featured_project: true
+featured_project: false
 location: 'Fort Collins, CO'
 categories:
   - Commercial
