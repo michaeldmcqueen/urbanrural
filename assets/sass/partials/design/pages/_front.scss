@@ -6,11 +6,22 @@
 .featured-project {
   margin-bottom: 1em;
   position: relative;
+  
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
     margin-bottom: 4em;
+    height: calc(100vh - 120px);
+    overflow: hidden;
   }
   img {
     width: 100%;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
   }
   .buttons {
     text-align: center;
@@ -28,13 +39,14 @@
         background: $color-one;
         color: #fff;
         text-decoration: none;
-        padding: 14px 45px 14px;
+        padding: 10px 25px 10px;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 16px;
         text-shadow: 0 1px 2px rgba(0,0,0,0.24);
         border-radius: 3px;
         background-image: linear-gradient(45deg, #4281A8 0%, #5E9ADF 100%);
         margin-bottom: 1em;
+        font-family: "sofia-pro", sans-serif;
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
           box-shadow: 0 2px 14px 0 rgba(0,0,0,0.50);
           margin-bottom: 1em;          
@@ -49,6 +61,9 @@
         text-shadow: 0 1px 2px rgba(0,0,0,0.24);
         padding: 8px 15px;
         border-radius: 3px;
+        font-family: "sofia-pro", sans-serif;
+        background: rgb(253,210,71);
+background: linear-gradient(180deg, rgba(253,210,71,1) 0%, rgba(250,184,71,1) 100%);
         @include breakpoint($bp-medium, $no-query: ".no-mq") {
             box-shadow: 0 2px 14px 0 rgba(0,0,0,0.50);
             display: inline-block;
@@ -90,7 +105,7 @@
   margin-bottom: 2em;
   margin-top: 3em;
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
-    @include grid-span(5,8);
+    @include grid-span(5,7.5);
     margin-bottom: 4em;
   }
   img {
