@@ -502,26 +502,26 @@ ul.pager li a:visited {
   max-width: 1670px;
 }
 
-/* line 5, ../sass/partials/design/pages/_about.scss */
+/* line 4, ../sass/partials/design/pages/_about.scss */
 .about-heading {
   padding: 4em 2em;
 }
 @media (min-width: 50em) {
-  /* line 5, ../sass/partials/design/pages/_about.scss */
+  /* line 4, ../sass/partials/design/pages/_about.scss */
   .about-heading {
     max-width: 80%;
     margin: 0 auto;
-    padding: 4em;
+    padding: 7em 4em 4em;
   }
 }
 /* line 92, ../../../../../../.rvm/gems/ruby-2.2.5/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .about-heading {
   max-width: 80%;
   margin: 0 auto;
-  padding: 4em;
+  padding: 7em 4em 4em;
 }
 @media (min-width: 93.75em) {
-  /* line 5, ../sass/partials/design/pages/_about.scss */
+  /* line 4, ../sass/partials/design/pages/_about.scss */
   .about-heading {
     padding: 4em 25% 4em 4em;
   }
@@ -530,19 +530,19 @@ ul.pager li a:visited {
 .no-mq .about-heading {
   padding: 4em 25% 4em 4em;
 }
-/* line 15, ../sass/partials/design/pages/_about.scss */
+/* line 14, ../sass/partials/design/pages/_about.scss */
 .about-heading h1 {
   text-transform: uppercase;
   font-size: 1.2em;
 }
-/* line 19, ../sass/partials/design/pages/_about.scss */
+/* line 18, ../sass/partials/design/pages/_about.scss */
 .about-heading h2 {
   font-family: "adelle-sans", sans-serif;
   font-weight: normal;
   color: #6d5247;
 }
 
-/* line 25, ../sass/partials/design/pages/_about.scss */
+/* line 24, ../sass/partials/design/pages/_about.scss */
 .about-headshot {
   padding: 2em 1em;
   position: relative;
@@ -555,7 +555,7 @@ ul.pager li a:visited {
   clear: both;
 }
 @media (min-width: 50em) {
-  /* line 25, ../sass/partials/design/pages/_about.scss */
+  /* line 24, ../sass/partials/design/pages/_about.scss */
   .about-headshot {
     padding: 5em 3em;
   }
@@ -565,7 +565,7 @@ ul.pager li a:visited {
   padding: 5em 3em;
 }
 @media (min-width: 62.5em) {
-  /* line 25, ../sass/partials/design/pages/_about.scss */
+  /* line 24, ../sass/partials/design/pages/_about.scss */
   .about-headshot {
     padding: 5em 8em;
   }
@@ -574,7 +574,7 @@ ul.pager li a:visited {
 .no-mq .about-headshot {
   padding: 5em 8em;
 }
-/* line 36, ../sass/partials/design/pages/_about.scss */
+/* line 35, ../sass/partials/design/pages/_about.scss */
 .about-headshot img {
   max-height: 600px;
   display: block;
@@ -585,7 +585,7 @@ ul.pager li a:visited {
           box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
 }
 @media (min-width: 62.5em) {
-  /* line 36, ../sass/partials/design/pages/_about.scss */
+  /* line 35, ../sass/partials/design/pages/_about.scss */
   .about-headshot img {
     float: left;
     margin-right: 4em;
@@ -598,20 +598,20 @@ ul.pager li a:visited {
   margin-right: 4em;
   width: 400px;
 }
-/* line 49, ../sass/partials/design/pages/_about.scss */
+/* line 48, ../sass/partials/design/pages/_about.scss */
 .about-headshot .bio {
   overflow: hidden;
 }
-/* line 52, ../sass/partials/design/pages/_about.scss */
+/* line 51, ../sass/partials/design/pages/_about.scss */
 .about-headshot p {
   color: #6d5247;
   font-size: 1.4em;
 }
-/* line 56, ../sass/partials/design/pages/_about.scss */
+/* line 55, ../sass/partials/design/pages/_about.scss */
 .about-headshot h3 {
   font-size: 2em;
 }
-/* line 59, ../sass/partials/design/pages/_about.scss */
+/* line 58, ../sass/partials/design/pages/_about.scss */
 .about-headshot h6 {
   text-transform: uppercase;
   color: #D1D1D1;
@@ -622,7 +622,7 @@ ul.pager li a:visited {
   font-family: "adelle-sans", sans-serif;
 }
 
-/* line 70, ../sass/partials/design/pages/_about.scss */
+/* line 69, ../sass/partials/design/pages/_about.scss */
 .about-intro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -635,12 +635,12 @@ ul.pager li a:visited {
   clear: both;
 }
 
-/* line 77, ../sass/partials/design/pages/_about.scss */
+/* line 76, ../sass/partials/design/pages/_about.scss */
 .about-header-image img {
   width: 100%;
 }
 
-/* line 81, ../sass/partials/design/pages/_about.scss */
+/* line 80, ../sass/partials/design/pages/_about.scss */
 .about-text {
   background: #f7fafc;
   padding: 2em 3em;
@@ -648,7 +648,7 @@ ul.pager li a:visited {
   position: relative;
 }
 @media (min-width: 50em) {
-  /* line 81, ../sass/partials/design/pages/_about.scss */
+  /* line 80, ../sass/partials/design/pages/_about.scss */
   .about-text {
     margin: 0 0 0;
     padding: 5em 3em;
@@ -668,7 +668,7 @@ ul.pager li a:visited {
           column-gap: 4em;
 }
 @media (min-width: 62.5em) {
-  /* line 81, ../sass/partials/design/pages/_about.scss */
+  /* line 80, ../sass/partials/design/pages/_about.scss */
   .about-text {
     -webkit-columns: 2;
             columns: 2;
@@ -687,40 +687,40 @@ ul.pager li a:visited {
   margin: 0vh 0 0;
   padding: 5em 8em;
 }
-/* line 98, ../sass/partials/design/pages/_about.scss */
+/* line 97, ../sass/partials/design/pages/_about.scss */
 .about-text div {
   max-width: 1400px;
 }
-/* line 101, ../sass/partials/design/pages/_about.scss */
+/* line 100, ../sass/partials/design/pages/_about.scss */
 .about-text h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 0;
   font-size: 1.3em;
 }
-/* line 107, ../sass/partials/design/pages/_about.scss */
+/* line 106, ../sass/partials/design/pages/_about.scss */
 .about-text div p:first-child {
   color: #6d5247;
   font-size: 1.4em;
 }
-/* line 111, ../sass/partials/design/pages/_about.scss */
+/* line 110, ../sass/partials/design/pages/_about.scss */
 .about-text p {
   color: #6d5247;
 }
 
-/* line 127, ../sass/partials/design/pages/_about.scss */
+/* line 126, ../sass/partials/design/pages/_about.scss */
 .press-image {
   margin: 0 auto 0em;
   padding: 0 0 3em;
   text-align: center;
 }
-/* line 131, ../sass/partials/design/pages/_about.scss */
+/* line 130, ../sass/partials/design/pages/_about.scss */
 .press-image img {
   display: block;
   padding: 1em 0 1em;
   margin: 0 auto;
 }
-/* line 136, ../sass/partials/design/pages/_about.scss */
+/* line 135, ../sass/partials/design/pages/_about.scss */
 .press-image p {
   padding: 1em 0 3em;
 }
@@ -1872,7 +1872,7 @@ ul.pager li a:visited {
 }
 /* line 11, ../sass/partials/design/regions/_header.scss */
 .logo img {
-  width: 150px;
+  width: 200px;
 }
 
 @media (min-width: 50em) {
@@ -1920,7 +1920,7 @@ ul.pager li a:visited {
   clear: none;
   padding: 0.8em 0 1em 10%;
 }
-/* line 33, ../sass/partials/design/regions/_header.scss */
+/* line 32, ../sass/partials/design/regions/_header.scss */
 .front .logo img {
   width: 200px;
 }
@@ -2022,16 +2022,15 @@ main, header, footer, section, aside {
   /* border: 2px solid #6aa9dc; */
   color: #6aa9dc;
   border-radius: 3px;
-  font-size: 20px;
+  font-size: 18px;
   margin-right: .5em;
   cursor: pointer;
-  font-weight: 700;
 }
-/* line 38, ../sass/partials/design/views/_projects.scss */
+/* line 37, ../sass/partials/design/views/_projects.scss */
 .page-title-bar ul.filters li.active {
   background: #e8eef3;
 }
-/* line 41, ../sass/partials/design/views/_projects.scss */
+/* line 40, ../sass/partials/design/views/_projects.scss */
 .page-title-bar ul.filters li.Hide {
   display: none;
   background: none !important;
@@ -2039,22 +2038,22 @@ main, header, footer, section, aside {
   padding: 5px 7px;
 }
 
-/* line 50, ../sass/partials/design/views/_projects.scss */
+/* line 49, ../sass/partials/design/views/_projects.scss */
 .project-item {
   position: relative;
   line-height: 0;
   padding: 2px;
 }
 @media (min-width: 50em) {
-  /* line 50, ../sass/partials/design/views/_projects.scss */
+  /* line 49, ../sass/partials/design/views/_projects.scss */
   .project-item {
     width: 50%;
   }
-  /* line 56, ../sass/partials/design/views/_projects.scss */
+  /* line 55, ../sass/partials/design/views/_projects.scss */
   .project-item:nth-child(odd) {
     float: right;
   }
-  /* line 59, ../sass/partials/design/views/_projects.scss */
+  /* line 58, ../sass/partials/design/views/_projects.scss */
   .project-item:nth-child(even) {
     float: left;
   }
@@ -2063,19 +2062,19 @@ main, header, footer, section, aside {
 .no-mq .project-item {
   width: 50%;
 }
-/* line 56, ../sass/partials/design/views/_projects.scss */
+/* line 55, ../sass/partials/design/views/_projects.scss */
 .no-mq .project-item:nth-child(odd) {
   float: right;
 }
-/* line 59, ../sass/partials/design/views/_projects.scss */
+/* line 58, ../sass/partials/design/views/_projects.scss */
 .no-mq .project-item:nth-child(even) {
   float: left;
 }
-/* line 63, ../sass/partials/design/views/_projects.scss */
+/* line 62, ../sass/partials/design/views/_projects.scss */
 .project-item img {
   width: 100%;
 }
-/* line 66, ../sass/partials/design/views/_projects.scss */
+/* line 65, ../sass/partials/design/views/_projects.scss */
 .project-item h2 {
   position: absolute;
   bottom: 0;
@@ -2100,27 +2099,27 @@ main, header, footer, section, aside {
           transition: all .35s linear;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
-/* line 84, ../sass/partials/design/views/_projects.scss */
+/* line 83, ../sass/partials/design/views/_projects.scss */
 .project-item:hover h2 {
   opacity: 1;
   -webkit-transition: all .35s linear;
           transition: all .35s linear;
 }
 
-/* line 91, ../sass/partials/design/views/_projects.scss */
+/* line 90, ../sass/partials/design/views/_projects.scss */
 .otb-title {
   clear: both;
   text-align: center;
   padding: 4rem 0;
 }
 
-/* line 96, ../sass/partials/design/views/_projects.scss */
+/* line 95, ../sass/partials/design/views/_projects.scss */
 .otb {
   position: relative;
   line-height: 0;
 }
 @media (min-width: 50em) {
-  /* line 96, ../sass/partials/design/views/_projects.scss */
+  /* line 95, ../sass/partials/design/views/_projects.scss */
   .otb {
     width: 33.3%;
     float: left !important;

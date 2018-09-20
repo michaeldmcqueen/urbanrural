@@ -1,13 +1,12 @@
 .sub-wrap {
   max-width: 1670px;
 }
-
 .about-heading {
     padding: 4em 2em;
     @include breakpoint($bp-medium, $no-query: ".no-mq") {
         max-width: 80%;
         margin: 0 auto;
-        padding: 4em;
+        padding: 7em 4em 4em;
     }
     @include breakpoint($bp-xlarge, $no-query: ".no-mq") {
         padding: 4em 25% 4em 4em;
