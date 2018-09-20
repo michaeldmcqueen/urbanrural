@@ -2,7 +2,7 @@
 weight: 2
 title: FOCO Cafe
 image_path: /assets/images/foco-cafe-exterior.jpg
-featured_project: false
+featured_project: true
 location: 'Fort Collins, CO'
 categories:
   - Commercial
@@ -16,7 +16,6 @@ images:
     project_image_path: /assets/images/foco-cafe-courtyard.jpg
 on_the_boards: false
 ---
-
 
 FoCo Cafe’s mission is to build community by providing nutritious and delicious meals to the people of Fort Collins regardless of their ability to pay while using mostly local, organic, and sustainably grown ingredients.
 
