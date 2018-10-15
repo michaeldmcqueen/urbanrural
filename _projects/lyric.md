@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: '4'
 title: Lyric Cinema Cafe
 image_path: /assets/images/final-front---color-transparent-trees.jpg
 featured_project: false
@@ -13,10 +13,9 @@ images:
   - title:
     project_image_path: /assets/images/lyric2.jpg
   - title:
-    project_image_path: /assets/images/lyric3.jpg
+    project_image_path:
   - title:
-    project_image_path: /assets/images/lyric4.jpg
+    project_image_path:
 on_the_boards: false
 ---
-
 
