@@ -8,7 +8,7 @@ categories:
 secondary-categories:
 images:
   - title:
-    project_image_path:
+    project_image_path: /assets/images/gugelman.jpg
   - title:
     project_image_path:
 on_the_boards: true
