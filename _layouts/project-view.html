@@ -21,7 +21,7 @@ layout: default
       </ul>
       
     </div>
-    {% assign sorted = site.projects | sort: "weight" %}
+    {% assign sorted = site.projects | sort: "projects.weight" %}
     {% for project in sorted %}
 
     <article class="project-item clearfix {{ project.categories }} {{ project.secondary_categories  }}">
@@ -37,28 +37,6 @@ layout: default
     </article>
 
   {% endfor %}
-
-
-  <!-- <h1 class="otb-title editable" >On The Boards</h1> -->
- <!--  {% assign sorted = site.projects | sort: "weight" %}
-    {% for project in sorted %}
-    {% if project.on_the_boards == true%}
-    <article class="project-item clearfix otb gallery  {{ project.categories }} {{ project.secondary_categories  }}" data-featherlight-gallery data-featherlight-filter="a">
-      <div class="project-item--image">
-        <a class="gallery-item gallery"  href="{{site.url}}{{project.image_path}}">
-          <img src="{{ site.cloudinaryurl }}/image/fetch/w_800,h_450,c_fill,c_fill/{{ site.url }}{{ project.image_path }}" 
-            alt="{{ title }}" data-img="{{site.url}}{{project.image_path}}" title="{{title}}" >
-          <h2>{{ project.title }}</h2>
-          </a>
-      </div>
-    </article>
-    {% endif %}
-  {% endfor %} -->
-
-
-  
-
-
 
 
   </section>
