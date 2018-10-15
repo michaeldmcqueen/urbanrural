@@ -1,7 +1,7 @@
 ---
 weight: '2'
 title: Gugelman Residence
-image_path:
+image_path: /assets/images/gugelman.jpg
 featured_project: false
 location: 'Berthoud, Colorado'
 categories:
