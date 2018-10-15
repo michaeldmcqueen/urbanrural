@@ -13,9 +13,11 @@ images:
   - title:
     project_image_path: /assets/images/lyric2.jpg
   - title:
-    project_image_path:
+    project_image_path: /assets/images/Lyric-2.jpg
   - title:
-    project_image_path:
+    project_image_path: /assets/images/Lyric-5.jpg
+  - title:
+    project_image_path: /assets/images/Lyric-8.jpg
 on_the_boards: false
 ---
 
