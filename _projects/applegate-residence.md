@@ -3,7 +3,7 @@ weight: '2'
 title: Applegate Residence
 image_path:
 featured_project: false
-location: 'Fort Collins, CO'
+location: 'Stove Prairie, Colorado'
 categories:
   - On The Boards
 secondary-categories:
