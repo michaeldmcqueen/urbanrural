@@ -3,7 +3,7 @@ weight: '2'
 title: Gugelman Residence
 image_path: /assets/images/gugelman.jpg
 featured_project: false
-location: 'Berthoud, Colorado'
+location: 'South Carter Lake, Colorado'
 categories:
   - On The Boards
 secondary-categories:
