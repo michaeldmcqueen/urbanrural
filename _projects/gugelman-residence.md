@@ -5,6 +5,7 @@ image_path: /assets/images/gugelman.jpg
 featured_project: false
 location: 'Berthoud, Colorado'
 categories:
+  - On The Boards
 secondary-categories:
 images:
   - title:
