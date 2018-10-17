@@ -1,10 +1,11 @@
 ---
-weight: 2
+weight: '2'
 title: House 3434
 image_path:
 featured_project: false
-location: 'Fort Collins, CO'
+location: 'Davis Ranch, Colorado'
 categories:
+  - On The Boards
 secondary-categories:
 images:
   - title:
