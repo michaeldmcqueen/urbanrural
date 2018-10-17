@@ -1,14 +1,17 @@
 ---
-weight: 2
+weight: '3'
 title: Wood Street Garage/Studio
-image_path:
+image_path: /assets/images/PAE_0632.jpg
 featured_project: false
 location: 'Fort Collins, CO'
 categories:
+  - Residential
 secondary-categories:
 images:
   - title:
-    project_image_path:
+    project_image_path: /assets/images/DSC_1162%20%281%29.jpg
+  - title:
+    project_image_path: /assets/images/PAE_0627.jpg
 on_the_boards: false
 ---
 
