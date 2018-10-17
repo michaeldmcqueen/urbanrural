@@ -1,6 +1,6 @@
 ---
-weight: 2
-title: Stogey
+weight: '2'
+title: Stodgy Brewing
 image_path:
 featured_project: false
 location: 'Fort Collins, CO'
