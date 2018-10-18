@@ -1,5 +1,5 @@
 ---
-weight: 6
+weight: '9'
 title: Off the Beaten Path Bookstore
 image_path: /assets/images/work/beaten-path/1-1.jpg
 featured_project: false
@@ -14,7 +14,6 @@ images:
     project_image_path: /assets/images/3-1.jpg
 on_the_boards: false
 ---
-
 
 U/R Design was contacted on short notice in January 2008 to deliver this project in time for a spring opening the same year. The scope of the project required a new kitchen, accessible toilet facilities, a new HVAC system, additional storage, and the maximizing of bookshelf space and seating.Within the first week of being hired, U/R Design provided a design which was approved by the client and was able to expedite the construction documents in time for the required opening date. In addition, U/R Design facilitated the addition of a MEP engineer (AEC Consultants, Avon, CO) and a structural engineer (Studer Engineering, Steamboat, CO) to the project team within days and start coordinating the architectural design with the structural and mechanical elements, crucial to proper coordination and expediting a building permit.
 
