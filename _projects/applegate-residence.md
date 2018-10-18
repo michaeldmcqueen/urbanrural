@@ -1,5 +1,5 @@
 ---
-weight: '2'
+weight: '10'
 title: Applegate Residence
 image_path:
 featured_project: false
