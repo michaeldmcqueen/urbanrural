@@ -11,7 +11,7 @@ images:
   - title:
     project_image_path: /assets/images/gugelman.jpg
   - title:
-    project_image_path:
+    project_image_path: /assets/images/east_elevation (1).jpg
 on_the_boards: true
 ---
 
