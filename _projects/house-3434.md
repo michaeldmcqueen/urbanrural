@@ -8,7 +8,9 @@ categories:
 secondary-categories:
 images:
   - title:
-    project_image_path:
+    project_image_path: /assets/images/3434_NW VIEW.jpg
+  - title:
+    project_image_path: /assets/images/3434_Floor Plan.jpg
 on_the_boards: false
 ---
 
