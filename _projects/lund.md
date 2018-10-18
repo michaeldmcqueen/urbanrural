@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: '8'
 title: Midtown Addition & Remodel
 image_path: /assets/images/work/lund/Lund(1of5).jpg
 featured_project: false
@@ -18,5 +18,4 @@ images:
     project_image_path: /assets/images/work/lund/Lund(5of5).jpg
 on_the_boards: false
 ---
-
 
