@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: '1'
 title: Schone Residence
 image_path: /assets/images/work/SchoneResidence/SchoneResidence-31.jpg
 featured_project: false
@@ -8,25 +8,32 @@ categories:
   - Residential
 secondary_categories:
 images:
-  - title: Schone Residence, Boulder, CO. Schone Residence, Boulder, CO.
+  - title: 'Schone Residence, Boulder, CO. Schone Residence, Boulder, CO.'
     project_image_path: /assets/images/schone-scheme-one.jpg
-  - title: Schone Residence, Boulder, CO.
+  - title: 'Schone Residence, Boulder, CO.'
     project_image_path: /assets/images/sk-3-west-elev-0920-2.jpg
-  - title: Schone Residence, Boulder, CO.
+  - title: 'Schone Residence, Boulder, CO.'
     project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-31.jpg
-  - title: Schone Residence, Boulder, CO.
+  - title: 'Schone Residence, Boulder, CO.'
     project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-33.jpg
-  - title: Schone Residence, Boulder, CO.
+  - title: 'Schone Residence, Boulder, CO.'
     project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-36.jpg
-  - title: Schone Residence, Boulder, CO.
+  - title: 'Schone Residence, Boulder, CO.'
     project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-27.jpg
-  - title: Schone Residence, Boulder, CO.
+  - title: 'Schone Residence, Boulder, CO.'
     project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-28.jpg
-  - title: Schone Residence, Boulder, CO.
+  - title: 'Schone Residence, Boulder, CO.'
     project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-30.jpg
+  - title:
+    project_image_path: /assets/images/SchoneResidence-1.jpg
+  - title:
+    project_image_path: /assets/images/SchoneResidence-3.jpg
+  - title:
+    project_image_path: /assets/images/SchoneResidence-4.jpg
+  - title:
+    project_image_path: /assets/images/SchoneResidence-20.jpg
 on_the_boards: false
 ---
-
 
 U/R Design was contacted on short notice in January 2008 to deliver this project in time for a spring opening the same year. The scope of the project required a new kitchen, accessible toilet facilities, a new HVAC system, additional storage, and the maximizing of bookshelf space and seating.Within the first week of being hired, U/R Design provided a design which was approved by the client and was able to expedite the construction documents in time for the required opening date. In addition, U/R Design facilitated the addition of a MEP engineer (AEC Consultants, Avon, CO) and a structural engineer (Studer Engineering, Steamboat, CO) to the project team within days and start coordinating the architectural design with the structural and mechanical elements, crucial to proper coordination and expediting a building permit.
 
