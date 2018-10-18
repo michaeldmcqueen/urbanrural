@@ -1,7 +1,7 @@
 ---
 weight: '2'
 title: House 3434
-image_path: /assets/images/3434_SW VIEW.jpg
+image_path: /assets/images/3D View 3.jpg
 featured_project: false
 location: 'Davis Ranch, Colorado'
 categories:
