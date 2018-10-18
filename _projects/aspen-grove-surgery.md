@@ -1,5 +1,5 @@
 ---
-weight: '2'
+weight: '11'
 title: Aspen Grove Surgery Suite Addition
 image_path:
 featured_project: false
