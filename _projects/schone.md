@@ -25,13 +25,19 @@ images:
   - title: 'Schone Residence, Boulder, CO.'
     project_image_path: /assets/images/work/SchoneResidence/SchoneResidence-30.jpg
   - title:
-    project_image_path: /assets/images/SchoneResidence-1.jpg
+    project_image_path: /assets/images/SchoneResidence-24.jpg
   - title:
     project_image_path: /assets/images/SchoneResidence-3.jpg
   - title:
     project_image_path: /assets/images/SchoneResidence-4.jpg
   - title:
     project_image_path: /assets/images/SchoneResidence-20.jpg
+  - title:
+    project_image_path: /assets/images/SchoneResidence-19.jpg
+  - title:
+    project_image_path: /assets/images/SchoneResidence-1.jpg
+  - title:
+    project_image_path: /assets/images/schoneresidence-2.jpg
 on_the_boards: false
 ---
 
