@@ -5,6 +5,8 @@ image_path: /assets/images/DSC_1165.jpg
 featured_project: false
 location: 'Fort Collins, CO'
 categories:
+  - Residential
+  - On The Boards
 secondary-categories:
 images:
   - title:
