@@ -1,9 +1,9 @@
 ---
-weight: 2
+weight: '2'
 title: House 3434
-image_path:
+image_path: /assets/images/3434_SW VIEW.jpg
 featured_project: false
-location: 'Fort Collins, CO'
+location: 'Davis Ranch, Colorado'
 categories:
 secondary-categories:
 images:
