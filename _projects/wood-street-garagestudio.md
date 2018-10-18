@@ -12,6 +12,8 @@ images:
     project_image_path: /assets/images/PAE_0627.jpg
   - title:
     project_image_path: /assets/images/DSC_1162 (1).jpg
+  - title:
+    project_image_path: /assets/images/PAE_0632.jpg
 on_the_boards: false
 ---
 
