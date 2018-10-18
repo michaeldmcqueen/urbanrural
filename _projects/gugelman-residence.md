@@ -1,7 +1,7 @@
 ---
 weight: '2'
 title: Gugelman Residence
-image_path: /assets/images/gugelman.jpg
+image_path: /assets/images/GOOGLE.jpg
 featured_project: false
 location: 'South Carter Lake, Colorado'
 categories:
@@ -9,7 +9,7 @@ categories:
 secondary-categories:
 images:
   - title:
-    project_image_path: /assets/images/gugelman.jpg
+    project_image_path: /assets/images/GOOGLE.jpg
   - title:
     project_image_path: /assets/images/east_elevation (1).jpg
 on_the_boards: true
