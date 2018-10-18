@@ -3,7 +3,7 @@ weight: '4'
 title: Wood Street Garage/Studio
 image_path: /assets/images/DSC_1165.jpg
 featured_project: false
-location: 'Fort Collins, CO'
+location: 'Fort Collins, Colorado'
 categories:
   - On The Boards
 secondary-categories:
