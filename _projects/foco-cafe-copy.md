@@ -1,6 +1,6 @@
 ---
-weight: 2
-title: FOCO Cafe
+weight: '2'
+title: My New Text
 image_path: /assets/images/foco-cafe-exterior.jpg
 featured_project: false
 location: 'Fort Collins, CO'
