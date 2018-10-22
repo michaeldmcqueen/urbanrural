@@ -1,5 +1,5 @@
 ---
-weight: '2'
+weight: '4'
 title: Wood Street Residence
 image_path: /assets/images/work/garage/PAE_0612.jpg
 featured_project: false
