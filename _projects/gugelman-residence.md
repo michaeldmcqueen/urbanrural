@@ -1,5 +1,5 @@
 ---
-weight: '8'
+weight: 8
 title: Gugelman Residence
 image_path: /assets/images/GOOGLE.jpg
 featured_project: false

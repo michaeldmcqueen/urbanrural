@@ -48,12 +48,18 @@ defaults:
       weight: 1
       title:
       categories:
+      primary_category:
       secondary_categories:
       image_path:
       featured_project: false
       location: 'Fort Collins, CO'
       description:
-      on_the_boards: false
+
+primary_category:
+  commercial: Commercial
+  residential: Residential
+  historic: Historic Preservation
+  otb: On The Boards
 
 categories:
   - Commercial
