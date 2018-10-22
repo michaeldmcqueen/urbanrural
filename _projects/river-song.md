@@ -1,5 +1,5 @@
 ---
-weight: '7'
+weight: '4'
 title: River Song Waldorf School
 image_path: /assets/images/work/river-song/RiverSong(1of27).jpg
 featured_project: false
