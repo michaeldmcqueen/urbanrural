@@ -6,6 +6,7 @@ featured_project: false
 location: 'Fort Collins, CO'
 categories:
   - Commercial
+primary_category:
 secondary_categories:
 images:
   - title:

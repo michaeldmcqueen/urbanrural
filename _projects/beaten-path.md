@@ -6,6 +6,7 @@ featured_project: false
 location: 'Steamboat Springs, CO'
 categories:
   - 'On The Boards'
+primary_category:
 secondary_categories:
 images:
   - title:
