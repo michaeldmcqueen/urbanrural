@@ -1,5 +1,5 @@
 ---
-weight: '5'
+weight: '7'
 title: FOCO Cafe
 image_path: /assets/images/foco-cafe-exterior.jpg
 featured_project: false
