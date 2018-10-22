@@ -6,7 +6,6 @@ featured_project: false
 location: 'Fort Collins, CO'
 categories:
   - Residential
-primary_category:
 secondary_categories:
 images:
   - title:

@@ -5,7 +5,6 @@ image_path:
 featured_project: false
 location: 'Fort Collins, CO'
 categories:
-primary_category:
 secondary_categories:
 images:
   - title:

@@ -6,8 +6,7 @@ featured_project: false
 location: 'Fort Collins, Colorado'
 categories:
   - On The Boards
-primary_category:
-secondary-categories:
+secondary_categories:
 images:
   - title:
     project_image_path: /assets/images/PAE_0627.jpg

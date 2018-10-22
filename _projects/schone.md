@@ -6,7 +6,6 @@ featured_project: false
 location: 'Boulder, CO'
 categories:
   - Residential
-primary_category:
 secondary_categories:
 images:
   - title: 'Schone Residence, Boulder, CO. Schone Residence, Boulder, CO.'

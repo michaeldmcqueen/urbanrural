@@ -55,15 +55,10 @@ defaults:
       location: 'Fort Collins, CO'
       description:
 
-primary_category:
-  commercial: Commercial
-  residential: Residential
-  historic: Historic Preservation
-  otb: On The Boards
-
 categories:
   - Commercial
   - Residential
+  - Historic Preservation
   - On The Boards
 
 secondary_categories:

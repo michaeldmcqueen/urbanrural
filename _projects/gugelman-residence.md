@@ -6,8 +6,7 @@ featured_project: false
 location: 'South Carter Lake, Colorado'
 categories:
   - On The Boards
-primary_category:
-secondary-categories:
+secondary_categories:
 images:
   - title:
     project_image_path: /assets/images/GOOGLE.jpg
