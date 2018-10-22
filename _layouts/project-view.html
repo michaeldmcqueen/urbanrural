@@ -21,23 +21,19 @@ layout: default
       </ul>
       
     </div>
-    {% assign sorted = site.projects | sort: "projects.weight" %}
+    {% assign sorted = site.projects | sort: "weight" %}
+    
     {% for project in sorted %}
-
-    <article class="project-item clearfix {{ project.categories }} {{ project.secondary_categories  }}">
-      <div class="project-item--image">
-          <a href="{{ project.url }}">
-
-            <img src="{{ site.cloudinaryurl }}/image/fetch/w_800,h_450,c_fill,c_fill/{{ site.url }}{{ project.image_path }}" 
-            alt="{{ title }}" title="{{title}}" >
-          
-            <h2>{{ project.title }}</h2>
-          </a>
-      </div>
-    </article>
-
+      <article class="project-item clearfix {{ project.categories }}">
+        <div class="project-item--image">
+            <a href="{{ project.url }}">
+              <img src="{{ site.cloudinaryurl }}/image/fetch/w_800,h_450,c_fill,c_fill/{{ site.url }}{{ project.image_path }}" 
+              alt="{{ project.title }}" title="{{ project.title }}" >
+              <h2>{{ project.title | uppercase}}</h2>
+            </a>
+        </div>
+      </article>
   {% endfor %}
-
 
   </section>
 </main>

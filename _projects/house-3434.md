@@ -1,5 +1,5 @@
 ---
-weight: '8'
+weight: 8
 title: House 3434
 image_path: /assets/images/3D View 3.jpg
 featured_project: false
