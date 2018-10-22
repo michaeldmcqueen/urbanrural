@@ -1,5 +1,5 @@
 ---
-weight: '1'
+weight: '3'
 title: Schone Residence
 image_path: /assets/images/work/SchoneResidence/SchoneResidence-31.jpg
 featured_project: false
