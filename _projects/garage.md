@@ -17,6 +17,5 @@ images:
     project_image_path: /assets/images/PAE_0620.jpg
   - title:
     project_image_path: /assets/images/DSC_1160 (1).jpg
-on_the_boards: false
 ---
 

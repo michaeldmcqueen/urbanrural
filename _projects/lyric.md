@@ -39,6 +39,5 @@ images:
     project_image_path: /assets/images/Lyric-21.jpg
   - title:
     project_image_path: /assets/images/Lyric-22.jpg
-on_the_boards: false
 ---
 

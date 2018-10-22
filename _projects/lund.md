@@ -17,6 +17,5 @@ images:
     project_image_path: /assets/images/work/lund/Lund(4of5).jpg
   - title:
     project_image_path: /assets/images/work/lund/Lund(5of5).jpg
-on_the_boards: false
 ---
 

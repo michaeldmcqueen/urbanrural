@@ -23,6 +23,5 @@ images:
     project_image_path: /assets/images/work/768A9793.jpg
   - title:
     project_image_path: /assets/images/work/768A9796.jpg
-on_the_boards: false
 ---
 

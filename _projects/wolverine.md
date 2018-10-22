@@ -19,7 +19,6 @@ images:
     project_image_path: /assets/images/work/cafe/WolverineFarm-3.jpg
   - title:
     project_image_path: /assets/images/wolverine.jpg
-on_the_boards: false
 ---
 
 Wolverine Farm Publishing is a 501(c)3 non-profit literary/arts organization based in Fort Collins, Colorado. They publish books and newspapers, run a bookstore inside Bean Cycle Roasters, operate a Letterpress & Publick House, and host/organize community events and projects related to our mission.

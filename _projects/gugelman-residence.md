@@ -13,7 +13,5 @@ images:
     project_image_path: /assets/images/GOOGLE.jpg
   - title:
     project_image_path: /assets/images/east_elevation (1).jpg
-on_the_boards: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor arcu, tristique sit amet lorem sit amet, mattis sollicitudin turpis. Morbi nec nisl vitae augue congue lacinia. Fusce non risus libero.
