@@ -37,7 +37,7 @@
       &.active {
         background: #e8eef3;
       }
-      &.Hide {
+      &.hide {
         display: none;
         background:none !important;
         color: #bb2626;
@@ -50,14 +50,10 @@
   position: relative;
   line-height: 0;
   padding: 2px;
+  transform: translateY(-3rem);
+  opacity: 0;
   @include breakpoint($bp-medium, $no-query: '.no-mq') {
     width: 50%;
-      &:nth-child(odd) {
-        float: right;
-      }
-      &:nth-child(even) {
-        float: left;
-      }
   }
   img {
     width: 100%;
@@ -86,17 +82,67 @@
   }
 }
 
-
-.otb-title {
-  clear: both;
-  text-align: center;
-  padding: 4rem 0;
+@keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.otb {
-    position: relative;
-    line-height: 0;
+
+@keyframes fade-out-move-up {
+  0% {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+}
+
+@keyframes opacity-in-out {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes display-none {
+  0% {
+    display: block;
+  }
+  50% {
+    display:none;
+  }
+  100% {
+    display:none;
+
+  }
+}
+
+    .project-item {
+        animation: fade-in-move-down 0.7s;
+        animation-delay: 0.15s;
+        animation-fill-mode: forwards;
+
+        }
+
+.project-item-wrapper {
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
-        width: 33.3%;
-        float: left !important;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+  .project-item.hide-project {
+    display: none;
   }

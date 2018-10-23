@@ -8,23 +8,19 @@ layout: default
       <h1>{{page.title}}</h1>
 
       <ul class="filters">
-        {% assign sortedcat = site.projects | sort | reverse %}
+        <li id="all" class="active">All</li>
+        {% assign sortedcat = site.projects  %}
         {% for cat in sortedcat %}
-          <li id="{{ cat.categories }}">{{ cat.categories }}</li>
+          <li id="{% if cat.categories contains 'On The Boards' %}onTheBoards{% elsif cat.categories contains 'Historic Preservation' %}historicPreservation{% else %}{{ cat.categories }}{% endif %}" >{{ cat.categories }}</li>
         {% endfor %}
-
-        {% for cat in site.projects %}
-          <li id="{{ cat.secondary_categories }}" class="sub">{{ cat.secondary_categories }}</li>
-        {% endfor %}
-
-        <li class="Hide">X</li>
       </ul>
       
     </div>
+    <div class="project-item-wrapper">
     {% assign sorted = site.projects | sort: "weight" %}
     
     {% for project in sorted %}
-      <article class="project-item clearfix {{ project.categories }}">
+      <article class="project-item clearfix {% if project.categories contains 'On The Boards' %}onTheBoards{% elsif project.categories contains 'Historic Preservation' %}historicPreservation{% else %}{{ project.categories }}{% endif %}" data-project-staus="show">
         <div class="project-item--image">
             <a href="{{ project.url }}">
               <img src="{{ site.cloudinaryurl }}/image/fetch/w_800,h_450,c_fill,c_fill/{{ site.url }}{{ project.image_path }}" 
@@ -34,6 +30,6 @@ layout: default
         </div>
       </article>
   {% endfor %}
-
+</div>
   </section>
 </main>

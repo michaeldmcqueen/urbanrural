@@ -2031,7 +2031,7 @@ main, header, footer, section, aside {
   background: #e8eef3;
 }
 /* line 40, ../sass/partials/design/views/_projects.scss */
-.page-title-bar ul.filters li.Hide {
+.page-title-bar ul.filters li.hide {
   display: none;
   background: none !important;
   color: #bb2626;
@@ -2043,38 +2043,26 @@ main, header, footer, section, aside {
   position: relative;
   line-height: 0;
   padding: 2px;
+  -webkit-transform: translateY(-3rem);
+      -ms-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  opacity: 0;
 }
 @media (min-width: 50em) {
   /* line 49, ../sass/partials/design/views/_projects.scss */
   .project-item {
     width: 50%;
   }
-  /* line 55, ../sass/partials/design/views/_projects.scss */
-  .project-item:nth-child(odd) {
-    float: right;
-  }
-  /* line 58, ../sass/partials/design/views/_projects.scss */
-  .project-item:nth-child(even) {
-    float: left;
-  }
 }
 /* line 92, ../../../../../../.rvm/gems/ruby-2.2.5/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .project-item {
   width: 50%;
 }
-/* line 55, ../sass/partials/design/views/_projects.scss */
-.no-mq .project-item:nth-child(odd) {
-  float: right;
-}
 /* line 58, ../sass/partials/design/views/_projects.scss */
-.no-mq .project-item:nth-child(even) {
-  float: left;
-}
-/* line 62, ../sass/partials/design/views/_projects.scss */
 .project-item img {
   width: 100%;
 }
-/* line 65, ../sass/partials/design/views/_projects.scss */
+/* line 61, ../sass/partials/design/views/_projects.scss */
 .project-item h2 {
   position: absolute;
   bottom: 0;
@@ -2099,36 +2087,178 @@ main, header, footer, section, aside {
           transition: all .35s linear;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
-/* line 83, ../sass/partials/design/views/_projects.scss */
+/* line 79, ../sass/partials/design/views/_projects.scss */
 .project-item:hover h2 {
   opacity: 1;
   -webkit-transition: all .35s linear;
           transition: all .35s linear;
 }
 
-/* line 90, ../sass/partials/design/views/_projects.scss */
-.otb-title {
-  clear: both;
-  text-align: center;
-  padding: 4rem 0;
+@-webkit-keyframes fade-in-move-down {
+  /* line 86, ../sass/partials/design/views/_projects.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+  }
+
+  /* line 90, ../sass/partials/design/views/_projects.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
-/* line 95, ../sass/partials/design/views/_projects.scss */
-.otb {
-  position: relative;
-  line-height: 0;
+@keyframes fade-in-move-down {
+  /* line 86, ../sass/partials/design/views/_projects.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+  }
+
+  /* line 90, ../sass/partials/design/views/_projects.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
+@-webkit-keyframes fade-out-move-up {
+  /* line 97, ../sass/partials/design/views/_projects.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+
+  /* line 101, ../sass/partials/design/views/_projects.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+  }
+}
+@keyframes fade-out-move-up {
+  /* line 97, ../sass/partials/design/views/_projects.scss */
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+
+  /* line 101, ../sass/partials/design/views/_projects.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+  }
+}
+@-webkit-keyframes opacity-in-out {
+  /* line 108, ../sass/partials/design/views/_projects.scss */
+  0% {
+    opacity: 100%;
+  }
+
+  /* line 111, ../sass/partials/design/views/_projects.scss */
+  50% {
+    opacity: 0%;
+  }
+
+  /* line 114, ../sass/partials/design/views/_projects.scss */
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes opacity-in-out {
+  /* line 108, ../sass/partials/design/views/_projects.scss */
+  0% {
+    opacity: 100%;
+  }
+
+  /* line 111, ../sass/partials/design/views/_projects.scss */
+  50% {
+    opacity: 0%;
+  }
+
+  /* line 114, ../sass/partials/design/views/_projects.scss */
+  100% {
+    opacity: 100%;
+  }
+}
+@-webkit-keyframes display-none {
+  /* line 119, ../sass/partials/design/views/_projects.scss */
+  0% {
+    display: block;
+  }
+
+  /* line 122, ../sass/partials/design/views/_projects.scss */
+  50% {
+    display: none;
+  }
+
+  /* line 125, ../sass/partials/design/views/_projects.scss */
+  100% {
+    display: none;
+  }
+}
+@keyframes display-none {
+  /* line 119, ../sass/partials/design/views/_projects.scss */
+  0% {
+    display: block;
+  }
+
+  /* line 122, ../sass/partials/design/views/_projects.scss */
+  50% {
+    display: none;
+  }
+
+  /* line 125, ../sass/partials/design/views/_projects.scss */
+  100% {
+    display: none;
+  }
+}
+/* line 131, ../sass/partials/design/views/_projects.scss */
+.project-item {
+  -webkit-animation: fade-in-move-down 0.7s;
+          animation: fade-in-move-down 0.7s;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
 @media (min-width: 50em) {
-  /* line 95, ../sass/partials/design/views/_projects.scss */
-  .otb {
-    width: 33.3%;
-    float: left !important;
+  /* line 138, ../sass/partials/design/views/_projects.scss */
+  .project-item-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 /* line 92, ../../../../../../.rvm/gems/ruby-2.2.5/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
-.no-mq .otb {
-  width: 33.3%;
-  float: left !important;
+.no-mq .project-item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/* line 146, ../sass/partials/design/views/_projects.scss */
+.project-item.hide-project {
+  display: none;
 }
 
 /* line 2, ../sass/partials/design/views/_team.scss */
