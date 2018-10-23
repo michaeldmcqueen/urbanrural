@@ -11,17 +11,26 @@ $(document).ready(function() {
    
     var clickedId= $(this).attr("id");
     
-    $(this).toggleClass('active');
-    $('.Hide').css('display','inline-block');
-    $('.project-item').hide();
+    console.log(clickedId);
 
-    $('.'+ clickedId).show();
+    $(this).toggleClass('active');
+
+    $('.hide').css('display','inline-block');
     
+    $('.project-item').addClass('hide-project');
+
+    $('.'+ clickedId).toggleClass('hide-project');
+
     if ($(this).hasClass('Hide')) {
-      $('.project-item').show();
-      $(this).hide();
+      $('.project-item').addClass('hide-project');
+      //$(this).hide();
     }
 
+  });
+
+
+  $('.projects-view .filters #all').click(function() {
+    $('.project-item').removeClass('hide-project');
   });
 
   $('.filters li:empty').hide()
