@@ -1,5 +1,5 @@
 ---
-weight: 8
+weight: '8'
 title: Gugelman Residence
 image_path: /assets/images/GOOGLE.jpg
 featured_project: false
@@ -9,7 +9,7 @@ categories:
 secondary_categories:
 images:
   - title:
-    project_image_path: /assets/images/GOOGLE.jpg
+    project_image_path:
   - title:
     project_image_path: /assets/images/east_elevation (1).jpg
 ---
