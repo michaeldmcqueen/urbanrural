@@ -1,5 +1,5 @@
 ---
-weight: '4'
+weight: '7'
 title: Valusek Residence
 image_path: /assets/images/Sleeping Giant Deck 68mb.jpg
 featured_project: false
