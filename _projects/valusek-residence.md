@@ -1,10 +1,11 @@
 ---
-weight: 1
+weight: '6'
 title: Valusek Residence
-image_path:
+image_path: '/assets/images/Sleeping Giant Entry #2 72mb.jpg'
 featured_project: false
-location: 'Fort Collins, CO'
+location: 'Steamboat Springs, Colorado'
 categories:
+  - Residential
 secondary_categories:
 images:
   - title:
