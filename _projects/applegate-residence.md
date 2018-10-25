@@ -1,7 +1,7 @@
 ---
 weight: '9'
 title: Applegate Residence
-image_path: /assets/images/applegate residence with deck.jpg
+image_path: /assets/images/applegate residence small deck.jpg
 featured_project: false
 location: 'Stove Prairie, Colorado'
 categories:
