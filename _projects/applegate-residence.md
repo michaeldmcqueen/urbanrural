@@ -1,5 +1,5 @@
 ---
-weight: '9'
+weight: '1'
 title: Applegate Residence
 image_path: /assets/images/applegate residence small deck.jpg
 featured_project: false
