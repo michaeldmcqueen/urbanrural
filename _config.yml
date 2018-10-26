@@ -48,7 +48,7 @@ defaults:
     values:
       layout: projects
       weight: 1
-      sort_number:
+      sort_order:
       title:
       categories:
       primary_category:
