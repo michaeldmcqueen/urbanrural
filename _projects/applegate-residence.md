@@ -1,6 +1,6 @@
 ---
 sort_order:
-  - '01'
+  - 08
 title: Applegate Residence
 image_path: /assets/images/applegate residence small deck.jpg
 featured_project: false
