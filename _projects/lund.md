@@ -1,6 +1,7 @@
 ---
 weight: 8
 sort_order:
+  - '08'
 title: Midtown Addition & Remodel
 image_path: /assets/images/work/lund/Lund(1of5).jpg
 featured_project: false

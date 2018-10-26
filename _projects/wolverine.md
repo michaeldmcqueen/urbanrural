@@ -1,6 +1,7 @@
 ---
 weight: 2
 sort_order:
+  - '02'
 title: Wolverine Farm Letterpress & Publick House
 image_path: /assets/images/wolverinefarm-28.jpg
 featured_project: true
