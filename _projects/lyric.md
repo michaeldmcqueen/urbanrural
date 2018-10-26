@@ -1,5 +1,6 @@
 ---
 weight: 2
+sort_number:
 title: Lyric Cinema Cafe
 image_path: /assets/images/final-front---color-transparent-trees.jpg
 featured_project: false

@@ -1,5 +1,6 @@
 ---
 weight: 9
+sort_number:
 title: The Cabins at Aspen Grove
 image_path: /assets/images/768a9763.jpg
 featured_project: true
