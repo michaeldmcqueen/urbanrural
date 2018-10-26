@@ -1,6 +1,6 @@
 ---
 weight: 8
-sort_number:
+sort_order:
 title: House 3434
 image_path: /assets/images/3D View 3.jpg
 featured_project: false

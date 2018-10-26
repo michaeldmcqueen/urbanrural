@@ -1,6 +1,6 @@
 ---
 weight: '6'
-sort_number:
+sort_order:
 title: Wood Street Garage/Studio
 image_path: /assets/images/DSC_1165.jpg
 featured_project: false

@@ -1,6 +1,6 @@
 ---
 weight: 3
-sort_number:
+sort_order:
 title: Schone Residence
 image_path: /assets/images/work/SchoneResidence/SchoneResidence-31.jpg
 featured_project: false

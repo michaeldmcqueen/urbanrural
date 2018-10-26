@@ -1,6 +1,6 @@
 ---
 weight: 7
-sort_number:
+sort_order:
 title: FOCO Cafe
 image_path: /assets/images/foco-cafe-exterior.jpg
 featured_project: false
