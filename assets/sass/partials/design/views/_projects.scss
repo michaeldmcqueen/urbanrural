@@ -132,9 +132,7 @@
         animation: fade-in-move-down 0.7s;
         animation-delay: 0.15s;
         animation-fill-mode: forwards;
-
-        }
-
+      }
 .project-item-wrapper {
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
     display: flex;
@@ -145,4 +143,77 @@
 
   .project-item.hide-project {
     display: none;
+  }
+
+  .sortable {
+    background: #efefef;
+    margin: 3rem 1rem;
+    li {
+      h6 {
+        margin: 0;
+        font-family: $font-family;
+        color: #000;
+        font-weight: normal;
+      }
+      input{
+        display: none;
+      }
+    }
+  }
+
+  .connected, .sortable, .exclude, .handles {
+    margin: auto;
+    padding: 0;
+    width: 310px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .sortable.grid {
+    overflow: hidden;
+  }
+  .connected li, .sortable li, .exclude li, .handles li {
+    list-style: none;
+    border: 1px solid #CCC;
+    background: #F6F6F6;
+    font-family: "Tahoma";
+    color: #1C94C4;
+    margin: 5px;
+    padding: 5px;
+    height: 22px;
+  }
+  .handles span {
+    cursor: move;
+  }
+  li.disabled {
+    opacity: 0.5;
+  }
+  .sortable.grid li {
+    line-height: 80px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+  }
+  li.highlight {
+    background: #FEE25F;
+  }
+  #connected {
+    width: 440px;
+    overflow: hidden;
+    margin: auto;
+  }
+  .connected {
+    float: left;
+    width: 200px;
+  }
+  .connected.no2 {
+    float: right;
+  }
+  li.sortable-placeholder {
+    border: 1px dashed #CCC;
+    background: none;
   }

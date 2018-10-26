@@ -45,5 +45,8 @@ $(document).ready(function() {
           seen[txt] = true;
   });
 
+  $('.sortable').sortable();
+
+
 
 });
