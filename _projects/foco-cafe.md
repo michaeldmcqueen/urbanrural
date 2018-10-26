@@ -1,5 +1,4 @@
 ---
-weight: 7
 sort_order:
   - '07'
 title: FOCO Cafe

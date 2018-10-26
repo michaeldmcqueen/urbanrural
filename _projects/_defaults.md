@@ -1,6 +1,6 @@
 ---
-weight: 1
-sort_number:
+sort_order:
+  - '01'
 title: 
 image_path: 
 featured_project: false

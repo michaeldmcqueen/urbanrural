@@ -1,5 +1,4 @@
 ---
-weight: 4
 sort_order:
   - '04'
 title: River Song Waldorf School

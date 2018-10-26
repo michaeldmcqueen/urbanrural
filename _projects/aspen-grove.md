@@ -1,5 +1,4 @@
 ---
-weight: 9
 sort_order:
   - '09'
 title: The Cabins at Aspen Grove

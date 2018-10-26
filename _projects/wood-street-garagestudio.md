@@ -1,5 +1,4 @@
 ---
-weight: '6'
 sort_order:
   - '06'
 title: Wood Street Garage/Studio

@@ -1,5 +1,4 @@
 ---
-weight: 5
 sort_order:
   - '05'
 title: Wood Street Residence

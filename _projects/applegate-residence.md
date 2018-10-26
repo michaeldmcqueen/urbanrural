@@ -1,5 +1,4 @@
 ---
-weight: '1'
 sort_order:
   - '01'
 title: Applegate Residence

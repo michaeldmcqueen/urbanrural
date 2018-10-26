@@ -1,5 +1,4 @@
 ---
-weight: '9'
 sort_order:
   - '09'
 title: Off the Beaten Path Bookstore

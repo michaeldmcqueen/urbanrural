@@ -1,5 +1,4 @@
 ---
-weight: '8'
 sort_order:
   - '08'
 title: Gugelman Residence

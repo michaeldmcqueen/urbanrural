@@ -1,5 +1,4 @@
 ---
-weight: 3
 sort_order:
   - '03'
 title: Schone Residence
