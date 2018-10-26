@@ -38,6 +38,8 @@ collections:
     permalink: '/projects/:title/'
   testimonials:
     output: false
+  sort_order:
+    output: false
 
 defaults:
   -
@@ -66,6 +68,9 @@ secondary_categories:
   - Education
   - Passive
   - Mountain
+
+sort_number: 
+  - sort_order
 
 # Cloudinary URL - something like: https://res.cloudinary.com/domain-com/
 cloudinaryurl: https://res.cloudinary.com/doe2cfi2y
