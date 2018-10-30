@@ -11,9 +11,9 @@ secondary_categories:
 images:
   - title:
     project_image_path: /assets/images/3D View 3 gugelman interior.jpg
-  - title:
+  - title: Interior Kitchen
     project_image_path: /assets/images/3D View 7.jpg
-  - title:
+  - title: Interior Living Room
     project_image_path: /assets/images/east_elevation (1).jpg
 ---
 
