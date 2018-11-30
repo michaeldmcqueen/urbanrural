@@ -10,8 +10,6 @@ categories:
 secondary_categories:
 images:
   - title:
-    project_image_path: '/assets/images/Sleeping Giant Entry #2 72mb.jpg'
-  - title:
     project_image_path: /assets/images/Sleeping Giant Dawn 50mb.jpg
   - title:
     project_image_path: /assets/images/Valusek.jpg
@@ -21,5 +19,7 @@ images:
     project_image_path: /assets/images/7_Valusek.JPG
   - title:
     project_image_path: /assets/images/14_Valusek_CP.jpg
+  - title:
+    project_image_path: '/assets/images/Sleeping Giant Entry #2 72mb.jpg'
 ---
 
