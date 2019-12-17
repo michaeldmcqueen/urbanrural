@@ -1,10 +1,9 @@
 ---
 sort_order:
-  - '06'
 title:
 image_path:
 featured_project: false
-location: 'Fort Collins, Colorado'
+location:
 categories:
 secondary_categories:
 images:
