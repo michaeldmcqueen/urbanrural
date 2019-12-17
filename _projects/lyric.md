@@ -14,6 +14,12 @@ images:
   - title:
     project_image_path: /assets/images/Lyric-3.jpg
   - title:
+    project_image_path: /assets/images/Lyric-22.jpg
+  - title:
+    project_image_path: /assets/images/Lyric-20.jpg
+  - title:
+    project_image_path: /assets/images/Lyric-21.jpg
+  - title:
     project_image_path: /assets/images/Lyric-5.jpg
   - title:
     project_image_path: /assets/images/Lyric-8.jpg
@@ -29,12 +35,6 @@ images:
     project_image_path: /assets/images/Lyric-16.jpg
   - title:
     project_image_path: /assets/images/Lyric-19.jpg
-  - title:
-    project_image_path: /assets/images/Lyric-20.jpg
-  - title:
-    project_image_path: /assets/images/Lyric-21.jpg
-  - title:
-    project_image_path: /assets/images/Lyric-22.jpg
   - title:
     project_image_path: /assets/images/lyric2.jpg
   - title:
