@@ -27,5 +27,7 @@ images:
     project_image_path: /assets/images/work/river-song/RiverSong(9of27).jpg
   - title:
     project_image_path: /assets/images/work/river-song/RiverSong(10of27).jpg
+  - title:
+    project_image_path: /assets/images/RS_Staightfront.jpg
 ---
 
