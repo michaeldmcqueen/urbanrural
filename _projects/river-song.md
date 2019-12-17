@@ -24,6 +24,8 @@ images:
   - title:
     project_image_path: /assets/images/RS_Gate.jpg
   - title:
+    project_image_path: /assets/images/RS_Backentry.jpg
+  - title:
     project_image_path: /assets/images/RS_back3.jpg
 ---
 
