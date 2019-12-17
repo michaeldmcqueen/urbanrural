@@ -14,8 +14,16 @@ images:
   - title:
     project_image_path: /assets/images/RS_Staightfront.jpg
   - title:
-    project_image_path: /assets/images/RS_back2.jpg
+    project_image_path: /assets/images/RS_PR.jpg
   - title:
-    project_image_path: /assets/images/RS_Backentry.jpg
+    project_image_path: /assets/images/RS_Table.jpg
+  - title:
+    project_image_path: /assets/images/RS_fullroom.jpg
+  - title:
+    project_image_path: /assets/images/RS_Hallway.jpg
+  - title:
+    project_image_path: /assets/images/RS_Gate.jpg
+  - title:
+    project_image_path: /assets/images/RS_back3.jpg
 ---
 
