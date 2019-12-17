@@ -18,8 +18,8 @@ images:
   - title:
     project_image_path: /assets/images/Wood_garage_front.jpg
   - title:
-    project_image_path: /assets/images/Wood_Garage_perspective.jpg
-  - title:
     project_image_path: /assets/images/Wood_Garage_light.jpg
+  - title:
+    project_image_path: /assets/images/Wood_Garage_perspective.jpg
 ---
 
