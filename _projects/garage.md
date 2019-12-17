@@ -14,6 +14,8 @@ images:
   - title:
     project_image_path: /assets/images/Wood_Porch_front.jpg
   - title:
+    project_image_path: /assets/images/Wood_planter.jpg
+  - title:
     project_image_path: /assets/images/Wood_porch.jpg
   - title:
     project_image_path: /assets/images/Wood_Garage_perspective.jpg
@@ -21,5 +23,7 @@ images:
     project_image_path: /assets/images/Wood_Garage_light.jpg
   - title:
     project_image_path: /assets/images/Wood_garage_front.jpg
+  - title:
+    project_image_path: /assets/images/Wood_backporch.jpg
 ---
 
