@@ -18,7 +18,7 @@ images:
   - title:
     project_image_path: /assets/images/RS_boat.jpg
   - title:
-    project_image_path: /assets/images/RS_fullroom.jpg
+    project_image_path: /assets/images/RS_Table.jpg
   - title:
     project_image_path: /assets/images/RS_Hallway.jpg
   - title:
