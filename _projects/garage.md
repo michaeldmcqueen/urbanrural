@@ -10,7 +10,7 @@ categories:
 secondary_categories:
 images:
   - title:
-    project_image_path: /assets/images/DSC_1160 (1).jpg
+    project_image_path: /assets/images/Wood_Horizontal_Number.jpg
   - title:
     project_image_path: /assets/images/Wood_Porch_front.jpg
   - title:
