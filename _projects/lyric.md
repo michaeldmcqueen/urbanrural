@@ -10,9 +10,9 @@ categories:
 secondary_categories:
 images:
   - title:
-    project_image_path: /assets/images/Lyric-22.jpg
-  - title:
     project_image_path: /assets/images/Lyric-21.jpg
+  - title:
+    project_image_path: /assets/images/Lyric-22.jpg
   - title:
     project_image_path: /assets/images/Lyric-20.jpg
   - title:
