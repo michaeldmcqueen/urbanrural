@@ -10,24 +10,12 @@ categories:
 secondary_categories:
 images:
   - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(2of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(3of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(4of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(5of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(6of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(7of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(8of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(9of27).jpg
-  - title:
-    project_image_path: /assets/images/work/river-song/RiverSong(10of27).jpg
+    project_image_path: /assets/images/RS_SIGN.jpg
   - title:
     project_image_path: /assets/images/RS_Staightfront.jpg
+  - title:
+    project_image_path: /assets/images/RS_back2.jpg
+  - title:
+    project_image_path: /assets/images/RS_Backentry.jpg
 ---
 
