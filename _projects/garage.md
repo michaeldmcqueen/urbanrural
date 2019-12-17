@@ -12,11 +12,11 @@ images:
   - title:
     project_image_path: /assets/images/Wood_Horizontal_Number.jpg
   - title:
+    project_image_path: /assets/images/Wood_backporch.jpg
+  - title:
     project_image_path: /assets/images/Wood_Porch_front.jpg
   - title:
     project_image_path: /assets/images/Wood_planter.jpg
-  - title:
-    project_image_path: /assets/images/Wood_backporch.jpg
   - title:
     project_image_path: /assets/images/Wood_porch.jpg
   - title:
