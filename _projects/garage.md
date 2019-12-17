@@ -12,8 +12,6 @@ images:
   - title:
     project_image_path: /assets/images/DSC_1160 (1).jpg
   - title:
-    project_image_path: '/assets/images/Wood_House#.jpg'
-  - title:
     project_image_path: /assets/images/Wood_Porch_front.jpg
   - title:
     project_image_path: /assets/images/Wood_porch.jpg
