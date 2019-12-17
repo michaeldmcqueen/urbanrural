@@ -16,10 +16,10 @@ images:
   - title:
     project_image_path: /assets/images/Wood_porch.jpg
   - title:
-    project_image_path: /assets/images/Wood_garage_front.jpg
+    project_image_path: /assets/images/Wood_Garage_perspective.jpg
   - title:
     project_image_path: /assets/images/Wood_Garage_light.jpg
   - title:
-    project_image_path: /assets/images/Wood_Garage_perspective.jpg
+    project_image_path: /assets/images/Wood_garage_front.jpg
 ---
 
