@@ -19,9 +19,5 @@ images:
     project_image_path: /assets/images/aspen-lobby.jpg
   - title:
     project_image_path: /assets/images/aspen-dog-area.jpg
-  - title:
-    project_image_path: /assets/images/aspen-dog-area2.jpg
-  - title:
-    project_image_path: /assets/images/Aspen_meetingroom.jpg
 ---
 
