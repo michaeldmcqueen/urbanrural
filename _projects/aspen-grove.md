@@ -18,6 +18,6 @@ images:
   - title:
     project_image_path: /assets/images/aspen-lobby.jpg
   - title:
-    project_image_path: /assets/images/aspen-dog-area.jpg
+    project_image_path: /assets/images/aspen-meetingroom-02.jpg
 ---
 
