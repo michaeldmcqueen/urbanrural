@@ -18,12 +18,12 @@ images:
   - title:
     project_image_path: /assets/images/aspen-side.jpg
   - title:
+    project_image_path: /assets/images/Aspen_UR_sign.jpg
+  - title:
     project_image_path: /assets/images/aspen-lobby.jpg
   - title:
     project_image_path: /assets/images/aspen-dog-area.jpg
   - title:
     project_image_path: /assets/images/aspen-dog-area2.jpg
-  - title:
-    project_image_path: /assets/images/Aspen_UR_sign.jpg
 ---
 
