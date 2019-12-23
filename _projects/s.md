@@ -10,6 +10,6 @@ categories:
 secondary_categories:
 images:
   - title:
-    project_image_path:
+    project_image_path: /assets/images/SANDER NE View.jpg
 ---
 
