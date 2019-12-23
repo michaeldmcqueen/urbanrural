@@ -1,12 +1,14 @@
 ---
 title: Projects
-permalink: "/projects/"
-description: Colorado Architectural Design and Constuction Management Projects, Commercial and Residential
+permalink: /projects/
+description: >-
+  Colorado Architectural Design and Constuction Management Projects, Commercial
+  and Residential
 on-the-boards:
   - title: Press Title
-    image_path: '/assets/images/pae-0607.jpg'
+    image_path: '/assets/images/Wood_House#.jpg'
   - title: 2nd Press Title
-    image_path: '/assets/images/foco-cafe-courtyard.jpg'
+    image_path: /assets/images/foco-cafe-courtyard.jpg
 layout: project-view
 ---
 
