@@ -12,12 +12,20 @@ images:
   - title:
     project_image_path: /assets/images/work/768A9759.jpg
   - title:
-    project_image_path: /assets/images/aspen-corner-wide.jpg
+    project_image_path: /assets/images/Apsen_03.jpg
   - title:
-    project_image_path: /assets/images/aspen-side.jpg
+    project_image_path: /assets/images/Apsen_01.jpg
   - title:
-    project_image_path: /assets/images/aspen-lobby.jpg
+    project_image_path: /assets/images/Apsen_05.jpg
   - title:
-    project_image_path: /assets/images/aspen-meetingroom-02.jpg
+    project_image_path: /assets/images/Apsen_04.jpg
+  - title:
+    project_image_path: /assets/images/Aspen_V_4.jpg
+  - title:
+    project_image_path: /assets/images/Aspen_V_1.jpg
+  - title:
+    project_image_path: /assets/images/Aspen_V_3.jpg
+  - title:
+    project_image_path: /assets/images/Aspen_UR_sign.jpg
 ---
 
