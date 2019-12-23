@@ -10,7 +10,7 @@ categories:
 secondary_categories:
 images:
   - title:
-    project_image_path:
+    project_image_path: /assets/images/Roosevelt near Mountain-small lot_02.jpg
   - title:
     project_image_path: /assets/images/Roosevelt-small City Lot-front.JPG
 ---
