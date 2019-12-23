@@ -1,7 +1,8 @@
 ---
 sort_order:
+  - '06'
 title:
-image_path:
+image_path: '/assets/images/Wood_House#.jpg'
 featured_project: false
 location:
 categories:
