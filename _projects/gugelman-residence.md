@@ -2,7 +2,7 @@
 sort_order:
   - 08
 title: Gugelman Residence
-image_path: /assets/images/gugelman rendering with lights on.jpg
+image_path: /assets/images/GOOGLE_02.jpg
 featured_project: false
 location: 'South Carter Lake, Colorado'
 categories:
