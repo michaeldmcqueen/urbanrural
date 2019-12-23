@@ -12,6 +12,6 @@ images:
   - title:
     project_image_path: /assets/images/Roosevelt_4x6.jpg
   - title:
-    project_image_path: /assets/images/Roosevelt-small City Lot-front.JPG
+    project_image_path: /assets/images/Roosevelt_4x6_02.jpg
 ---
 
