@@ -1,6 +1,6 @@
 ---
 sort_order:
-  - '07'
+  - '20'
 title: Roosevelt Residents
 image_path: /assets/images/Roosevelt_4x6.jpg
 featured_project: false
