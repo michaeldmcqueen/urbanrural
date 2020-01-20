@@ -2,7 +2,7 @@
 sort_order:
   - '03'
 title: Valusek Residence
-image_path: /assets/Sleeping Giant Dawn 50mb.jpg
+image_path: /assets/images/Valusek.jpg
 featured_project: false
 location: 'Steamboat Springs, Colorado'
 categories:
