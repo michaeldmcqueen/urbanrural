@@ -11,5 +11,7 @@ secondary_categories:
 images:
   - title:
     project_image_path: /assets/images/SANDER NE View.jpg
+  - title:
+    project_image_path: /assets/images/Sander Backyard Render Updated.jpg
 ---
 
