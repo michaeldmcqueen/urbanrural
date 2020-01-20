@@ -1,6 +1,6 @@
 ---
 sort_order:
-  - '07'
+  - '03'
 title: Valusek Residence
 image_path: /assets/images/Sleeping Giant Deck 68mb.jpg
 featured_project: false
