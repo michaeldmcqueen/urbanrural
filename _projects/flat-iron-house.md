@@ -10,8 +10,6 @@ categories:
 secondary_categories:
 images:
   - title:
-    project_image_path: /assets/images/Boulder Pop-Top.JPG
-  - title:
     project_image_path: /assets/images/Sackheim_NW.JPG
   - title:
     project_image_path: /assets/images/IMGP0413.JPG
