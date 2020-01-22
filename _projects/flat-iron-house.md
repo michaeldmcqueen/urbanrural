@@ -1,7 +1,7 @@
 ---
 sort_order:
   - '20'
-title: Flat Iron House
+title: Flat Iron House Addition
 image_path: /assets/images/Boulder Pop-Top.JPG
 featured_project: false
 location: 'Boulder, CO'
