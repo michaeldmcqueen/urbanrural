@@ -1,5 +1,5 @@
 ---
-title: Conceptual Design
+title: Projects
 permalink: /projects/
 description: >-
   Colorado Architectural Design and Constuction Management Projects, Commercial
