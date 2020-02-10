@@ -1,6 +1,6 @@
 ---
 sort_order:
-  - 08
+  - '07'
 title: Gugelman Residence
 image_path: /assets/images/GOOGLE_03.jpg
 featured_project: false
