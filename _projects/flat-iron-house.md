@@ -1,10 +1,10 @@
 ---
 sort_order:
   - '20'
-title: Flat Iron House Addition
+title: Flat Iron House (2nd Floor Addition)
 image_path: /assets/images/Boulder Pop-Top.JPG
 featured_project: false
-location: 'Boulder, CO'
+location: '1247 Scrub Oak Circle, Boulder, CO'
 categories:
   - Residential
 secondary_categories:
