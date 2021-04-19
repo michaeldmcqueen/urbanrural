@@ -1,11 +1,10 @@
 ---
 title: Contact
-subtitle: Interested In Working Together? Contact Us Now For A Consultation.
-permalink: "/contact/"
-description: Contact Us for Architectural and Construction Management.
+subtitle: Interested In Working Together? Please Contact Us Now For A Consultation.
+permalink: /contact/
+description: Contact Us for Planning and Design consultation!
 layout: contact
 image_path: /assets/images/about.jpg
-
 ---
 
 316 Willlow Street, Fort Collins, CO 80524
