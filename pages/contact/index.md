@@ -8,7 +8,6 @@ image_path: /assets/images/about.jpg
 
 ---
 
-252 Linden Street, 
-Fort Collins, CO 80524
+316 Willlow Street, Fort Collins, CO 80524
 
-970.846.0267
+970\.889.4004
