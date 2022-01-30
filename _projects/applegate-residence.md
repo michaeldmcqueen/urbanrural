@@ -39,5 +39,7 @@ images:
     project_image_path: /assets/images/apple008.jpg
   - title: Kitchen Right
     project_image_path: /assets/images/apple-kitchen-1.jpg
+  - title: Master Bedroom
+    project_image_path: /assets/images/apple010.jpg
 ---
 
