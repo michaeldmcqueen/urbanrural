@@ -1,6 +1,6 @@
 ---
 sort_order:
-  - 9
+  - '09'
 title: The Cabins at Aspen Grove
 image_path: /assets/images/Aspen_Straight_front.jpg
 featured_project: false
