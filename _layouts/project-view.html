@@ -7,14 +7,13 @@ layout: default
     <div class="page-title-bar">
       <h1>{{page.title}}</h1>
 
-
       
     </div>
     <div class="project-item-wrapper">
     {% assign sorted = site.projects | sort: "sort_order" %}
     
     {% for project in sorted %}
-      <article class="project-item clearfix {{ cat.categories | url_encode }}" data-project-staus="show">
+      <article class="project-item clearfix {{ project.categories | url_encode }}" data-project-staus="show">
         <div class="project-item--image">
             <a href="{{ project.url }}">
               <img src="{{ site.cloudinaryurl }}/image/fetch/w_800,h_450,c_fill,c_fill/{{ site.url }}{{ project.image_path }}" 
