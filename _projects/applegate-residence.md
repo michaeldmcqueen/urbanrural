@@ -1,6 +1,6 @@
 ---
 sort_order:
-  - 8
+  - 08
 title: Applegate Residence
 image_path: /assets/images/apple-kitchen-1.jpg
 featured_project: true
