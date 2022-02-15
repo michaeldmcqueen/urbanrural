@@ -11,7 +11,7 @@ layout: default
         <li id="all" class="active">All</li>
         {% assign sortedcat = site.projects  %}
         {% for cat in sortedcat %}
-          <li id="{{ cat.categories | downcase }}" >{{ cat.categories }}</li>
+          <li id="{{ cat.categories }}" >{{ cat.categories }}</li>
           {% endfor %}
       </ul>
       
