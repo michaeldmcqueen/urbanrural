@@ -1,12 +1,11 @@
 ---
 sort_order:
-  - 09
+  - 9
 title: The Cabins at Aspen Grove
 image_path: /assets/images/Aspen_Straight_front.jpg
 featured_project: false
-location: 'Fort Collins, CO'
+location: Fort Collins, CO
 categories:
-  - Commercial
 secondary_categories:
 images:
   - title:
