@@ -17,6 +17,10 @@ gems:
 # Permalinks
 permalink: pretty
 
+strict_front_matter: true
+liquid:
+  error_mode: strict
+  
 # Pagination V2 Settings: https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
   enabled: true
