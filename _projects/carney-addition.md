@@ -2,7 +2,7 @@
 sort_order:
   - '20'
 title: Carney Addition
-image_path: /assets/images/Carney9.jpg
+image_path: /assets/images/carneyhero-min.jpg
 featured_project: false
 location: Fort Collins, CO
 categories:
