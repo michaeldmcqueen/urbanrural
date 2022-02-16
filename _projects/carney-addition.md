@@ -4,13 +4,11 @@ sort_order:
 title: Carney Addition
 image_path: /assets/images/Carney9.jpg
 featured_project: false
-location: 'Fort Collins, CO'
+location: Fort Collins, CO
 categories:
   - Residential
 secondary_categories:
 images:
-  - title:
-    project_image_path:
   - title:
     project_image_path: /assets/images/Carney8.jpg
   - title:
