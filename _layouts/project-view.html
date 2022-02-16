@@ -11,8 +11,7 @@ layout: default
         <li id="all" class="active">All</li>
         {% assign sortedcat = site.projects  %}
         {% for cat in sortedcat %}
-          <li id="{{ cat.categories }}" >{{ cat.categories }}</li>
-          {% endfor %}
+          <li id="{% if cat.categories contains 'On The Boards' %}onTheBoards{% elsif cat.categories contains 'Historic Preservation' %}historicPreservation{% else %}{{ cat.categories }}{% endif %}" >{{ cat.categories }}</li>          {% endfor %}
       </ul>
       
     </div>
@@ -20,7 +19,7 @@ layout: default
     {% assign sorted = site.projects | sort: "sort_order" %}
     
     {% for project in sorted %}
-      <article class="project-item clearfix {{ cat.categories | url_encode }}" data-project-staus="show">
+      <article class="project-item clearfix {% if project.categories contains 'On The Boards' %}onTheBoards{% elsif project.categories contains 'Historic Preservation' %}historicPreservation{% else %}{{ project.categories }}{% endif %}" data-project-staus="show">
         <div class="project-item--image">
             <a href="{{ project.url }}">
               <img src="{{ site.cloudinaryurl }}/image/fetch/w_800,h_450,c_fill,c_fill/{{ site.url }}{{ project.image_path }}" 
