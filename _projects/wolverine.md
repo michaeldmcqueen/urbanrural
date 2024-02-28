@@ -7,8 +7,9 @@ featured_project: false
 location: Fort Collins, CO
 categories:
   - Commercial
-secondary_categories:
 images:
+  - title: Wolverine Street View
+    project_image_path: /assets/images/wolverine-street-2022.png
   - title:
     project_image_path: /assets/images/work/cafe/WolverineFarm-10.jpg
   - title:
