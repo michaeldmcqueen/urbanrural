@@ -3,11 +3,10 @@ sort_order:
   - '02'
 title: Lyric Cinema Cafe
 image_path: /assets/images/final-front---color-transparent-trees.jpg
-featured_project: false
+featured_project: true
 location: Fort Collins, CO
 categories:
   - Commercial
-secondary_categories:
 images:
   - title:
     project_image_path: /assets/images/Lyric-21.jpg
