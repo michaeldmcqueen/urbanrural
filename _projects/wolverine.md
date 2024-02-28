@@ -2,7 +2,7 @@
 sort_order:
   - '01'
 title: Wolverine Farm Letterpress & Publick House
-image_path: /assets/images/wolverinefarm-28.jpg
+image_path: /assets/images/wolverine-street-2022.png
 featured_project: false
 location: Fort Collins, CO
 categories:
