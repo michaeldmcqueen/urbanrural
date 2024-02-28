@@ -31,4 +31,4 @@ images:
   - title:
     project_image_path: /assets/images/WF_BrianMajeski(17of26).jpg
 ---
-Wolverine Farm Publishing is a 501(c)3 non-profit literary/arts organization based in Fort Collins, Colorado. They publish books and newspapers, run a bookstore inside Bean Cycle Roasters, operate a Letterpress & Publick House, and host/organize community events and projects related to our mission.
+Wolverine Farm Publick House is a 501(c)3 non-profit literary/arts organization based in Fort Collins, Colorado. "The Wolverine", as locals call it, hosts Peralandra Bookstore, a cafe including coffee, tea, beer, and wine, and hosts/organizes community events, music performances, and projects related to their community-based mission.
