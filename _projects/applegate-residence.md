@@ -3,7 +3,7 @@ sort_order:
   - '08'
 title: Applegate Residence
 image_path: /assets/images/apple-kitchen-1.jpg
-featured_project: true
+featured_project: false
 location: Stove Prairie, Colorado
 categories:
   - Residential
@@ -42,4 +42,3 @@ images:
   - title: Master Bedroom
     project_image_path: /assets/images/apple010.jpg
 ---
-
