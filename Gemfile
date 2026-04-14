@@ -10,4 +10,5 @@ gem 'breakpoint', '2.5.0'
 gem 'compass', '1.0.3'
 group :jekyll_plugins do
   gem 'jekyll-sitemap', '1.4.0'
+  gem 'kramdown-parser-gfm'
 end
