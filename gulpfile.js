@@ -5,7 +5,7 @@
 require('es6-promise').polyfill();
 var gulp = require('gulp'),
   browserSync = require('browser-sync'),
-  sass = require('gulp-sass'),
+  sass = require('gulp-sass')(require('sass')),
   compass = require('gulp-compass'),
   cleanCSS = require('gulp-clean-css'),
   prefix = require('gulp-autoprefixer'),
