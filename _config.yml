@@ -11,7 +11,7 @@ version: "3.4.1" # the version of jekyll
 uploads_dir: "assets/images"
 
 # Gems for plugins
-gems:
+plugins:
   - jekyll-sitemap # Simple jekyll plugin that creates a sitemap.xml file and you can exclude files by adding 'sitemap:false' to the frontmatter of any file(s).
 
 # Permalinks
